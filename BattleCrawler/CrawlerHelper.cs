@@ -76,13 +76,15 @@ namespace BattleCrawler
         public static string GetStringValueByTag(HtmlNode node, string htag, int index = 0)
         {
             var k = node.Descendants(htag);
-            return k.ElementAt(index).InnerText;
+            var htmlNodes = k as HtmlNode[] ?? k.ToArray();
+            return !htmlNodes.Any() ? null : htmlNodes.ElementAt(index).InnerText;
         }
 
         public static string GetStringValueByTagAndClass(HtmlNode node, string htag, string hclass, int index = 0)
         {
             var k = node.Descendants(htag).Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == hclass);
-            return k.ElementAt(index).InnerText;
+            var htmlNodes = k as HtmlNode[] ?? k.ToArray();
+            return !htmlNodes.Any() ? null : htmlNodes.ElementAt(index).InnerText;
         }
 
         public static IList<string> GetAllStringValuesByTag(HtmlNode node, string htag)
