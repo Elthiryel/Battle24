@@ -28,13 +28,31 @@ namespace BattleCrawler
         public static HtmlNode GetNodeByTag(HtmlNode node, string htag, int index = 0)
         {
             var k = node.Descendants(htag);
-            return k.ElementAt(index);
+            var htmlNodes = k as IList<HtmlNode> ?? k.ToList();
+            return htmlNodes.Count <= index ? null : htmlNodes.ElementAt(index);
+        }
+
+        public static HtmlNode GetNodeByTagAndClass(HtmlNode node, string htag, string hclass, int index = 0)
+        {
+            var k = node.Descendants(htag).Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == hclass);
+            var htmlNodes = k as IList<HtmlNode> ?? k.ToList();
+            return htmlNodes.Count <= index ? null : htmlNodes.ElementAt(index);
         }
 
         public static IEnumerable<HtmlNode> GetAllNodesByTagAndClass(HtmlNode node, string htag, string hclass)
         {
             return node.Descendants(htag).Where(x => x.Attributes["class"] != null && x.Attributes["class"].Value == hclass);
         }
+
+        public static IEnumerable<HtmlNode> GetAllNodesByTag(HtmlNode node, string htag)
+        {
+            return node.Descendants(htag);
+        }
+
+        public static IEnumerable<HtmlNode> GetAllNodesWithoutClassByTag(HtmlNode node, string htag)
+        {
+            return node.Descendants(htag).Where(x => x.Attributes["class"] == null);
+        } 
 
         public static string GetStringValueByClass(HtmlNode node, string hclass, int index = 0)
         {
