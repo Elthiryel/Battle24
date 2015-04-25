@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="Belligerent" table="BELLIGERENTS" lazy="true" >
+  <class name="Belligerent" table="BELLIGERENTS" >
     <id name="Id" column="ID">
       <generator class="identity" />
     </id>
@@ -15,7 +15,7 @@
     </property>
 
     <bag name="Wars" table="WARS_BELLIGERENTS" lazy="false" inverse="true">
-      <key column="BattleID" />
+      <key column="BelligerentID" />
       <many-to-many class="War" column="WarID" />
     </bag>
     

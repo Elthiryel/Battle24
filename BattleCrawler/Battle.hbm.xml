@@ -23,7 +23,7 @@
       <one-to-many class="BattlesBelligerents" />
     </bag>
 
-    <bag name="Leaders" table="BATTLES_LEADERS" inverse="false">
+    <bag name="Leaders" table="BATTLES_LEADERS" inverse="false" cascade="all">
       <key column="BattleID" />
       <many-to-many class="Leader" column="LeaderID" />
     </bag>
