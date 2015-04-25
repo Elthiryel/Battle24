@@ -4,19 +4,19 @@
     <id name="Id" column="ID">
       <generator class="identity" />
     </id>
-    <many-to-one name="Belligerents">
+    <many-to-one name="Belligerent"  cascade="all">
       <column name="BelligerentID" sql-type="int" not-null="true" />
     </many-to-one>
-    <many-to-one name="Battles">
-      <column name="BattleID" sql-type="int" not-null="false" />
+    <many-to-one name="Battle" cascade="all" >
+      <column name="BattleID" sql-type="int" not-null="false"/>
     </many-to-one>
     <property name="Strength">
       <column name="Strength" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Casualtiesandlosses">
+    <property name="CasualtiesAndLosses">
       <column name="CasualtiesAndLosses" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Conflictside">
+    <property name="ConflictSide">
       <column name="ConflictSide" sql-type="int" not-null="false" />
     </property>
   </class>

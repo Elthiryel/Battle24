@@ -4,14 +4,20 @@
     <id name="Id" column="ID">
       <generator class="identity" />
     </id>
-    <property name="Flagurl">
+    <property name="FlagURL">
       <column name="FlagURL" sql-type="nvarchar" not-null="false" />
     </property>
     <property name="Name">
       <column name="Name" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Url">
+    <property name="URL">
       <column name="URL" sql-type="nvarchar" not-null="false" />
     </property>
+
+    <bag name="Wars" table="WARS_BELLIGERENTS" lazy="false" inverse="true">
+      <key column="BattleID" />
+      <many-to-many class="War" column="WarID" />
+    </bag>
+    
   </class>
 </hibernate-mapping>

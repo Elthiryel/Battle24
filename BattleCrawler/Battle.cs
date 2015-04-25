@@ -16,10 +16,10 @@ namespace BattleCrawler
         public virtual DateTime? Date { get; set; }
         public virtual string Location { get; set; }
         public virtual string Result { get; set; }
-        public virtual string Territorialchanges { get; set; }
-        public virtual string Url { get; set; }
-        public virtual DateTime? Startdate { get; set; }
-        public virtual DateTime? Enddate { get; set; }
+        public virtual string TerritorialChanges { get; set; }
+        public virtual string URL { get; set; }
+        public virtual DateTime? StartDate { get; set; }
+        public virtual DateTime? EndDate{ get; set; }
         public virtual IList<BattlesBelligerents> Belligerents { get; set; }
         public virtual IList<Leader> Leaders { get; set; }
     }

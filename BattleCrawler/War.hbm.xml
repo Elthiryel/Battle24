@@ -4,35 +4,36 @@
     <id name="Id" column="ID">
       <generator class="identity" />
     </id>
-    <many-to-one name="Wars">
+    <many-to-one name="ParentWar">
       <column name="ParentWar" sql-type="int" not-null="false" />
     </many-to-one>
     <property name="Name">
       <column name="Name" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Startdate">
+    <property name="StartDate">
       <column name="StartDate" sql-type="date" not-null="false" />
     </property>
-    <property name="Enddate">
+    <property name="EndDate">
       <column name="EndDate" sql-type="date" not-null="false" />
     </property>
-    <property name="Territorialchanges">
+    <property name="TerritorialChanges">
       <column name="TerritorialChanges" sql-type="nvarchar" not-null="false" />
     </property>
     <property name="Result">
       <column name="Result" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Url">
+    <property name="URL">
       <column name="URL" sql-type="nvarchar" not-null="false" />
     </property>
     <bag name="Battles" inverse="true">
       <key column="WarID" />
-      <one-to-many class="Battles" />
+      <one-to-many class="Battle" />
     </bag>
-    <bag name="Wars" inverse="true">
+    <!--
+    <bag name="ParentWar" inverse="true">
       <key column="ParentWar" />
       <one-to-many class="Wars" />
-    </bag>
+    </bag> -->
     <bag name="Leaders" table="WARS_LEADERS" lazy="false" cascade="all">
       <key column="WarID" />
       <many-to-many class="Leader" column="LeaderID" />

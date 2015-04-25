@@ -2,14 +2,22 @@
 <hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
   <class name="Leader" table="LEADERS" lazy="true" >
     <id name="Id" column="ID" />
-    <many-to-one name="Belligerents">
+    <many-to-one name="Belligerent" cascade="all">
       <column name="BelligerentID" sql-type="int" not-null="true" />
     </many-to-one>
     <property name="Name">
       <column name="Name" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Url">
+    <property name="URL">
       <column name="URL" sql-type="nvarchar" not-null="false" />
     </property>
+    <bag name="Battles" table="BATTLES_LEADERS" lazy="false" inverse ="true">
+      <key column="LeaderID" />
+      <many-to-many class="Battle" column="BattleID" />
+    </bag>
+    <bag name="Wars" table="WARS_LEADERS" lazy="false" inverse ="true">
+      <key column="LeaderID" />
+      <many-to-many class="War" column="WarID" />
+    </bag>
   </class>
 </hibernate-mapping>

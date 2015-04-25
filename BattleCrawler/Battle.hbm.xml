@@ -13,12 +13,12 @@
     <property name="StartDate" />
     <property name="EndDate" />
     
-    <bag name="Wars" cascade="all">
+    <bag name="War" cascade="all">
       <key column="WarID" not-null="false" />
       <one-to-many class="War" />
     </bag>
     
-    <bag name="BattlesBelligerents" inverse="true">
+    <bag name="Belligerents" inverse="true">
       <key column="BattleID" />
       <one-to-many class="BattlesBelligerents" />
     </bag>
