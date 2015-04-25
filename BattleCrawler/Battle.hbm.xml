@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="Battle" table="`BATTLES`">
+  <class name="Battle" table="BATTLES">
     <id name="Id" column="ID">
       <generator class="identity" />
     </id>
@@ -18,12 +18,12 @@
       <one-to-many class="War" />
     </bag>
     
-    <bag name="Belligerents" inverse="true">
+    <bag name="Belligerents" cascade="all">
       <key column="BattleID" />
       <one-to-many class="BattlesBelligerents" />
     </bag>
 
-    <bag name="Leaders" table="BATTLES_LEADERS" lazy="false" cascade="all">
+    <bag name="Leaders" table="BATTLES_LEADERS" inverse="false">
       <key column="BattleID" />
       <many-to-many class="Leader" column="LeaderID" />
     </bag>

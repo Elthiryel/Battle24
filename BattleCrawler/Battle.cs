@@ -8,7 +8,6 @@ namespace BattleCrawler
         public Battle()
         {
             Belligerents = new List<BattlesBelligerents>();
-            Leaders = new List<Leader>();
         }
         public virtual int Id { get; set; }
         public virtual War War { get; set; }

@@ -1,4 +1,6 @@
-﻿namespace BattleCrawler
+﻿using System.Collections.Generic;
+
+namespace BattleCrawler
 {
     public class Program
     {
@@ -12,8 +14,8 @@
             Turcja.Name = "turcja";
             Marcin.Belligerent = Turcja;
             Battle newBattle = new Battle();
-            Marcin.Battles.Add(newBattle);
             newBattle.Name = "BitwaOWieden";
+            newBattle.Leaders = new List<Leader>();
             newBattle.Leaders.Add(Marcin);
             BattlesBelligerents battleBel = new BattlesBelligerents();
             battleBel.Belligerent = Turcja;

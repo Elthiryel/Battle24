@@ -10,7 +10,6 @@ namespace BattleCrawler
     {
         public Leader()
         {
-            Battles = new List<Battle>();
             Wars = new List<War>();
         }
         public virtual int Id { get; set; }
