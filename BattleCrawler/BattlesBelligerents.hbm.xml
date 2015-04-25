@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BattlesBelligerents" table="BATTLES_BELLIGERENTS" lazy="true" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Belligerents">
+      <column name="BelligerentID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Battles">
+      <column name="BattleID" sql-type="int" not-null="false" />
+    </many-to-one>
+    <property name="Strength">
+      <column name="Strength" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Casualtiesandlosses">
+      <column name="CasualtiesAndLosses" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Conflictside">
+      <column name="ConflictSide" sql-type="int" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

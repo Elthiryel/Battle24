@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Belligerent" table="BELLIGERENTS" lazy="true" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Flagurl">
+      <column name="FlagURL" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Url">
+      <column name="URL" sql-type="nvarchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

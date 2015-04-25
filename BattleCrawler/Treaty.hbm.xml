@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Treaty" table="TREATIES" lazy="true" >
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Date">
+      <column name="Date" sql-type="date" not-null="false" />
+    </property>
+    <property name="Summary">
+      <column name="Summary" sql-type="nvarchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

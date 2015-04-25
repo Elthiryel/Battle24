@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="BattleCrawler" namespace="BattleCrawler" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Battle" table="`BATTLES`">
+    <id name="Id" column="ID">
+      <generator class="identity" />
+    </id>
+    <property name="Name" not-null="true" />
+    <property name="Date" />
+    <property name="Location" />
+    <property name="Result" />
+    <property name="TerritorialChanges" />
+    <property name="URL" />
+    <property name="StartDate" />
+    <property name="EndDate" />
+    
+    <bag name="Wars" cascade="all">
+      <key column="WarID" not-null="false" />
+      <one-to-many class="War" />
+    </bag>
+    
+    <bag name="BattlesBelligerents" inverse="true">
+      <key column="BattleID" />
+      <one-to-many class="BattlesBelligerents" />
+    </bag>
+
+    <bag name="Leaders" table="BATTLES_LEADERS" lazy="false" cascade="all">
+      <key column="BattleID" />
+      <many-to-many class="Leader" column="LeaderID" />
+    </bag>
+  </class>
+</hibernate-mapping>
