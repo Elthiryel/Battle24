@@ -327,16 +327,35 @@ namespace BattleCrawler
             }
             else
             {
-                var name = sideTdNode.InnerText;
-                var belligerentInfo = BelligerentInfo.WithoutUrl(name);
-                var battleBelligerentInfo = new BattleBelligerentInfo
+                var links = CrawlerHelper.GetAllNodesWithoutClassByTag(sideTdNode, "a").Where(node => !node.GetAttributeValue("href", String.Empty).Contains("#"));
+                var linkNodes = links as IList<HtmlNode> ?? links.ToList();
+                if (linkNodes.Any())
                 {
-                    Battle = battle,
-                    Strength = strength, // [BATTLES_BELLIGERENTS].Strength
-                    CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
-                    FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
-                };
-                AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                    var linkNode = linkNodes.First();
+                    var flagUrl = CrawlerHelper.GetStringValueByTagAndClass(sideTdNode, "a", "image");
+                    var belligerentInfo = BelligerentInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, linkNode.GetAttributeValue("href", String.Empty)), flagUrl);
+                    var battleBelligerentInfo = new BattleBelligerentInfo
+                    {
+                        Battle = battle,
+                        Strength = strength, // [BATTLES_BELLIGERENTS].Strength
+                        CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                        FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
+                    };
+                    AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                }
+                else
+                {
+                    var name = sideTdNode.InnerText;
+                    var belligerentInfo = BelligerentInfo.WithoutUrl(name);
+                    var battleBelligerentInfo = new BattleBelligerentInfo
+                    {
+                        Battle = battle,
+                        Strength = strength, // [BATTLES_BELLIGERENTS].Strength
+                        CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                        FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
+                    };
+                    AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                }
             }
         }
 
