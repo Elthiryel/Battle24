@@ -10,8 +10,6 @@
     <property name="Result" />
     <property name="TerritorialChanges" />
     <property name="URL" />
-    <property name="StartDate" />
-    <property name="EndDate" />
     
     <bag name="War" cascade="all">
       <key column="WarID" not-null="false" />

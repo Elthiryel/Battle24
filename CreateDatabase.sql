@@ -86,13 +86,11 @@ CREATE TABLE [dbo].[BATTLES](
 	[ID] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [nvarchar](800) NULL,
 	[WarID] [int] NULL,
-	[Date] [date] NULL,
+	[Date] [nvarchar](800) NULL,
 	[Location] [nvarchar](800) NULL,
 	[Result] [nvarchar](max) NULL,
 	[TerritorialChanges] [nvarchar](800) NULL,
 	[URL] [nvarchar](800) NULL,
-	[StartDate] [date] NULL,
-	[EndDate] [date] NULL,
  CONSTRAINT [PK_BATTLES] PRIMARY KEY CLUSTERED 
 (
 	[ID] ASC
