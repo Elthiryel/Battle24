@@ -6,11 +6,6 @@ using System.Collections.Generic;
 namespace BattleCrawler {
     
     public partial class War {
-        public War() {
-			Battles = new List<Battle>();
-			Belligerents = new List<Belligerent>();
-			Leaders = new List<Leader>();
-        }
         public virtual int Id { get; set; }
         public virtual War ParentWar { get; set; }
         public virtual string Name { get; set; }

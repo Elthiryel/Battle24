@@ -5,10 +5,6 @@ namespace BattleCrawler
 {
     public partial class Battle
     {
-        public Battle()
-        {
-            Belligerents = new List<BattlesBelligerents>();
-        }
         public virtual int Id { get; set; }
         public virtual War War { get; set; }
         public virtual string Name { get; set; }

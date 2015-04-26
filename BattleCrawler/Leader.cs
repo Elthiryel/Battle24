@@ -8,10 +8,6 @@ namespace BattleCrawler
 
     public partial class Leader
     {
-        public Leader()
-        {
-            Wars = new List<War>();
-        }
         public virtual int Id { get; set; }
         public virtual Belligerent Belligerent { get; set; }
         public virtual string Name { get; set; }
