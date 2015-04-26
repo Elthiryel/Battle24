@@ -183,22 +183,22 @@ namespace BattleCrawler
                         if (header.Contains("Date"))
                         {
                             var date = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Date
-                            battle.Date = date;
+                            battle.Date = String.IsNullOrEmpty(date) ? null : date;
                         }
                         else if (header.Contains("Location"))
                         {
                             var location = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Location
-                            battle.Location = location;
+                            battle.Location = String.IsNullOrEmpty(location) ? null : location;
                         }
                         else if (header.Contains("Result"))
                         {
                             var result = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Result
-                            battle.Result = result;
+                            battle.Result = String.IsNullOrEmpty(result) ? null : result;
                         }
                         else if (header.Contains("Territorial"))
                         {
                             var territorialChanges = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].TerritorialChanges
-                            battle.TerritorialChanges = territorialChanges;
+                            battle.TerritorialChanges = String.IsNullOrEmpty(territorialChanges) ? null : territorialChanges;
                         }
                     }
                 }
@@ -294,7 +294,7 @@ namespace BattleCrawler
                     {
                         if (htmlNode.Name == "a" && htmlNode.GetAttributeValue("class", String.Empty) == "image")
                         {
-                            flagUrl = htmlNode.GetAttributeValue("src", String.Empty); // [BELLIGERENTS].FlagURL
+                            flagUrl = htmlNode.GetAttributeValue("href", String.Empty); // [BELLIGERENTS].FlagURL
                             break;
                         }
                     }
@@ -311,19 +311,23 @@ namespace BattleCrawler
                     BelligerentInfo belligerentInfo;
                     if (!linkFound)
                     {
-                        var textNode = @group.FirstOrDefault(node => node.Name == "#text");
+                        var textNode = group.FirstOrDefault(node => node.Name == "#text");
                         var name = textNode != null ? textNode.InnerText : String.Empty;
                         belligerentInfo = BelligerentInfo.WithoutUrl(name, flagUrl);
-                    } else
+                    }
+                    else
                         belligerentInfo = BelligerentInfo.WithUrl(url, flagUrl);
-                    var battleBelligerentInfo = new BattleBelligerentInfo
+                    if (String.IsNullOrEmpty(belligerentInfo.Name) || !belligerentInfo.Name.Contains(":"))
                     {
-                        Battle = battle,
-                        Strength = strength, // [BATTLES_BELLIGERENTS].Strength
-                        CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
-                        FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
-                    };
-                    AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                        var battleBelligerentInfo = new BattleBelligerentInfo
+                        {
+                            Battle = battle,
+                            Strength = strength, // [BATTLES_BELLIGERENTS].Strength
+                            CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                            FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
+                        };
+                        AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                    }
                 }
             }
             else
@@ -333,7 +337,8 @@ namespace BattleCrawler
                 if (linkNodes.Any())
                 {
                     var linkNode = linkNodes.First();
-                    var flagUrl = CrawlerHelper.GetStringValueByTagAndClass(sideTdNode, "a", "image");
+                    var flagNode = CrawlerHelper.GetNodeByTagAndClass(sideTdNode, "a", "image");
+                    var flagUrl = flagNode != null ? flagNode.GetAttributeValue("href", String.Empty) : String.Empty;
                     var belligerentInfo = BelligerentInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, linkNode.GetAttributeValue("href", String.Empty)), flagUrl);
                     var battleBelligerentInfo = new BattleBelligerentInfo
                     {
@@ -347,15 +352,18 @@ namespace BattleCrawler
                 else
                 {
                     var name = sideTdNode.InnerText;
-                    var belligerentInfo = BelligerentInfo.WithoutUrl(name);
-                    var battleBelligerentInfo = new BattleBelligerentInfo
+                    if (String.IsNullOrEmpty(name) || !name.Contains(":"))
                     {
-                        Battle = battle,
-                        Strength = strength, // [BATTLES_BELLIGERENTS].Strength
-                        CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
-                        FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
-                    };
-                    AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                        var belligerentInfo = BelligerentInfo.WithoutUrl(name);
+                        var battleBelligerentInfo = new BattleBelligerentInfo
+                        {
+                            Battle = battle,
+                            Strength = strength, // [BATTLES_BELLIGERENTS].Strength
+                            CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                            FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
+                        };
+                        AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
+                    }
                 }
             }
         }
@@ -382,9 +390,9 @@ namespace BattleCrawler
                 Logger.Log(String.Format("Crawling belligerent #{0}: {1}", _belligerentCounter, belligerentInfo.NameOnly ? belligerentInfo.Name : belligerentInfo.Url));
                 var belligerent = new Belligerent
                 {
-                    FlagURL = belligerentInfo.FlagUrl,
+                    FlagURL = String.IsNullOrEmpty(belligerentInfo.FlagUrl) ? null : belligerentInfo.FlagUrl,
                     Name = belligerentInfo.NameOnly ? belligerentInfo.Name : GetBelligerentName(belligerentInfo.Url),
-                    URL = belligerentInfo.Url
+                    URL = String.IsNullOrEmpty(belligerentInfo.Url) ? null : belligerentInfo.Url
                 };
                 _session.Flush();
                 _session.SaveOrUpdate(belligerent);
@@ -394,9 +402,9 @@ namespace BattleCrawler
                     var battleBelligerent = new BattlesBelligerents
                     {
                         Belligerent = belligerent,
-                        CasualtiesAndLosses = info.CasualtiesAndLosses,
+                        CasualtiesAndLosses = String.IsNullOrEmpty(info.CasualtiesAndLosses) ? null : info.CasualtiesAndLosses,
                         ConflictSide = info.FirstSide ? 0 : 1,
-                        Strength = info.Strength,
+                        Strength = String.IsNullOrEmpty(info.Strength) ? null : info.Strength,
                         Battle = info.Battle
                     };
                     _session.Flush();
