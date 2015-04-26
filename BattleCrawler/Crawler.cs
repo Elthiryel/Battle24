@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using HtmlAgilityPack;
+using NHibernate;
 
 namespace BattleCrawler
 {
@@ -15,48 +16,74 @@ namespace BattleCrawler
             public readonly string Name;
             public readonly string Url;
             public readonly bool NameOnly;
-            public readonly bool FirstSide;
             public readonly string FlagUrl; // not included in equality methods
 
-            private BelligerentInfo(string name, string url, bool nameOnly, bool firstSide, string flagUrl = null)
+            private BelligerentInfo(string name, string url, bool nameOnly, string flagUrl = null)
             {
                 Name = name;
                 Url = url;
                 NameOnly = nameOnly;
-                FirstSide = firstSide;
                 FlagUrl = flagUrl;
             }
 
-            public static BelligerentInfo WithUrl(string url, bool firstSide, string flagUrl = null)
+            public static BelligerentInfo WithUrl(string url, string flagUrl = null)
             {
-                return new BelligerentInfo(String.Empty, url, false, firstSide, flagUrl);
+                return new BelligerentInfo(String.Empty, url, false, flagUrl);
             }
 
-            public static BelligerentInfo WithoutUrl(string name, bool firstSide, string flagUrl = null)
+            public static BelligerentInfo WithoutUrl(string name, string flagUrl = null)
             {
-                return new BelligerentInfo(name, String.Empty, true, firstSide, flagUrl);
+                return new BelligerentInfo(name, String.Empty, true, flagUrl);
+            }
+
+            protected bool Equals(BelligerentInfo other)
+            {
+                return string.Equals(Name, other.Name) && string.Equals(Url, other.Url) && NameOnly.Equals(other.NameOnly);
+            }
+
+            public override bool Equals(object obj)
+            {
+                if (ReferenceEquals(null, obj)) return false;
+                if (ReferenceEquals(this, obj)) return true;
+                if (obj.GetType() != this.GetType()) return false;
+                return Equals((BelligerentInfo) obj);
+            }
+
+            public override int GetHashCode()
+            {
+                unchecked
+                {
+                    var hashCode = (Name != null ? Name.GetHashCode() : 0);
+                    hashCode = (hashCode*397) ^ (Url != null ? Url.GetHashCode() : 0);
+                    hashCode = (hashCode*397) ^ NameOnly.GetHashCode();
+                    return hashCode;
+                }
             }
         }
 
         private class BattleBelligerentInfo
         {
-            public string FullBattleUrl;
+            public Battle Battle;
             public string Strength;
             public string CasualtiesAndLosses;
+            public bool FirstSide;
         }
 
         private const string HomePage = "http://en.wikipedia.org/wiki/List_of_battles_1301%E2%80%931800";
         private const string WikiPrefix = "http://en.wikipedia.org";
 
         private static int _battleCounter;
+        private static int _belligerentCounter;
+
+        private readonly ISession _session;
 
         private IList<string> _battleList;
         private IDictionary<string, IList<string>> _battlesToWars;
         private IDictionary<BelligerentInfo, IList<BattleBelligerentInfo>> _battlesBelligerents; 
 
-        public Crawler()
+        public Crawler(ISession session)
         {
-
+            _session = session;
         }
 
         public void Crawl()
@@ -97,7 +124,7 @@ namespace BattleCrawler
             var liNodes = CrawlerHelper.GetAllNodesWithoutClassByTag(contentDivNode, "li");
             foreach (var liNode in liNodes)
             {
-                if (liNode.InnerHtml.StartsWith("<a "))
+                if (liNode.InnerHtml.StartsWith("<a ") || (liNode.InnerHtml.Length >= 8 && liNode.InnerHtml.Substring(5).StartsWith("<a ")))
                 {
                     var aNode = CrawlerHelper.GetNodeByTag(liNode, "a");
                     var url = aNode.GetAttributeValue("href", String.Empty);
@@ -107,6 +134,8 @@ namespace BattleCrawler
             }
 
             CrawlBattles();
+            // CrawlWars();
+            CrawlBelligerents();
         }
 
         private void CrawlBattles()
@@ -123,9 +152,11 @@ namespace BattleCrawler
         private void CrawlBattle(HtmlDocument battleDocument, string url)
         {
             ++_battleCounter;
+            var battle = new Battle();
             Logger.Log(String.Format("Crawling battle #{0}: {1}", _battleCounter, url));
             var name = CrawlerHelper.GetStringValueByTagAndClass(battleDocument.DocumentNode, "th", "summary") ?? 
                 CrawlerHelper.GetStringValueByTagAndClass(battleDocument.DocumentNode, "h1", "firstHeading"); // [BATTLE].Name
+            battle.Name = name;
             var infoTableNode = CrawlerHelper.GetNodeByTagAndClass(battleDocument.DocumentNode, "table", "infobox vevent");
             if (infoTableNode != null)
             {
@@ -151,18 +182,22 @@ namespace BattleCrawler
                         if (header.Contains("Date"))
                         {
                             var date = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Date
+                            battle.Date = date;
                         }
                         else if (header.Contains("Location"))
                         {
                             var location = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Location
+                            battle.Location = location;
                         }
                         else if (header.Contains("Result"))
                         {
                             var result = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].Result
+                            battle.Result = result;
                         }
                         else if (header.Contains("Territorial"))
                         {
                             var territorialChanges = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [BATTLE].TerritorialChanges
+                            battle.TerritorialChanges = territorialChanges;
                         }
                     }
                 }
@@ -191,6 +226,7 @@ namespace BattleCrawler
                     }
                 }
                 //var belligerentsByFlags = new Dictionary<string, >
+                // TODO leaders (flags)
                 foreach (var trNode in trNodesList)
                 {
                     var header = CrawlerHelper.GetStringValueByTag(trNode, "th");
@@ -201,15 +237,17 @@ namespace BattleCrawler
                             var index = trNodesList.IndexOf(trNode);
                             var belligerentsTrNode = trNodesList[index + 1];
                             var firstSideTdNode = CrawlerHelper.GetNodeByTag(belligerentsTrNode, "td");
-                            CrawlBelligerentsSidePane(firstSideTdNode, true, strength1, casualtiesAndLosses1, url);
+                            CrawlBelligerentsSidePane(firstSideTdNode, true, strength1, casualtiesAndLosses1, battle);
                             var secondSideTdNode = CrawlerHelper.GetNodeByTag(belligerentsTrNode, "td", 1);
-                            CrawlBelligerentsSidePane(secondSideTdNode, false, strength2, casualtiesAndLosses2, url);
+                            CrawlBelligerentsSidePane(secondSideTdNode, false, strength2, casualtiesAndLosses2, battle);
                         }
                     }
                 }
-                // TODO
+                // TODO leaders
 
             }
+            _session.Flush();
+            _session.SaveOrUpdate(battle);
         }
 
         private void AddBattleToWar(string fullBattleUrl, string fullWarUrl)
@@ -220,40 +258,83 @@ namespace BattleCrawler
                 _battlesToWars[fullWarUrl] = new List<string> {fullBattleUrl};
         }
 
-        private void CrawlBelligerentsSidePane(HtmlNode sideTdNode, bool firstSide, string strength, string casualtiesAndLosses, string battleUrl)
+        private void CrawlBelligerentsSidePane(HtmlNode sideTdNode, bool firstSide, string strength, string casualtiesAndLosses, Battle battle)
         {
-            var flagNode = CrawlerHelper.GetNodeByTagAndClass(sideTdNode, "a", "image");
-            var flagUrl = String.Empty;
-            if (flagNode != null)
+            var children = sideTdNode.ChildNodes.ToList();
+            var hasBrNodes = children.Any(childNode => childNode.Name == "br");
+            if (hasBrNodes)
             {
-                flagUrl = flagNode.GetAttributeValue("src", String.Empty); // [BELLIGERENTS].FlagURL
-            }
-            var belligerentNodes = CrawlerHelper.GetAllNodesWithoutClassByTag(sideTdNode, "a");
-            var belligerentNodesList = belligerentNodes as IList<HtmlNode> ?? belligerentNodes.ToList();
-            if (belligerentNodesList.Any())
-            {
-                foreach (var belligerentNode in belligerentNodesList)
+                var groups = new List<List<HtmlNode>>();
+                var start = true;
+                var i = 0;
+                foreach (var childNode in children)
                 {
-                    var url = String.Format("{0}{1}", WikiPrefix, belligerentNode.GetAttributeValue("href", String.Empty)); // [BELLIGERENTS].URL
-                    var belliferentInfo = BelligerentInfo.WithUrl(url, firstSide, flagUrl);
+                    if (start)
+                    {
+                        groups.Add(new List<HtmlNode> {childNode});
+                        start = false;
+                    }
+                    else
+                    {
+                        if (childNode.Name == "br")
+                        {
+                            ++i;
+                            groups.Add(new List<HtmlNode>());
+                        }
+                        else
+                            groups[i].Add(childNode);
+                    }
+                }
+                foreach (var group in groups)
+                {
+                    var flagUrl = String.Empty;
+                    var url = String.Empty;
+                    foreach (var htmlNode in group)
+                    {
+                        if (htmlNode.Name == "a" && htmlNode.GetAttributeValue("class", String.Empty) == "image")
+                        {
+                            flagUrl = htmlNode.GetAttributeValue("src", String.Empty); // [BELLIGERENTS].FlagURL
+                            break;
+                        }
+                    }
+                    var linkFound = false;
+                    foreach (var htmlNode in group)
+                    {
+                        if (htmlNode.Name == "a" && htmlNode.GetAttributeValue("class", String.Empty) == String.Empty && !htmlNode.GetAttributeValue("href", String.Empty).Contains("#"))
+                        {
+                            url = String.Format("{0}{1}", WikiPrefix, htmlNode.GetAttributeValue("href", String.Empty)); // [BELLIGERENTS].URL
+                            linkFound = true;
+                            break;
+                        }
+                    }
+                    BelligerentInfo belligerentInfo;
+                    if (!linkFound)
+                    {
+                        var textNode = @group.FirstOrDefault(node => node.Name == "#text");
+                        var name = textNode != null ? textNode.InnerText : String.Empty;
+                        belligerentInfo = BelligerentInfo.WithoutUrl(name, flagUrl);
+                    } else
+                        belligerentInfo = BelligerentInfo.WithUrl(url, flagUrl);
                     var battleBelligerentInfo = new BattleBelligerentInfo
                     {
-                        FullBattleUrl = battleUrl,
+                        Battle = battle,
                         Strength = strength, // [BATTLES_BELLIGERENTS].Strength
-                        CasualtiesAndLosses = casualtiesAndLosses // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                        CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                        FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
                     };
-                    AddBattleBelligerentInfo(belliferentInfo, battleBelligerentInfo);
+                    AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
                 }
             }
             else
             {
                 var name = sideTdNode.InnerText;
-                var belligerentInfo = BelligerentInfo.WithoutUrl(name, firstSide, flagUrl);
+                var belligerentInfo = BelligerentInfo.WithoutUrl(name);
                 var battleBelligerentInfo = new BattleBelligerentInfo
                 {
-                    FullBattleUrl = battleUrl,
-                    Strength = strength,
-                    CasualtiesAndLosses = casualtiesAndLosses
+                    Battle = battle,
+                    Strength = strength, // [BATTLES_BELLIGERENTS].Strength
+                    CasualtiesAndLosses = casualtiesAndLosses, // [BATTLES_BELLIGERENTS].CasualtiesAndLosses
+                    FirstSide = firstSide // [BATTLES_BELLIGERENTS].ConflictSide
                 };
                 AddBattleBelligerentInfo(belligerentInfo, battleBelligerentInfo);
             }
@@ -265,6 +346,54 @@ namespace BattleCrawler
                 _battlesBelligerents[bInfo].Add(bbInfo);
             else
                 _battlesBelligerents[bInfo] = new List<BattleBelligerentInfo> {bbInfo};
+        }
+
+        private void CrawlWars()
+        {
+            // TODO
+        }
+
+        private void CrawlBelligerents()
+        {
+            foreach (var keyValue in _battlesBelligerents)
+            {
+                ++_belligerentCounter;
+                var belligerentInfo = keyValue.Key;
+                Logger.Log(String.Format("Crawling belligerent #{0}: {1}", _belligerentCounter, belligerentInfo.NameOnly ? belligerentInfo.Name : belligerentInfo.Url));
+                var belligerent = new Belligerent
+                {
+                    FlagURL = belligerentInfo.FlagUrl,
+                    Name = belligerentInfo.NameOnly ? belligerentInfo.Name : GetBelligerentName(belligerentInfo.Url),
+                    URL = belligerentInfo.Url
+                };
+                _session.Flush();
+                _session.SaveOrUpdate(belligerent);
+                var battleBelligerentInfo = keyValue.Value;
+                foreach (var info in battleBelligerentInfo)
+                {
+                    var battleBelligerent = new BattlesBelligerents
+                    {
+                        Belligerent = belligerent,
+                        CasualtiesAndLosses = info.CasualtiesAndLosses,
+                        ConflictSide = info.FirstSide ? 0 : 1,
+                        Strength = info.Strength,
+                        Battle = info.Battle
+                    };
+                    _session.Flush();
+                    _session.SaveOrUpdate(battleBelligerent);
+                }
+            };
+        }
+
+        private string GetBelligerentName(string url)
+        {
+            var name = String.Empty;
+            var doc = GetHtmlDocument(url);
+            if (doc != null)
+            {
+                name = CrawlerHelper.GetStringValueByTagAndClass(doc.DocumentNode, "h1", "firstHeading");
+            }
+            return name;
         }
 
         private static HtmlDocument GetHtmlDocument(string url)
