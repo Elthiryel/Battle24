@@ -473,6 +473,8 @@ namespace BattleCrawler
                 ++_belligerentCounter;
                 var belligerentInfo = keyValue.Key;
                 Logger.Log(String.Format("Crawling belligerent #{0}: {1}", _belligerentCounter, belligerentInfo.NameOnly ? belligerentInfo.Name : belligerentInfo.Url));
+                if (belligerentInfo.NameOnly && (String.IsNullOrWhiteSpace(belligerentInfo.Name) || belligerentInfo.Name.Trim().StartsWith("(")))
+                    continue;
                 var belligerent = new Belligerent
                 {
                     FlagURL = String.IsNullOrEmpty(belligerentInfo.FlagUrl) ? null : belligerentInfo.FlagUrl,
