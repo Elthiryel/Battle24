@@ -6,6 +6,7 @@ using System.Net;
 using System.Threading;
 using HtmlAgilityPack;
 using NHibernate;
+using NHibernate.Criterion;
 
 namespace BattleCrawler
 {
@@ -74,11 +75,12 @@ namespace BattleCrawler
 
         private static int _battleCounter;
         private static int _belligerentCounter;
+        private static int _warCounter;
 
         private readonly ISession _session;
 
         private IList<string> _battleList;
-        private IDictionary<string, IList<string>> _battlesToWars;
+        private IDictionary<string, IList<Battle>> _battlesToWars;
         private IDictionary<BelligerentInfo, IList<BattleBelligerentInfo>> _battlesBelligerents; 
 
         public Crawler(ISession session)
@@ -95,7 +97,7 @@ namespace BattleCrawler
                 return;
 
             _battleList = new List<string>();
-            _battlesToWars = new Dictionary<string, IList<string>>();
+            _battlesToWars = new Dictionary<string, IList<Battle>>();
             _battlesBelligerents = new Dictionary<BelligerentInfo, IList<BattleBelligerentInfo>>();
 
             // 14th century battles
@@ -134,8 +136,8 @@ namespace BattleCrawler
             }
 
             CrawlBattles();
-            // CrawlWars();
-            CrawlBelligerents();
+            CrawlWars();
+            //CrawlBelligerents();
         }
 
         private void CrawlBattles()
@@ -170,7 +172,7 @@ namespace BattleCrawler
                     {
                         var warUrl = aNode.GetAttributeValue("href", String.Empty);
                         if (!warUrl.Contains("action=edit") && !warUrl.Contains("#") && !warUrl.StartsWith("http://"))
-                            AddBattleToWar(url, String.Format("{0}{1}", WikiPrefix, warUrl));
+                            AddBattleToWar(battle, String.Format("{0}{1}", WikiPrefix, warUrl));
                     }
                 }
                 var trNodes = CrawlerHelper.GetAllNodesByTag(infoTableNode, "tr");
@@ -251,12 +253,12 @@ namespace BattleCrawler
             _session.SaveOrUpdate(battle);
         }
 
-        private void AddBattleToWar(string fullBattleUrl, string fullWarUrl)
+        private void AddBattleToWar(Battle battle, string fullWarUrl)
         {
             if (_battlesToWars.ContainsKey(fullWarUrl))
-                _battlesToWars[fullWarUrl].Add(fullBattleUrl);
+                _battlesToWars[fullWarUrl].Add(battle);
             else
-                _battlesToWars[fullWarUrl] = new List<string> {fullBattleUrl};
+                _battlesToWars[fullWarUrl] = new List<Battle> {battle};
         }
 
         private void CrawlBelligerentsSidePane(HtmlNode sideTdNode, bool firstSide, string strength, string casualtiesAndLosses, Battle battle)
@@ -378,7 +380,90 @@ namespace BattleCrawler
 
         private void CrawlWars()
         {
+            foreach (var keyValue in _battlesToWars)
+            {
+                var warUrl = keyValue.Key;
+                var doc = GetHtmlDocument(warUrl);
+                var war = CrawlWar(doc, warUrl);
+                foreach (var battle in keyValue.Value)
+                {
+                    battle.War = war;
+                    if (war.Battles == null)
+                        war.Battles = new List<Battle> {battle};
+                    else
+                        war.Battles.Add(battle);
+                    _session.Flush();
+                    _session.Save(battle);
+                }
+            }
+        }
+
+        private War CrawlWar(HtmlDocument warDocument, string url, string childWar = null)
+        {
+            ++_warCounter;
+            var war = new War();
+            Logger.Log(String.Format("Crawling war #{0}: {1}", _warCounter, url));
+            var name = CrawlerHelper.GetStringValueByTagAndClass(warDocument.DocumentNode, "th", "summary") ??
+                CrawlerHelper.GetStringValueByTagAndClass(warDocument.DocumentNode, "h1", "firstHeading"); // [WAR].Name
+            if (name == childWar)
+                return null; // fix for infinite redirection loop
+            var existing = _session.CreateCriteria<War>().Add(Restrictions.Eq("Name", name)).List<War>().FirstOrDefault();
+            if (existing != null)
+                return existing;
+            war.Name = name;
+            war.URL = url;
+            var infoTableNode = CrawlerHelper.GetNodeByTagAndClass(warDocument.DocumentNode, "table", "infobox vevent");
+            if (infoTableNode != null)
+            {
+                var parentTrNode = CrawlerHelper.GetNodeByTag(infoTableNode, "tr", 1);
+                var tdNode = CrawlerHelper.GetNodeByTag(parentTrNode, "td");
+                if (tdNode.GetAttributeValue("style", String.Empty).Contains("background-color"))
+                {
+                    var aNode = CrawlerHelper.GetNodeByTag(parentTrNode, "a");
+                    if (aNode != null)
+                    {
+                        var parentUrl = aNode.GetAttributeValue("href", String.Empty);
+                        if (!parentUrl.Contains("action=edit") && !parentUrl.Contains("#") && !parentUrl.StartsWith("http://"))
+                        {
+                            var fullParentUrl = String.Format("{0}{1}", WikiPrefix, parentUrl);
+                            var parentDocument = GetHtmlDocument(fullParentUrl);
+                            if (parentDocument != null)
+                            {
+                                var parentWar = CrawlWar(parentDocument, fullParentUrl, name);
+                                war.ParentWar = parentWar; // [WAR].ParentWar
+                            }
+                        }
+                    }
+                }
+                var trNodes = CrawlerHelper.GetAllNodesByTag(infoTableNode, "tr");
+                var trNodesList = trNodes as IList<HtmlNode> ?? trNodes.ToList();
+                foreach (var trNode in trNodesList)
+                {
+                    var header = CrawlerHelper.GetStringValueByTag(trNode, "th");
+                    if (header != null)
+                    {
+                        if (header.Contains("Date"))
+                        {
+                            var date = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [WAR].Date
+                            war.Date = String.IsNullOrEmpty(date) ? null : date;
+                        }
+                        else if (header.Contains("Result"))
+                        {
+                            var result = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [WAR].Result
+                            war.Result = String.IsNullOrEmpty(result) ? null : result;
+                        }
+                        else if (header.Contains("Territorial"))
+                        {
+                            var territorialChanges = CrawlerHelper.GetStringValueByTag(trNode, "td"); // [WAR].TerritorialChanges
+                            war.TerritorialChanges = String.IsNullOrEmpty(territorialChanges) ? null : territorialChanges;
+                        }
+                    }
+                }
+            }
             // TODO
+            _session.Flush();
+            _session.SaveOrUpdate(war);
+            return war;
         }
 
         private void CrawlBelligerents()

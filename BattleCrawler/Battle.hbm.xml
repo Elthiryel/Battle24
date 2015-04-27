@@ -10,11 +10,10 @@
     <property name="Result" />
     <property name="TerritorialChanges" />
     <property name="URL" />
-    
-    <bag name="War" cascade="all">
-      <key column="WarID" not-null="false" />
-      <one-to-many class="War" />
-    </bag>
+
+    <many-to-one name="War" cascade="all" >
+      <column name="WarID" sql-type="int" not-null="false"/>
+    </many-to-one>
     
     <bag name="Belligerents" cascade="all">
       <key column="BattleID" />
