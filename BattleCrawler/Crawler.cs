@@ -137,7 +137,7 @@ namespace BattleCrawler
 
             CrawlBattles();
             CrawlWars();
-            //CrawlBelligerents();
+            CrawlBelligerents();
         }
 
         private void CrawlBattles()
