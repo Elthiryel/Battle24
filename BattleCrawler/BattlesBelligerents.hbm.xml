@@ -19,5 +19,20 @@
     <property name="ConflictSide">
       <column name="ConflictSide" sql-type="int" not-null="false" />
     </property>
+
+    <property name="Result" />
+    <property name="InfantryStrength" />
+    <property name="CavalryStrength" />
+    <property name="ArtilleryStrength" />
+    <property name="NavyStrength" />
+    <property name="AllStrength" />
+    <property name="OtherStrength" />
+    <property name="Killed" />
+    <property name="Wounded" />
+    <property name="Captured" />
+    <property name="AllLosses" />
+    <property name="OtherLosses" />
+    <property name="ShipsLost" />
+    
   </class>
 </hibernate-mapping>

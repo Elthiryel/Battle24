@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Crawler.cs" />
     <Compile Include="CrawlerHelper.cs" />
+    <Compile Include="DataPreparator.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Battle.cs" />
     <Compile Include="BattlesBelligerents.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Treaty.cs" />
+    <Compile Include="UltraParser.cs" />
     <Compile Include="War.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,7 +75,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Battle.hbm.xml" />
+    <EmbeddedResource Include="Battle.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="BattlesBelligerents.hbm.xml" />
     <EmbeddedResource Include="Leader.hbm.xml" />
     <EmbeddedResource Include="Belligerent.hbm.xml" />

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using NHibernate.Criterion;
 
 namespace BattleCrawler
 {
@@ -7,8 +9,11 @@ namespace BattleCrawler
         public static void Main(string[] args)
         {
             var session = NHibernateHelper.GetCurrentSession();
-            Crawler crawler = new Crawler(session);
-            crawler.Crawl();
+            DataPreparator preparator = new DataPreparator(session);
+            preparator.PrepareBattleDates();
+            preparator.PrepareCountries();
+            preparator.PrepareResult();
+            
         }
     }
 }
