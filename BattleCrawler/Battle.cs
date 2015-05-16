@@ -15,5 +15,8 @@ namespace BattleCrawler
         public virtual string URL { get; set; }
         public virtual IList<BattlesBelligerents> Belligerents { get; set; }
         public virtual IList<Leader> Leaders { get; set; }
+        public virtual DateTime? StartDate { get; set; }
+        public virtual DateTime? EndDate { get; set; }
+        public virtual string Country { get; set; }
     }
 }

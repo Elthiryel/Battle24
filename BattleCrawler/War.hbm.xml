@@ -10,8 +10,11 @@
     <property name="Name">
       <column name="Name" sql-type="nvarchar" not-null="false" />
     </property>
-    <property name="Date">
-      <column name="Date" sql-type="nvarchar" not-null="false" />
+    <property name="StartDate">
+      <column name="StartDate" sql-type="date" not-null="false" />
+    </property>
+    <property name="EndDate">
+      <column name="EndDate" sql-type="date" not-null="false" />
     </property>
     <property name="TerritorialChanges">
       <column name="TerritorialChanges" sql-type="nvarchar" not-null="false" />
