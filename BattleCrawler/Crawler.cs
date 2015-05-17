@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Web;
 using HtmlAgilityPack;
 using NHibernate;
 using NHibernate.Criterion;
@@ -193,7 +194,7 @@ namespace BattleCrawler
             }
 
             CrawlBattles();
-            CrawlWars();
+            //CrawlWars();
             CrawlBelligerents();
             CrawlLeaders();
         }
@@ -342,6 +343,18 @@ namespace BattleCrawler
             LinkedList<BelligerentInfo> currentBelligerents)
         {
             var children = sideTdNode.ChildNodes.ToList();
+            if (children.Any(childNode => childNode.Name == "p" || childNode.Name == "b"))
+            {
+                var newChildren = new List<HtmlNode>();
+                foreach (var childNode in children)
+                {
+                    if (childNode.Name == "p" || childNode.Name == "b")
+                        newChildren.AddRange(childNode.ChildNodes);
+                    else
+                        newChildren.Add(childNode);
+                }
+                children = newChildren;
+            }
             var hasBrNodes = children.Any(childNode => childNode.Name == "br");
             if (hasBrNodes)
             {
@@ -404,16 +417,15 @@ namespace BattleCrawler
                         var textNode = group.FirstOrDefault(node => node.Name == "#text" &&
                             Regex.Matches(node.InnerText, @"[a-zA-Z]").Count > 0);
                         var name = textNode != null ? textNode.InnerText : String.Empty;
-                        belligerentInfo = BelligerentInfo.WithoutUrl(name, flagUrl);
+                        belligerentInfo = String.IsNullOrEmpty(name) ? null : BelligerentInfo.WithoutUrl(name, flagUrl);
                     }
                     else
                         belligerentInfo = url.Contains("action=edit") ? 
-                            BelligerentInfo.WithoutUrl(url.Substring(42, url.IndexOf("&amp;action=edit", 
-                                StringComparison.Ordinal) - 42), flagUrl) : 
+                            BelligerentInfo.WithoutUrl(GetNameFromEditUrl(url), flagUrl) : 
                             BelligerentInfo.WithUrl(url, flagUrl);
                     if (!String.IsNullOrEmpty(flagUrl))
                         belligerentsByFlags[flagUrl] = belligerentInfo;
-                    if (String.IsNullOrEmpty(belligerentInfo.Name) || !belligerentInfo.Name.Contains(":"))
+                    if (belligerentInfo != null && (String.IsNullOrEmpty(belligerentInfo.Name) || !belligerentInfo.Name.Contains(":")))
                     {
                         var battleBelligerentInfo = new BattleBelligerentInfo
                         {
@@ -429,16 +441,19 @@ namespace BattleCrawler
             }
             else
             {
-                var links = CrawlerHelper.GetAllNodesWithoutClassByTag(sideTdNode, "a").
-                    Where(node => !node.GetAttributeValue("href", String.Empty).Contains("#"));
+                var links = CrawlerHelper.GetAllNodesByTag(sideTdNode, "a").
+                    Where(node => !node.GetAttributeValue("href", String.Empty).Contains("#") && 
+                        !node.GetAttributeValue("class", String.Empty).Contains("image") &&
+                        !node.GetAttributeValue("class", String.Empty).Contains("new"));
                 var linkNodes = links as IList<HtmlNode> ?? links.ToList();
                 if (linkNodes.Any())
                 {
                     var linkNode = linkNodes.First();
                     var flagNode = CrawlerHelper.GetNodeByTagAndClass(sideTdNode, "a", "image");
                     var flagUrl = flagNode != null ? flagNode.GetAttributeValue("href", String.Empty) : String.Empty;
-                    var belligerentInfo = BelligerentInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, 
-                        linkNode.GetAttributeValue("href", String.Empty)), flagUrl);
+                    var url = linkNode.GetAttributeValue("href", String.Empty);
+                    var belligerentInfo = url.Contains("action=edit") ? BelligerentInfo.WithoutUrl(GetNameFromEditUrl(url), flagUrl) : 
+                        BelligerentInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, url), flagUrl);
                     if (!String.IsNullOrEmpty(flagUrl))
                         belligerentsByFlags[flagUrl] = belligerentInfo;
                     var battleBelligerentInfo = new BattleBelligerentInfo
@@ -494,6 +509,18 @@ namespace BattleCrawler
             if (sideTdNode == null)
                 return;
             var children = sideTdNode.ChildNodes.ToList();
+            if (children.Any(childNode => childNode.Name == "p" || childNode.Name == "b"))
+            {
+                var newChildren = new List<HtmlNode>();
+                foreach (var childNode in children)
+                {
+                    if (childNode.Name == "p" || childNode.Name == "b")
+                        newChildren.AddRange(childNode.ChildNodes);
+                    else
+                        newChildren.Add(childNode);
+                }
+                children = newChildren;
+            }
             var hasBrNodes = children.Any(childNode => childNode.Name == "br");
             if (hasBrNodes)
             {
@@ -543,7 +570,8 @@ namespace BattleCrawler
                     foreach (var htmlNode in group)
                     {
                         if (htmlNode.Name == "a" && htmlNode.GetAttributeValue("class", String.Empty) != "image" &&
-                            !htmlNode.GetAttributeValue("href", String.Empty).Contains("#"))
+                            !htmlNode.GetAttributeValue("href", String.Empty).Contains("#") &&
+                            !htmlNode.GetAttributeValue("href", String.Empty).Contains("Killed"))
                         {
                             url = String.Format("{0}{1}", WikiPrefix, htmlNode.GetAttributeValue("href", String.Empty));
                             linkFound = true;
@@ -556,29 +584,31 @@ namespace BattleCrawler
                         var textNode = group.FirstOrDefault(node => node.Name == "#text" &&
                                                                     Regex.Matches(node.InnerText, @"[a-zA-Z]").Count > 0);
                         var name = textNode != null ? textNode.InnerText : String.Empty;
-                        leaderInfo = LeaderInfo.WithoutUrl(name, GetBelligerentInfo(flagUrl, currentBelligerents));
+                        leaderInfo = String.IsNullOrEmpty(name) ? null : LeaderInfo.WithoutUrl(name, GetBelligerentInfo(flagUrl, currentBelligerents));
                     }
                     else
                         leaderInfo = url.Contains("action=edit") ?
-                            LeaderInfo.WithoutUrl(url.Substring(42, url.IndexOf("&amp;action=edit", 
-                                StringComparison.Ordinal) - 42), GetBelligerentInfo(flagUrl, currentBelligerents)) :
+                            LeaderInfo.WithoutUrl(GetNameFromEditUrl(url), GetBelligerentInfo(flagUrl, currentBelligerents)) :
                             LeaderInfo.WithUrl(url, GetBelligerentInfo(flagUrl, currentBelligerents));
-                    if (String.IsNullOrEmpty(leaderInfo.Name) || !leaderInfo.Name.Contains(":"))
+                    if (leaderInfo != null && (String.IsNullOrEmpty(leaderInfo.Name) || !leaderInfo.Name.Contains(":")))
                         AddLeaderInfo(leaderInfo, battle.URL);
                 }
             }
             else
             {
-                var links = CrawlerHelper.GetAllNodesWithoutClassByTag(sideTdNode, "a").
-                    Where(node => !node.GetAttributeValue("href", String.Empty).Contains("#"));
+                var links = CrawlerHelper.GetAllNodesByTag(sideTdNode, "a").
+                    Where(node => !node.GetAttributeValue("href", String.Empty).Contains("#") && 
+                        !node.GetAttributeValue("class", String.Empty).Contains("image"));
                 var linkNodes = links as IList<HtmlNode> ?? links.ToList();
                 if (linkNodes.Any())
                 {
                     var linkNode = linkNodes.First();
                     var flagNode = CrawlerHelper.GetNodeByTagAndClass(sideTdNode, "a", "image");
                     var flagUrl = flagNode != null ? flagNode.GetAttributeValue("href", String.Empty) : String.Empty;
-                    var leaderInfo = LeaderInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, 
-                        linkNode.GetAttributeValue("href", String.Empty)), GetBelligerentInfo(flagUrl, currentBelligerents));
+                    var url = linkNode.GetAttributeValue("href", String.Empty);
+                    var leaderInfo = url.Contains("action=edit") ?
+                        LeaderInfo.WithoutUrl(GetNameFromEditUrl(url), GetBelligerentInfo(flagUrl, currentBelligerents)) : 
+                        LeaderInfo.WithUrl(String.Format("{0}{1}", WikiPrefix, url), GetBelligerentInfo(flagUrl, currentBelligerents));
                     AddLeaderInfo(leaderInfo, battle.URL);
                 }
                 else
@@ -599,6 +629,14 @@ namespace BattleCrawler
                 _battlesLeaders[lInfo].Add(bUrl);
             else
                 _battlesLeaders[lInfo] = new List<string> {bUrl};
+        }
+
+        private string GetNameFromEditUrl(string url)
+        {
+            var name = url.StartsWith("http://en.wikipedia.org") ? 
+                url.Substring(42, url.IndexOf("&amp;action=edit", StringComparison.Ordinal) - 42) : 
+                url.Substring(19, url.IndexOf("&amp;action=edit", StringComparison.Ordinal) - 19);
+            return HttpUtility.HtmlDecode(name);
         }
 
         private void CrawlWars()

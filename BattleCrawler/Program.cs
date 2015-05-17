@@ -9,11 +9,13 @@ namespace BattleCrawler
         public static void Main(string[] args)
         {
             var session = NHibernateHelper.GetCurrentSession();
-            DataPreparator preparator = new DataPreparator(session);
-            preparator.PrepareBattleDates();
-            preparator.PrepareCountries();
-            preparator.PrepareResult();
-            
+//            DataPreparator preparator = new DataPreparator(session);
+//            preparator.PrepareBattleDates();
+//            preparator.PrepareCountries();
+//            preparator.PrepareResult();
+            var crawler = new Crawler(session);
+            crawler.Crawl();
+
         }
     }
 }
