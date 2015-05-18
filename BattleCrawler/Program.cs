@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using NHibernate.Criterion;
 
@@ -13,9 +14,14 @@ namespace BattleCrawler
 //            preparator.PrepareBattleDates();
 //            preparator.PrepareCountries();
 //            preparator.PrepareResult();
-            var crawler = new Crawler(session);
-            crawler.Crawl();
+//
+//            var crawler = new Crawler(session);
+//            crawler.Crawl();
 
+            var persister = new ParsedDataPersister(session);
+            persister.PersistParsedData("battles.csv", "belligerents.csv", "battles_belligerents.csv");
+
+            Console.ReadLine();
         }
     }
 }
