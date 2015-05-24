@@ -111,7 +111,7 @@ namespace BattleCrawler
                         if (!isExactName)
                             Logger.Log(String.Format("PARTIALY MISSED! BattleID = {0}, BelligerentID = {1}", battleId, belligerentId));
 
-                        var infantryStrength = String.IsNullOrEmpty(splitted[2]) ? null : (int?) Int32.Parse(splitted[2]);
+                        var infantryStrength = String.IsNullOrEmpty(splitted[2]) ? null : (int?)Int32.Parse(splitted[2]);
                         var cavalryStrength = String.IsNullOrEmpty(splitted[3]) ? null : (int?)Int32.Parse(splitted[3]);
                         var artilleryStrength = String.IsNullOrEmpty(splitted[4]) ? null : (int?)Int32.Parse(splitted[4]);
                         var navyStrength = String.IsNullOrEmpty(splitted[5]) ? null : (int?)Int32.Parse(splitted[5]);

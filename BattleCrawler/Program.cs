@@ -15,11 +15,11 @@ namespace BattleCrawler
 //            preparator.PrepareCountries();
 //            preparator.PrepareResult();
 //
-//            var crawler = new Crawler(session);
-//            crawler.Crawl();
+            var crawler = new Crawler(session);
+            crawler.Crawl();
 
-            var persister = new ParsedDataPersister(session);
-            persister.PersistParsedData("battles.csv", "belligerents.csv", "battles_belligerents.csv");
+//            var persister = new ParsedDataPersister(session);
+//            persister.PersistParsedData("battles.csv", "belligerents.csv", "battles_belligerents.csv");
 
             Console.ReadLine();
         }
