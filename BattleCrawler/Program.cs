@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using NHibernate.Criterion;
 
 namespace BattleCrawler
 {
@@ -10,16 +7,17 @@ namespace BattleCrawler
         public static void Main(string[] args)
         {
             var session = NHibernateHelper.GetCurrentSession();
-//            DataPreparator preparator = new DataPreparator(session);
-//            preparator.PrepareBattleDates();
-//            preparator.PrepareCountries();
-//            preparator.PrepareResult();
-//
+
             var crawler = new Crawler(session);
             crawler.Crawl();
 
-//            var persister = new ParsedDataPersister(session);
-//            persister.PersistParsedData("battles.csv", "belligerents.csv", "battles_belligerents.csv");
+            var persister = new ParsedDataPersister(session);
+            persister.PersistParsedData("../../../Data/battles.csv", "../../../Data/belligerents.csv", "../../../Data/battles_belligerents.csv");
+
+            var preparator = new DataPreparator(session);
+            preparator.PrepareBattleDates();
+            preparator.PrepareCountries();
+            preparator.PrepareResult();
 
             Console.ReadLine();
         }

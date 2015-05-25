@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BattleCrawler
+﻿namespace BattleCrawler
 {
     public class DataPreparator
     {
@@ -17,6 +11,7 @@ namespace BattleCrawler
 
         public void PrepareBattleDates()
         {
+            Logger.Log("Preparing battle dates...");
             var batlles = Session.CreateCriteria<Battle>().List<Battle>();
             foreach (var battle in batlles)
             {
@@ -28,10 +23,12 @@ namespace BattleCrawler
                     Session.SaveOrUpdate(battle);
                 }
             }
+            Logger.Log("Finished preparing battle dates.");
         }
 
         public void PrepareCountries()
         {
+            Logger.Log("Preparing countries...");
             var batlles = Session.CreateCriteria<Battle>().List<Battle>();
             foreach (var battle in batlles)
             {
@@ -42,10 +39,12 @@ namespace BattleCrawler
                     Session.SaveOrUpdate(battle);
                 }
             }
+            Logger.Log("Finished preparing countries.");
         }
 
         public void PrepareResult()
         {
+            Logger.Log("Preparing result...");
             var batlles = Session.CreateCriteria<Battle>().List<Battle>();
             //var bellis = Session.CreateCriteria<BattlesBelligerents>().List<BattlesBelligerents>();
             foreach (var battle in batlles)
@@ -69,6 +68,7 @@ namespace BattleCrawler
                 {
                 }
             }
+            Logger.Log("Finished preparing result.");
         }
 
         private string GetTranslationForWin(Victory result, int? conflictSide)

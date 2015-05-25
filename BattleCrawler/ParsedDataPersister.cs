@@ -20,6 +20,8 @@ namespace BattleCrawler
 
         public void PersistParsedData(string battlesFilename, string belligerentsFilename, string battlesBelligerentsFilename)
         {
+            Logger.Log("Processing battles...");
+
             var battlesDictionary = new Dictionary<int, string>(); // BATTLES.ID -> BATTLES.URL
             using (var battlesFile = new StreamReader(battlesFilename))
             {
@@ -34,6 +36,8 @@ namespace BattleCrawler
                     battlesDictionary[id] = url;
                 }
             }
+
+            Logger.Log("Processing belligerents...");
 
             var belligerentsDictionary = new Dictionary<int, Tuple<string, string>>();
             using (var belligerentsFile = new StreamReader(belligerentsFilename))
@@ -50,6 +54,8 @@ namespace BattleCrawler
                     belligerentsDictionary[id] = new Tuple<string, string>(name, url);
                 }
             }
+
+            Logger.Log("Processing battles-belligerents...");
 
             // BelligerentID, BattleID, InfantryStrength, CavalryStrength, ArtilleryStrength, NavyStrength, AllStrength, OtherStrength, Killed, Wounded, Captured, AllLosses, OtherLosses, ShipsLost
             using (var battlesBelligerentsFile = new StreamReader(battlesBelligerentsFilename))
@@ -144,6 +150,8 @@ namespace BattleCrawler
                         Logger.Log(String.Format("MISSED! BattleID = {0}, BelligerentID = {1}", battleId, belligerentId));
                 }
             }
+
+            Logger.Log("Processing finished.");
 
         }
     }

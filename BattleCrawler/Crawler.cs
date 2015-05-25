@@ -877,7 +877,7 @@ namespace BattleCrawler
                 else
                 {
                     var name = sideTdNode.InnerText;
-                    if (!String.IsNullOrEmpty(name) || !name.Contains(":"))
+                    if (!String.IsNullOrEmpty(name) && !name.Contains(":"))
                     {
                         var belligerentInfo = BelligerentInfo.WithoutUrl(name);
                         AddWarBelligerentInfo(belligerentInfo, war);
@@ -1005,7 +1005,7 @@ namespace BattleCrawler
                 else
                 {
                     var name = sideTdNode.InnerText;
-                    if (!String.IsNullOrEmpty(name) || !name.Contains(":"))
+                    if (!String.IsNullOrEmpty(name) && !name.Contains(":"))
                     {
                         var leaderInfo = LeaderInfo.WithoutUrl(name, GetBelligerentInfo(null, currentBelligerents));
                         AddWarLeaderInfo(leaderInfo, war);
@@ -1302,7 +1302,6 @@ namespace BattleCrawler
                     lastDate = date;
                 }
             }
-            // TODO
         }
 
         private static HtmlDocument GetHtmlDocument(string url)

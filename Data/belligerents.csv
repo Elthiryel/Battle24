@@ -2,560 +2,828 @@
 2;Kingdom of France;http://en.wikipedia.org/wiki/Kingdom_of_France
 3;Byzantine Empire;http://en.wikipedia.org/wiki/Byzantine_Empire
 4;Ottoman Empire;http://en.wikipedia.org/wiki/Ottoman_Empire
-5;Kingdom of Scotland;http://en.wikipedia.org/wiki/Kingdom_of_Scotland
-6;Kingdom of England;http://en.wikipedia.org/wiki/Kingdom_of_England
-7;Catalan Company;http://en.wikipedia.org/wiki/Catalan_Company
-8;Duchy of Athens;http://en.wikipedia.org/wiki/Duchy_of_Athens
-9;Bavaria;NULL
-10;Austria;NULL
-11;Republic of Pisa;http://en.wikipedia.org/wiki/Republic_of_Pisa
-12;Republic of Florence;http://en.wikipedia.org/wiki/Republic_of_Florence
-13;Canton of Uri;http://en.wikipedia.org/wiki/Canton_of_Uri
-14;Duchy of Austria;http://en.wikipedia.org/wiki/Duchy_of_Austria
-15;Kingdom of Majorca;http://en.wikipedia.org/wiki/Kingdom_of_Majorca
-16;Principality of Achaea;http://en.wikipedia.org/wiki/Principality_of_Achaea
-17;Burgundians, Byzantines;NULL
-18;Majorcans;NULL
-19;Uí Maine;http://en.wikipedia.org/wiki/U%C3%AD_Maine
-20;Lordship of Ireland;http://en.wikipedia.org/wiki/Lordship_of_Ireland
-21;O'Dea;http://en.wikipedia.org/wiki/O%27Dea
-22;O'Brien dynasty;http://en.wikipedia.org/wiki/O%27Brien_dynasty
-23;Clann Ó hEithir;NULL
-24;Knights Hospitaller;http://en.wikipedia.org/wiki/Knights_Hospitaller
-25;Lordship of Chios;http://en.wikipedia.org/wiki/Lordship_of_Chios
-26;Aydinids;NULL
-27;Dalmatia;http://en.wikipedia.org/wiki/Dalmatia
-28;Mladen II Šubić of Bribir;http://en.wikipedia.org/wiki/Mladen_II_%C5%A0ubi%C4%87_of_Bribir
-29;Royalists;NULL
-30;Lancastrians;NULL
-31;Royal forces;NULL
-32;Baronial forces;NULL
-33;History of Bavaria;http://en.wikipedia.org/wiki/History_of_Bavaria
-34;Archduchy of Austria;http://en.wikipedia.org/wiki/Archduchy_of_Austria
-35;Modena;http://en.wikipedia.org/wiki/Modena
-36;Bologna;http://en.wikipedia.org/wiki/Bologna
-37;Flemish peasants;NULL
-38;France in the Middle Ages;http://en.wikipedia.org/wiki/France_in_the_Middle_Ages
-39;Geoghegan;http://en.wikipedia.org/wiki/Geoghegan
-40;Kingdom of Hungary;http://en.wikipedia.org/wiki/Kingdom_of_Hungary
-41;Wallachia;http://en.wikipedia.org/wiki/Wallachia
-42;Bruce loyalists;NULL
-43;Edward Balliol;http://en.wikipedia.org/wiki/Edward_Balliol
-44;Kingdom of Poland;NULL
-45;Teutonic Order;http://en.wikipedia.org/wiki/Teutonic_Order
-46;Ashikaga rebels;NULL
-47;Japanese imperial forces;NULL
-48;Ashikaga shogunate;http://en.wikipedia.org/wiki/Ashikaga_shogunate
-49;Nitta family;NULL
-50;Lodrisio Visconti;http://en.wikipedia.org/wiki/Lodrisio_Visconti
-51;Compagnia di San Giorgio;http://en.wikipedia.org/wiki/Compagnia_di_San_Giorgio
-52;Milan;http://en.wikipedia.org/wiki/Milan
-53;Kingdom of Castile;http://en.wikipedia.org/wiki/Kingdom_of_Castile
-54;Kingdom of Portugal;http://en.wikipedia.org/wiki/Kingdom_of_Portugal
-55;Marinid dynasty;http://en.wikipedia.org/wiki/Marinid_dynasty
-56;Emirate of Granada;http://en.wikipedia.org/wiki/Emirate_of_Granada
-57; House of Blois;NULL
-58;France;http://en.wikipedia.org/wiki/France
-59; House of Montfort;NULL
-60;England;http://en.wikipedia.org/wiki/England
-61;Republic of Genoa;http://en.wikipedia.org/wiki/Republic_of_Genoa
-62;Serbian Empire;http://en.wikipedia.org/wiki/Serbian_Empire
-63;Kingdom of Naples;http://en.wikipedia.org/wiki/Kingdom_of_Naples
-64;and Angevin lands;NULL
-65;March of Montferrat;http://en.wikipedia.org/wiki/March_of_Montferrat
-66;Asti;http://en.wikipedia.org/wiki/Asti
-67;Pavia;http://en.wikipedia.org/wiki/Pavia
-68;Momchil;http://en.wikipedia.org/wiki/Momchil
-69;John VI Kantakouzenos;http://en.wikipedia.org/wiki/John_VI_Kantakouzenos
-70;Holland;http://en.wikipedia.org/wiki/Holland
-71;Frisia;http://en.wikipedia.org/wiki/Frisia
-72;Holy Roman Empire;http://en.wikipedia.org/wiki/Holy_Roman_Empire
-73; House of Montfort (England);NULL
-74; House of Blois (France);NULL
-75;Gascony;http://en.wikipedia.org/wiki/Gascony
-76;English forces;NULL
-77;French forces;NULL
-78;Duchy of Gascony;http://en.wikipedia.org/wiki/Duchy_of_Gascony
-79;Noble coalition;NULL
-80;Peasant Jacques army;NULL
-81;Denmark;http://en.wikipedia.org/wiki/Denmark
-82;Gotland;http://en.wikipedia.org/wiki/Gotland
-83;Hanseatic League;http://en.wikipedia.org/wiki/Hanseatic_League
-84;Duchy of Burgundy;http://en.wikipedia.org/wiki/Duchy_of_Burgundy
-85;Kingdom of Navarre;http://en.wikipedia.org/wiki/Kingdom_of_Navarre
-86;Brittany;http://en.wikipedia.org/wiki/Brittany
-87;Duke of Aquitaine;http://en.wikipedia.org/wiki/Duke_of_Aquitaine
-88;Crown of Castile;http://en.wikipedia.org/wiki/Crown_of_Castile
-89;Duchy of Jülich;http://en.wikipedia.org/wiki/Duchy_of_J%C3%BClich
-90;Duchy of Brabant;http://en.wikipedia.org/wiki/Duchy_of_Brabant
-91;County of Namur;http://en.wikipedia.org/wiki/County_of_Namur
-92;Papal States;http://en.wikipedia.org/wiki/Papal_States
-93;Republic of Siena;http://en.wikipedia.org/wiki/Republic_of_Siena
-94;Russian Forces;NULL
-95;Blue Horde;NULL
-96;Serbia;http://en.wikipedia.org/wiki/Serbia
-97;Grand Duchy of Moscow;http://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow
-98;Bishop of Norwich;http://en.wikipedia.org/wiki/Bishop_of_Norwich
-99;Norfolk;http://en.wikipedia.org/wiki/Norfolk
-100;Ghent;http://en.wikipedia.org/wiki/Ghent
-101;Kingdom of Uí Failghe;http://en.wikipedia.org/wiki/Kingdom_of_U%C3%AD_Failghe
-102;United States;http://en.wikipedia.org/wiki/United_States
-103;Confederate States of America;http://en.wikipedia.org/wiki/Confederate_States_of_America
-104;Zeta under the Balšići;http://en.wikipedia.org/wiki/Zeta_under_the_Bal%C5%A1i%C4%87i
-105;Old Swiss Confederacy;http://en.wikipedia.org/wiki/Old_Swiss_Confederacy
-106;Moravian Serbia;http://en.wikipedia.org/wiki/Moravian_Serbia
-107;Province of Verona;http://en.wikipedia.org/wiki/Province_of_Verona
-108;Province of Padua;http://en.wikipedia.org/wiki/Province_of_Padua
-109; Bosnian Kingdom;NULL
-110;Leinster;NULL
-111;Chattan Confederation;http://en.wikipedia.org/wiki/Chattan_Confederation
-112;"Clan Kay" (Camerons or Davidsons?);NULL
-113;Republic of Venice;http://en.wikipedia.org/wiki/Republic_of_Venice
-114;Second Bulgarian Empire;http://en.wikipedia.org/wiki/Second_Bulgarian_Empire
-115;Golden Horde;http://en.wikipedia.org/wiki/Golden_Horde
-116;Grand Duchy of Lithuania;http://en.wikipedia.org/wiki/Grand_Duchy_of_Lithuania
-117;Tokhtamysh forces;NULL
-118;Welsh rebel forces;NULL
-119;English and Flemish settlers;NULL
-120;Duchy of Milan;http://en.wikipedia.org/wiki/Duchy_of_Milan
-121;Wales;http://en.wikipedia.org/wiki/Wales
-122; Timurid Empire;NULL
-123;Dhimitër Jonima;http://en.wikipedia.org/wiki/Dhimit%C3%ABr_Jonima
-124;Principality of Dukagjini;http://en.wikipedia.org/wiki/Principality_of_Dukagjini
-125;Serbian Despotate;http://en.wikipedia.org/wiki/Serbian_Despotate
-126; Rebel forces;NULL
-127;Clan Mackay;http://en.wikipedia.org/wiki/Clan_Mackay
-128;Clan Sutherland;http://en.wikipedia.org/wiki/Clan_Sutherland
-129;Clan MacLeod of Lewis;http://en.wikipedia.org/wiki/Clan_MacLeod_of_Lewis
-130;Royalist forces;NULL
-131;Percy Faction;NULL
-132;Kingdom of Sicily;http://en.wikipedia.org/wiki/Kingdom_of_Sicily
-133;Crown of Aragon;http://en.wikipedia.org/wiki/Crown_of_Aragon
-134;Giudicato of Arborea;http://en.wikipedia.org/wiki/Giudicato_of_Arborea
-135;Eastern Mongols;NULL
-136;Ming Dynasty;NULL
-137;State of the Teutonic Order;http://en.wikipedia.org/wiki/State_of_the_Teutonic_Order
-138;Poland;http://en.wikipedia.org/wiki/Poland
-139;Czech Republic;http://en.wikipedia.org/wiki/Czech_Republic
-140;Silesia;http://en.wikipedia.org/wiki/Silesia
-141;Aberdonian Gentry (Lowland clans);NULL
-142;Robert Stewart, Duke of Albany;http://en.wikipedia.org/wiki/Robert_Stewart,_Duke_of_Albany
-143;Lord of the Isles;http://en.wikipedia.org/wiki/Lord_of_the_Isles
-144;Kara Koyunlu;http://en.wikipedia.org/wiki/Kara_Koyunlu
-145;Kingdom of Georgia;http://en.wikipedia.org/wiki/Kingdom_of_Georgia
-146;Shirvanshah;http://en.wikipedia.org/wiki/Shirvanshah
-147;Hussites;NULL
-148;Catholics;NULL
-149;Hussites;http://en.wikipedia.org/wiki/Hussites
-150;Hungary;http://en.wikipedia.org/wiki/Hungary
-151;Unterwalden;http://en.wikipedia.org/wiki/Unterwalden
-152;Canton of Lucerne;http://en.wikipedia.org/wiki/Canton_of_Lucerne
-153;Canton of Zug;http://en.wikipedia.org/wiki/Canton_of_Zug
-154;Taborites;NULL
-155;Utraquists;NULL
-156;Duchy of Brittany;http://en.wikipedia.org/wiki/Duchy_of_Brittany
-157;French;NULL
-158;Anjou;http://en.wikipedia.org/wiki/Anjou
-159; English;NULL
-160;Jaqueline, Countess of Hainaut, Holland and Zeeland;NULL
-161;Philip, Duke of Burgundy;NULL
-162; French forces;NULL
-163;Roman Catholic crusaders;NULL
-164;Alexander of Islay, Earl of Ross;http://en.wikipedia.org/wiki/Alexander_of_Islay,_Earl_of_Ross
-165;Clan Donald;http://en.wikipedia.org/wiki/Clan_Donald
-166;James I of Scotland;http://en.wikipedia.org/wiki/James_I_of_Scotland
-167;Taborites and Orphans;NULL
-168;Utraquism;http://en.wikipedia.org/wiki/Utraquism
-169;Republic of Ragusa;http://en.wikipedia.org/wiki/Republic_of_Ragusa
-170;Kingdom of Poland (1385–1569);http://en.wikipedia.org/wiki/Kingdom_of_Poland_(1385%E2%80%931569)
-171;Moldavia;http://en.wikipedia.org/wiki/Moldavia
-172;Uprising of Konstantin and Fruzhin;http://en.wikipedia.org/wiki/Uprising_of_Konstantin_and_Fruzhin
-173;Ethiopia;http://en.wikipedia.org/wiki/Ethiopia
-174;Adal Sultanate;http://en.wikipedia.org/wiki/Adal_Sultanate
-175;Mughal Empire;http://en.wikipedia.org/wiki/Mughal_Empire
-176;Portugal;http://en.wikipedia.org/wiki/Portugal
-177;Duke of Coimbra;http://en.wikipedia.org/wiki/Duke_of_Coimbra
-178;Mongols;NULL
-179;Prussian Confederation;http://en.wikipedia.org/wiki/Prussian_Confederation
-180;James II of Scotland;http://en.wikipedia.org/wiki/James_II_of_Scotland
-181;Earl of Douglas;http://en.wikipedia.org/wiki/Earl_of_Douglas
-182;House of York;http://en.wikipedia.org/wiki/House_of_York
-183;House of Lancaster;http://en.wikipedia.org/wiki/House_of_Lancaster
-184;Crusades;http://en.wikipedia.org/wiki/Crusades
-185;Prince-Bishopric of Liège;http://en.wikipedia.org/wiki/Prince-Bishopric_of_Li%C3%A8ge
-186;Sweden;http://en.wikipedia.org/wiki/Sweden
-187;Aq Qoyunlu;http://en.wikipedia.org/wiki/Aq_Qoyunlu
-188;Electorate of Cologne;http://en.wikipedia.org/wiki/Electorate_of_Cologne
-189;Guelders;http://en.wikipedia.org/wiki/Guelders
-190;Duchy of Cleves;http://en.wikipedia.org/wiki/Duchy_of_Cleves
-191;Duchy of Savoy;http://en.wikipedia.org/wiki/Duchy_of_Savoy
-192;Army of the Holy Roman Empire;http://en.wikipedia.org/wiki/Army_of_the_Holy_Roman_Empire
-193;Lorraine (region);http://en.wikipedia.org/wiki/Lorraine_(region)
-194;Clan MacNeil;http://en.wikipedia.org/wiki/Clan_MacNeil
-195;Clan MacLeod;http://en.wikipedia.org/wiki/Clan_MacLeod
-196;Clan MacDonald of Keppoch;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Keppoch
-197;Scottish Rebels (with English support);NULL
-198; Scottish Royalist forces;NULL
-199;Clan Ross;http://en.wikipedia.org/wiki/Clan_Ross
-200;Rebels;NULL
-201;Catholic Monarchs;http://en.wikipedia.org/wiki/Catholic_Monarchs
-202;Croatia in the union with Hungary;http://en.wikipedia.org/wiki/Croatia_in_the_union_with_Hungary
-203;History of Moldova;http://en.wikipedia.org/wiki/History_of_Moldova
-204;Clan Mackenzie;http://en.wikipedia.org/wiki/Clan_Mackenzie
-205;Clan Munro;http://en.wikipedia.org/wiki/Clan_Munro
-206;James IV of Scotland;http://en.wikipedia.org/wiki/James_IV_of_Scotland
-207;Clan MacDonald of Lochalsh;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Lochalsh
-208;Domhnall Dubh;http://en.wikipedia.org/wiki/Domhnall_Dubh
-209;Dithmarschen;http://en.wikipedia.org/wiki/Dithmarschen
-210;Kalmar Union;http://en.wikipedia.org/wiki/Kalmar_Union
-211;Spain;http://en.wikipedia.org/wiki/Spain
-212;Portuguese Empire;http://en.wikipedia.org/wiki/Portuguese_Empire
-213;Gujarat Sultanate;http://en.wikipedia.org/wiki/Gujarat_Sultanate
-214;Mamluk Sultanate (Cairo);http://en.wikipedia.org/wiki/Mamluk_Sultanate_(Cairo)
-215;Military of the Ottoman Empire;http://en.wikipedia.org/wiki/Military_of_the_Ottoman_Empire
-216;Duchy of Ferrara;http://en.wikipedia.org/wiki/Duchy_of_Ferrara
-217;Safavid dynasty;http://en.wikipedia.org/wiki/Safavid_dynasty
-218;Seventeen Provinces;http://en.wikipedia.org/wiki/Seventeen_Provinces
-219;Charles II, Duke of Guelders;http://en.wikipedia.org/wiki/Charles_II,_Duke_of_Guelders
-220;Duchy of Urbino;http://en.wikipedia.org/wiki/Duchy_of_Urbino
-221;Miura clan;http://en.wikipedia.org/wiki/Miura_clan
-222;forces of Hōjō Soun;NULL
-223;Spanish Empire;http://en.wikipedia.org/wiki/Spanish_Empire
-224;Tlaxcala (Nahua state);http://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)
-225;Aztec Empire;http://en.wikipedia.org/wiki/Aztec_Empire
-226;Late Hōjō clan;http://en.wikipedia.org/wiki/Late_H%C5%8Dj%C5%8D_clan
-227;Uesugi Clan;NULL
-228;Quito;http://en.wikipedia.org/wiki/Quito
-229;Landgraviate of Hesse;http://en.wikipedia.org/wiki/Landgraviate_of_Hesse
-230;Electorate of Saxony;http://en.wikipedia.org/wiki/Electorate_of_Saxony
-231;Peasants' army;NULL
-232;Charles V, Holy Roman Emperor;http://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
-233;Lodi dynasty;http://en.wikipedia.org/wiki/Lodi_dynasty
-234;Uesugi clan;http://en.wikipedia.org/wiki/Uesugi_clan
-235;Ethiopian Empire;http://en.wikipedia.org/wiki/Ethiopian_Empire
-236;Kingdom of Bohemia;http://en.wikipedia.org/wiki/Kingdom_of_Bohemia
-237;Florence;http://en.wikipedia.org/wiki/Florence
-238;Puná natives;NULL
-239;Canton of Zürich;http://en.wikipedia.org/wiki/Canton_of_Z%C3%BCrich
-240;Inca Empire;http://en.wikipedia.org/wiki/Inca_Empire
-241;Hiraga Genshin;http://en.wikipedia.org/wiki/Hiraga_Genshin
-242;Takeda clan;http://en.wikipedia.org/wiki/Takeda_clan
-243;Indian auxiliaries;http://en.wikipedia.org/wiki/Indian_auxiliaries
-244;Governorate of New Castile;http://en.wikipedia.org/wiki/Governorate_of_New_Castile
-245;Governorate of New Toledo;http://en.wikipedia.org/wiki/Governorate_of_New_Toledo
-246;Holy League (1538);http://en.wikipedia.org/wiki/Holy_League_(1538)
-247;Habsburg Spain;http://en.wikipedia.org/wiki/Habsburg_Spain
-248;Mississippian culture;http://en.wikipedia.org/wiki/Mississippian_culture
-249;Takeda Shingen;http://en.wikipedia.org/wiki/Takeda_Shingen
-250;combined forces of Shinano daimyō;NULL
-251;Imagawa Yoshimoto;http://en.wikipedia.org/wiki/Imagawa_Yoshimoto
-252;Oda clan;http://en.wikipedia.org/wiki/Oda_clan
-253;Forces of Suwa Yorishige;NULL
-254;Takeda family forces;NULL
-255;Suwa Yorishige;http://en.wikipedia.org/wiki/Suwa_Yorishige
-256;Forces of Tozawa Yorichika;NULL
-257;Earl of Sutherland;http://en.wikipedia.org/wiki/Earl_of_Sutherland
-258;Forces of Oi Sadataka;NULL
-259;forces of Tozawa family;NULL
-260;Clan Fraser of Lovat;http://en.wikipedia.org/wiki/Clan_Fraser_of_Lovat
-261;Clan Grant;http://en.wikipedia.org/wiki/Clan_Grant
-262;Clan MacDonald of Clanranald;NULL
-263;Clan Cameron;http://en.wikipedia.org/wiki/Clan_Cameron
-264;forces of Takatō Yoritsugu;NULL
-265;Forces loyal to Tozawa Yorichika;NULL
-266; France;NULL
-267;and others;NULL
-268;Bremen;http://en.wikipedia.org/wiki/Bremen
-269;Lübeck;http://en.wikipedia.org/wiki/L%C3%BCbeck
-270;Schmalkaldic League;http://en.wikipedia.org/wiki/Schmalkaldic_League
-271;Murakami Yoshikiyo;http://en.wikipedia.org/wiki/Murakami_Yoshikiyo
-272;Ogasawara Nagatoki;http://en.wikipedia.org/wiki/Ogasawara_Nagatoki
-273;Sovereign Military Order of Malta;http://en.wikipedia.org/wiki/Sovereign_Military_Order_of_Malta
-274;forces of Takeda family;NULL
-275;Tsardom of Russia;http://en.wikipedia.org/wiki/Tsardom_of_Russia
-276;Qasim Khanate;http://en.wikipedia.org/wiki/Qasim_Khanate
-277;Taw yağı;http://en.wikipedia.org/wiki/Taw_ya%C4%9F%C4%B1
-278;Khanate of Kazan;http://en.wikipedia.org/wiki/Khanate_of_Kazan
-279;Mari people;http://en.wikipedia.org/wiki/Mari_people
-280; Hungarian defenders;NULL
-281;Takeda forces;NULL
-282;Uesugi forces;NULL
-283;Emperor;http://en.wikipedia.org/wiki/Emperor
-284;Azai clan;http://en.wikipedia.org/wiki/Azai_clan
-285;Rokkaku clan;http://en.wikipedia.org/wiki/Rokkaku_clan
-286;Oda Nobunaga;http://en.wikipedia.org/wiki/Oda_Nobunaga
-287;Clan Fraser;http://en.wikipedia.org/wiki/Clan_Fraser
-288;Clan Mackintosh;http://en.wikipedia.org/wiki/Clan_Mackintosh
-289;Clan Forbes;http://en.wikipedia.org/wiki/Clan_Forbes
-290;Clan Gordon;http://en.wikipedia.org/wiki/Clan_Gordon
-291;Clan Brodie;http://en.wikipedia.org/wiki/Clan_Brodie
-292;French Catholic Royal Army;NULL
-293;Huguenot;http://en.wikipedia.org/wiki/Huguenot
-294;Hōjō Ujiyasu;http://en.wikipedia.org/wiki/H%C5%8Dj%C5%8D_Ujiyasu
-295;Satomi Yoshihiro;http://en.wikipedia.org/wiki/Satomi_Yoshihiro
-296;Ikkō-ikki;http://en.wikipedia.org/wiki/Ikk%C5%8D-ikki
-297;Matsudaira clan;http://en.wikipedia.org/wiki/Matsudaira_clan
-298;Pure Land Buddhism;http://en.wikipedia.org/wiki/Pure_Land_Buddhism
-299;History of Malta under the Order of Saint John;http://en.wikipedia.org/wiki/History_of_Malta_under_the_Order_of_Saint_John
-300;Maltese people;http://en.wikipedia.org/wiki/Maltese_people
-301;Habsburg Monarchy;http://en.wikipedia.org/wiki/Habsburg_Monarchy
-302;Dutch Rebels;NULL
-303;Forces loyal to Mary, Queen of Scots;NULL
-304;Forces opposed to Mary, Queen of Scots;NULL
-305;James Stewart, 1st Earl of Moray;http://en.wikipedia.org/wiki/James_Stewart,_1st_Earl_of_Moray
-306;Mary, Queen of Scots;http://en.wikipedia.org/wiki/Mary,_Queen_of_Scots
-307;Netherlands;http://en.wikipedia.org/wiki/Netherlands
-308;forces of Hojo Ujiyasu;NULL
-309;Rokkaku Yoshisuke;http://en.wikipedia.org/wiki/Rokkaku_Yoshisuke
-310;Azai Nagamasa;http://en.wikipedia.org/wiki/Azai_Nagamasa
-311;Warrior monks of Mt. Hiei;NULL
-312;Holy League (1571);http://en.wikipedia.org/wiki/Holy_League_(1571)
-313;Ikkō-ikki monks;NULL
-314;Crimean Khanate;http://en.wikipedia.org/wiki/Crimean_Khanate
-315;Russian Empire;http://en.wikipedia.org/wiki/Russian_Empire
-316;Tokugawa Ieyasu;http://en.wikipedia.org/wiki/Tokugawa_Ieyasu
-317; Dutch Rebels;NULL
-318;Iwamura castle garrison;NULL
-319;Asakura Yoshikage;http://en.wikipedia.org/wiki/Asakura_Yoshikage
-320;Suganuma Sadamichi;http://en.wikipedia.org/wiki/Suganuma_Sadamichi
-321;Dutch Republic;http://en.wikipedia.org/wiki/Dutch_Republic
-322;German mercenaries;NULL
-323;Itami clan;NULL
-324;Takeda Katsuyori;http://en.wikipedia.org/wiki/Takeda_Katsuyori
-325;Mōri clan;http://en.wikipedia.org/wiki/M%C5%8Dri_clan
-326;Principality of Transylvania (1570–1711);http://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711)
-327; City of Danzig Polish-Lithuanian Commonwealth;NULL
-328;Uesugi Kenshin;http://en.wikipedia.org/wiki/Uesugi_Kenshin
-329;Moors;http://en.wikipedia.org/wiki/Moors
-330;Saadi dynasty;http://en.wikipedia.org/wiki/Saadi_dynasty
-331; States-General;NULL
-332;Toyotomi Hideyoshi;http://en.wikipedia.org/wiki/Toyotomi_Hideyoshi
-333;Araki Murashige;http://en.wikipedia.org/wiki/Araki_Murashige
-334;Saika Ikki;http://en.wikipedia.org/wiki/Saika_Ikki
-335;Bessho Nagaharu;http://en.wikipedia.org/wiki/Bessho_Nagaharu
-336;Akechi Mitsuhide;http://en.wikipedia.org/wiki/Akechi_Mitsuhide
-337;Oda Nobutaka;http://en.wikipedia.org/wiki/Oda_Nobutaka
-338;Georgia (country);http://en.wikipedia.org/wiki/Georgia_(country)
-339;Chōsokabe Motochika;http://en.wikipedia.org/wiki/Ch%C5%8Dsokabe_Motochika
-340; Royalist Army;NULL
-341;Royal Army (Catholics);NULL
-342;Huguenots, German and Swiss mercenaires;NULL
-343;Polish–Lithuanian Commonwealth;http://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth
-344;Sigismund III Vasa;http://en.wikipedia.org/wiki/Sigismund_III_Vasa
-345;French Royal Army;NULL
-346;Catholic League (French);http://en.wikipedia.org/wiki/Catholic_League_(French)
-347;Japanese forces;NULL
-348;Korean forces;NULL
-349;Japanese army;NULL
-350;Korean army;NULL
-351;Korean navy;NULL
-352;Japanese Army;NULL
-353;Korean Garrison;NULL
-354;Joseon navy;NULL
-355;Joseon Navy;http://en.wikipedia.org/wiki/Joseon_Navy
-356;Naval history of Japan;http://en.wikipedia.org/wiki/Naval_history_of_Japan
-357;Japan;http://en.wikipedia.org/wiki/Japan
-358;Korean and Ming allies.;NULL
-359;Korean army, citizens;NULL
-360;Ming Dynasty army and Korean allies.;NULL
-361;Korean (Joseon) army;NULL
-362;Korea;http://en.wikipedia.org/wiki/Korea
-363;Clan Johnstone;http://en.wikipedia.org/wiki/Clan_Johnstone
-364;Clan Maxwell;http://en.wikipedia.org/wiki/Clan_Maxwell
-365;Clan Grierson;http://en.wikipedia.org/wiki/Clan_Grierson
-366;Clan Pollock;http://en.wikipedia.org/wiki/Clan_Pollock
-367;Clan Campbell;http://en.wikipedia.org/wiki/Clan_Campbell
-368;Walloons;http://en.wikipedia.org/wiki/Walloons
-369;Serbs;http://en.wikipedia.org/wiki/Serbs
-370;Cossacks;http://en.wikipedia.org/wiki/Cossacks
-371;Poles;http://en.wikipedia.org/wiki/Poles
-372;Japanese Left Army;NULL
-373;Ming army;NULL
-374;Korea and China;NULL
-375;Gaelic Ireland;http://en.wikipedia.org/wiki/Gaelic_Ireland
-376;Polish–Swedish union;http://en.wikipedia.org/wiki/Polish%E2%80%93Swedish_union
-377;Joseon;http://en.wikipedia.org/wiki/Joseon
-378;China;http://en.wikipedia.org/wiki/China
-379;Toyotomi Hideyori;http://en.wikipedia.org/wiki/Toyotomi_Hideyori
-380;Army of False Dmitry I;NULL
-381;Duchy of Courland and Semigallia;http://en.wikipedia.org/wiki/Duchy_of_Courland_and_Semigallia
-382;Cossacks, Tatars and other minorities;NULL
-383;German, Scottish and Dutch mercenaries;NULL
-384; Polish-Lithuanian Commonwealth;NULL
-385;History of Sweden (1523–1611);http://en.wikipedia.org/wiki/History_of_Sweden_(1523%E2%80%931611)
-386;Norway;http://en.wikipedia.org/wiki/Norway
-387;Tokugawa shogunate;http://en.wikipedia.org/wiki/Tokugawa_shogunate
-388;Toyotomi clan;http://en.wikipedia.org/wiki/Toyotomi_clan
-389;Bohemia;http://en.wikipedia.org/wiki/Bohemia
-390;Manchus;NULL
-391;Catholic League (German);http://en.wikipedia.org/wiki/Catholic_League_(German)
-392;Registered Cossacks;http://en.wikipedia.org/wiki/Registered_Cossacks
-393;Protestant Union;http://en.wikipedia.org/wiki/Protestant_Union
-394; Brunswick-Lüneburg;NULL
-395;Baden;http://en.wikipedia.org/wiki/Baden
-396;Bishopric of Halberstadt;http://en.wikipedia.org/wiki/Bishopric_of_Halberstadt
-397;Iberian Union;http://en.wikipedia.org/wiki/Iberian_Union
-398;Swedish Empire;http://en.wikipedia.org/wiki/Swedish_Empire
-399;Lower Saxon Circle;http://en.wikipedia.org/wiki/Lower_Saxon_Circle
-400;Kingdom of Cochin;http://en.wikipedia.org/wiki/Kingdom_of_Cochin
-401;Johor Sultanate;http://en.wikipedia.org/wiki/Johor_Sultanate
-402;Kingdom of Kandy;http://en.wikipedia.org/wiki/Kingdom_of_Kandy
-403;Kingdom of Kongo;http://en.wikipedia.org/wiki/Kingdom_of_Kongo
-404;Kingdom of Ndongo;http://en.wikipedia.org/wiki/Kingdom_of_Ndongo
-405;Nhandui Tarairiu Tribe;NULL
-406;Magdeburg;http://en.wikipedia.org/wiki/Magdeburg
-407;Kingdom of Croatia (Habsburg);http://en.wikipedia.org/wiki/Kingdom_of_Croatia_(Habsburg)
-408;Cavalier;http://en.wikipedia.org/wiki/Cavalier
-409;Roundhead;http://en.wikipedia.org/wiki/Roundhead
-410;Parliamentarians;NULL
-411;Parliament of England;http://en.wikipedia.org/wiki/Parliament_of_England
-412;Electorate of Bavaria;http://en.wikipedia.org/wiki/Electorate_of_Bavaria
-413;Crimean Tatars;http://en.wikipedia.org/wiki/Crimean_Tatars
-414;Scotland;http://en.wikipedia.org/wiki/Scotland
-415;Bavaria;http://en.wikipedia.org/wiki/Bavaria
-416;Royalist Irish and Highland Scots;NULL
-417;Scots Covenanters;NULL
-418; Parliamentarian Scots Covenanters;NULL
-419;Pope Urban VIII;http://en.wikipedia.org/wiki/Pope_Urban_VIII
-420;House of Farnese;http://en.wikipedia.org/wiki/House_of_Farnese
-421;Confederate Ireland;http://en.wikipedia.org/wiki/Confederate_Ireland
-422;Highland Scots;NULL
-423;Scottish people;http://en.wikipedia.org/wiki/Scottish_people
-424;Saxe-Weimar;http://en.wikipedia.org/wiki/Saxe-Weimar
-425; Royalists;NULL
-426; Covenanters;NULL
-427; Scots Covenanters and English and Scottish settlers;NULL
-428;English Parliamentarians;NULL
-429;Irish Confederate Catholics Munster army and some Highland Scots;NULL
-430;New Model Army;http://en.wikipedia.org/wiki/New_Model_Army
-431;Engagers;http://en.wikipedia.org/wiki/Engagers
-432;English Parliamentarains;NULL
-433;Commonwealth of England;http://en.wikipedia.org/wiki/Commonwealth_of_England
-434;Zaporozhian Cossacks;http://en.wikipedia.org/wiki/Zaporozhian_Cossacks
-435;Margraviate of Brandenburg;http://en.wikipedia.org/wiki/Margraviate_of_Brandenburg
-436;Brandenburg-Prussia;http://en.wikipedia.org/wiki/Brandenburg-Prussia
-437;Spain;NULL
-438;House of Stuart;http://en.wikipedia.org/wiki/House_of_Stuart
-439;Denmark–Norway;http://en.wikipedia.org/wiki/Denmark%E2%80%93Norway
-440;Polish-Lithuanian Commonwealth;NULL
-441;Koxinga;http://en.wikipedia.org/wiki/Koxinga
-442;Dutch East India Company;http://en.wikipedia.org/wiki/Dutch_East_India_Company
-443;League of the Rhine;http://en.wikipedia.org/wiki/League_of_the_Rhine
-444;Dutch Republic;NULL
-445;Ahom kingdom;http://en.wikipedia.org/wiki/Ahom_kingdom
-446; Bishopric of Münster;NULL
-447;Prince-Bishopric of Münster;http://en.wikipedia.org/wiki/Prince-Bishopric_of_M%C3%BCnster
-448;New England Confederation;http://en.wikipedia.org/wiki/New_England_Confederation
-449;Narragansett;NULL
-450; Denmark-Norway;NULL
-451; Covenanter rebels;NULL
-452; Royal army;NULL
-453; Government army;NULL
-454;Franconia;http://en.wikipedia.org/wiki/Franconia
-455;Kingdom of Hungary (1526–1867);http://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867)
-456;Swabia;http://en.wikipedia.org/wiki/Swabia
-457;James II of England;http://en.wikipedia.org/wiki/James_II_of_England
-458;James Scott, 1st Duke of Monmouth;http://en.wikipedia.org/wiki/James_Scott,_1st_Duke_of_Monmouth
-459;Jacobitism;http://en.wikipedia.org/wiki/Jacobitism
-460;• Guru Gobind Singh's disciples (;NULL
-461;Pir (Sufism);http://en.wikipedia.org/wiki/Pir_(Sufism)
-462;Udasi;http://en.wikipedia.org/wiki/Udasi
-463;Kahlur;http://en.wikipedia.org/wiki/Kahlur
-464;Fateh Shah;http://en.wikipedia.org/wiki/Fateh_Shah
-465;Katoch;http://en.wikipedia.org/wiki/Katoch
-466;• ;NULL
-467;Jaswal;http://en.wikipedia.org/wiki/Jaswal
-468;Williamite;http://en.wikipedia.org/wiki/Williamite
-469;Williamite forces - Irish, Dutch, English, Scottish, Danish and French Huguenot troops [1];NULL
-470;Canada (New France);http://en.wikipedia.org/wiki/Canada_(New_France)
-471;Holy League (1684);http://en.wikipedia.org/wiki/Holy_League_(1684)
-472;Philip V of Spain;http://en.wikipedia.org/wiki/Philip_V_of_Spain
-473;Russia;http://en.wikipedia.org/wiki/Russia
-474;Charles VI, Holy Roman Emperor;http://en.wikipedia.org/wiki/Charles_VI,_Holy_Roman_Emperor
-475;Kingdom of Prussia;http://en.wikipedia.org/wiki/Kingdom_of_Prussia
-476;Kingdom of Great Britain;http://en.wikipedia.org/wiki/Kingdom_of_Great_Britain
-477;Cossack Hetmanate;http://en.wikipedia.org/wiki/Cossack_Hetmanate
-478;New England;http://en.wikipedia.org/wiki/New_England
-479;British people;http://en.wikipedia.org/wiki/British_people
-480;Wabanaki Confederacy;http://en.wikipedia.org/wiki/Wabanaki_Confederacy
-481;Military history of the Acadians;http://en.wikipedia.org/wiki/Military_history_of_the_Acadians
-482;Swedish Navy;http://en.wikipedia.org/wiki/Swedish_Navy
-483;Imperial Russian Navy;http://en.wikipedia.org/wiki/Imperial_Russian_Navy
-484;British Government forces;NULL
-485;Qing dynasty;http://en.wikipedia.org/wiki/Qing_dynasty
-486;Dzungar Khanate;http://en.wikipedia.org/wiki/Dzungar_Khanate
-487;Peshwa;http://en.wikipedia.org/wiki/Peshwa
-488;Nizam of Hyderabad;http://en.wikipedia.org/wiki/Nizam_of_Hyderabad
-489; Safavid Loyalists;NULL
-490; Hotaki dynasty;NULL
-491;Austrian Empire;http://en.wikipedia.org/wiki/Austrian_Empire
-492;Travancore;http://en.wikipedia.org/wiki/Travancore
-493;Electorate of Brunswick-Lüneburg;http://en.wikipedia.org/wiki/Electorate_of_Brunswick-L%C3%BCneburg
-494;Kingdom of Sardinia;NULL
-495;Ojibwe;http://en.wikipedia.org/wiki/Ojibwe
-496;Mdewakanton;http://en.wikipedia.org/wiki/Mdewakanton
-497;New France;http://en.wikipedia.org/wiki/New_France
-498;French-allied natives (;NULL
-499;British America;http://en.wikipedia.org/wiki/British_America
-500;Landgraviate of Hesse-Kassel;http://en.wikipedia.org/wiki/Landgraviate_of_Hesse-Kassel
-501; British East India Company;NULL
-502;French East India Company;http://en.wikipedia.org/wiki/French_East_India_Company
-503;Austria;http://en.wikipedia.org/wiki/Austria
-504;Iroquois;http://en.wikipedia.org/wiki/Iroquois
-505;Durrani Empire;http://en.wikipedia.org/wiki/Durrani_Empire
-506;Maratha Empire;http://en.wikipedia.org/wiki/Maratha_Empire
-507;Ohio Country;http://en.wikipedia.org/wiki/Ohio_Country
-508;Corsican Republic;http://en.wikipedia.org/wiki/Corsican_Republic
-509;Greeks;http://en.wikipedia.org/wiki/Greeks
-510;North Carolina provincial militia;NULL
-511;North Carolina Regulators;NULL
-512;Shawnee;http://en.wikipedia.org/wiki/Shawnee
-513;Virginia;http://en.wikipedia.org/wiki/Virginia
-514;Massachusetts Bay;http://en.wikipedia.org/wiki/Massachusetts_Bay
-515;Green Mountain Boys;http://en.wikipedia.org/wiki/Green_Mountain_Boys
-516;Connecticut Colony;http://en.wikipedia.org/wiki/Connecticut_Colony
-517;Province of Massachusetts Bay;http://en.wikipedia.org/wiki/Province_of_Massachusetts_Bay
-518;Province of North Carolina;http://en.wikipedia.org/wiki/Province_of_North_Carolina
-519;Thirteen Colonies;http://en.wikipedia.org/wiki/Thirteen_Colonies
-520;1st Canadian Regiment;http://en.wikipedia.org/wiki/1st_Canadian_Regiment
-521;Province of Georgia;http://en.wikipedia.org/wiki/Province_of_Georgia
-522;Province of South Carolina;http://en.wikipedia.org/wiki/Province_of_South_Carolina
-523;Province of Quebec (1763–91);http://en.wikipedia.org/wiki/Province_of_Quebec_(1763%E2%80%9391)
-524;Wyandot people;http://en.wikipedia.org/wiki/Wyandot_people
-525;Nipissing First Nation;http://en.wikipedia.org/wiki/Nipissing_First_Nation
-526;Vermont Republic;http://en.wikipedia.org/wiki/Vermont_Republic
-527;2nd Canadian Regiment;http://en.wikipedia.org/wiki/2nd_Canadian_Regiment
-528;Apache;http://en.wikipedia.org/wiki/Apache
-529;Indigenous peoples of the Americas;http://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas
-530;Waldeck (state);http://en.wikipedia.org/wiki/Waldeck_(state)
-531; Sultanate of Mysore;NULL
-532;Hesse;http://en.wikipedia.org/wiki/Hesse
-533;Loyalist (American Revolution);http://en.wikipedia.org/wiki/Loyalist_(American_Revolution)
-534;Kentucky militia;NULL
-535;Navajo people;http://en.wikipedia.org/wiki/Navajo_people
-536;Brabant Revolution;http://en.wikipedia.org/wiki/Brabant_Revolution
-537;Hawaii (island);http://en.wikipedia.org/wiki/Hawaii_(island)
-538;Maui;NULL
-539;United States;NULL
-540;Miamis Indian Tribe;NULL
-541;Western Confederacy;http://en.wikipedia.org/wiki/Western_Confederacy
-542;Kingdom of the French;NULL
-543;Kingdom of France (1791–92);http://en.wikipedia.org/wiki/Kingdom_of_France_(1791%E2%80%931792)
-544;French First Republic;http://en.wikipedia.org/wiki/French_First_Republic
-545;House of Bourbon;http://en.wikipedia.org/wiki/House_of_Bourbon
-546;Ferdinand I of the Two Sicilies;http://en.wikipedia.org/wiki/Ferdinand_I_of_the_Two_Sicilies
-547; Polish forces;NULL
-548;New South Wales Corps;http://en.wikipedia.org/wiki/New_South_Wales_Corps
-549;Darug warriors;NULL
-550;Kingdom of Imereti;http://en.wikipedia.org/wiki/Kingdom_of_Imereti
-551;Qajar dynasty;http://en.wikipedia.org/wiki/Qajar_dynasty
-552;Ganja Khanate;http://en.wikipedia.org/wiki/Ganja_Khanate
-553;Erivan Khanate;http://en.wikipedia.org/wiki/Erivan_Khanate
-554;Habsburg monarchy;NULL
-555;Batavian Republic;http://en.wikipedia.org/wiki/Batavian_Republic
-556;Society of United Irishmen;http://en.wikipedia.org/wiki/Society_of_United_Irishmen
-557;Defenders (Ireland);http://en.wikipedia.org/wiki/Defenders_(Ireland)
-558;British Army;http://en.wikipedia.org/wiki/British_Army
-559; United Irishmen;NULL
-560;Kingdom of Ireland;http://en.wikipedia.org/wiki/Kingdom_of_Ireland
-561;French Directory;http://en.wikipedia.org/wiki/French_Directory
+5;Rise of the Ottoman Empire;http://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
+6;Kingdom of Scotland;http://en.wikipedia.org/wiki/Kingdom_of_Scotland
+7;Kingdom of England;http://en.wikipedia.org/wiki/Kingdom_of_England
+8;Catalan Company;http://en.wikipedia.org/wiki/Catalan_Company
+9;Duchy of Athens;http://en.wikipedia.org/wiki/Duchy_of_Athens
+10;Bavaria;NULL
+11;Austria;NULL
+12;Republic of Pisa;http://en.wikipedia.org/wiki/Republic_of_Pisa
+13;Republic of Florence;http://en.wikipedia.org/wiki/Republic_of_Florence
+14;Kingdom of Naples;http://en.wikipedia.org/wiki/Kingdom_of_Naples
+15;Canton of Uri;http://en.wikipedia.org/wiki/Canton_of_Uri
+16;Canton of Schwyz;http://en.wikipedia.org/wiki/Canton_of_Schwyz
+17;Unterwalden;http://en.wikipedia.org/wiki/Unterwalden
+18;Duchy of Austria;http://en.wikipedia.org/wiki/Duchy_of_Austria
+19;Kingdom of Majorca;http://en.wikipedia.org/wiki/Kingdom_of_Majorca
+20;Principality of Achaea;http://en.wikipedia.org/wiki/Principality_of_Achaea
+21;Burgundians, Byzantines;NULL
+22;Majorcans;NULL
+23;List of kings of Connacht;http://en.wikipedia.org/wiki/Kings_of_Connacht
+24;Lordship of Ireland;http://en.wikipedia.org/wiki/Lordship_of_Ireland
+25;O'Dea;http://en.wikipedia.org/wiki/O%27Dea
+26;O'Brien dynasty;http://en.wikipedia.org/wiki/O%27Brien_dynasty
+27;MacNamara;http://en.wikipedia.org/wiki/Clan_MacNamara
+28;Clann Ó hEithir;NULL
+29;Knights Hospitaller;http://en.wikipedia.org/wiki/Knights_Hospitaller
+30;Lordship of Chios;http://en.wikipedia.org/wiki/Lordship_of_Chios
+31;Aydınids;http://en.wikipedia.org/wiki/Aydinids
+32;Dalmatia;http://en.wikipedia.org/wiki/Dalmatia
+33;Croatia in the union with Hungary;http://en.wikipedia.org/wiki/Croatia_in_personal_union_with_Hungary
+34;Charles I of Hungary;http://en.wikipedia.org/wiki/Charles_I_of_Hungary
+35;Mladen II Šubić of Bribir;http://en.wikipedia.org/wiki/Mladen_II_%C5%A0ubi%C4%87_of_Bribir
+36;Ban of Croatia;http://en.wikipedia.org/wiki/Ban_of_Croatia
+37;Royalists;NULL
+38;Lancastrians;NULL
+39;Royal forces;NULL
+40;Baronial forces;NULL
+41;History of Bavaria;http://en.wikipedia.org/wiki/History_of_Bavaria
+42;Archduchy of Austria;http://en.wikipedia.org/wiki/Archduchy_of_Austria
+43;Modena;http://en.wikipedia.org/wiki/Modena
+44;Bologna;http://en.wikipedia.org/wiki/Bologna
+45;Flemish peasants;NULL
+46;France in the Middle Ages;http://en.wikipedia.org/wiki/France_in_the_Middle_Ages
+47;Geoghegan;http://en.wikipedia.org/wiki/Geoghegan
+48;Kingdom of Hungary;http://en.wikipedia.org/wiki/Kingdom_of_Hungary
+49;Wallachia;http://en.wikipedia.org/wiki/Wallachia
+50;Bruce loyalists;NULL
+51;Edward Balliol;http://en.wikipedia.org/wiki/Edward_Balliol
+52;England;http://en.wikipedia.org/wiki/England
+53;Kingdom of Poland (1025–1385);http://en.wikipedia.org/wiki/Kingdom_of_Poland_(1025-1385)
+54;Teutonic Order;http://en.wikipedia.org/wiki/Teutonic_Order
+55;Ashikaga rebels;NULL
+56;Japanese imperial forces;NULL
+57;Ashikaga shogunate;http://en.wikipedia.org/wiki/Ashikaga_shogunate
+58;Nitta clan;http://en.wikipedia.org/wiki/Nitta_family
+59;Lodrisio Visconti;http://en.wikipedia.org/wiki/Lodrisio_Visconti
+60;Compagnia di San Giorgio;http://en.wikipedia.org/wiki/Compagnia_di_San_Giorgio
+61;Milan;http://en.wikipedia.org/wiki/Milan
+62;Kingdom of Castile;http://en.wikipedia.org/wiki/Kingdom_of_Castile
+63;Kingdom of Portugal;http://en.wikipedia.org/wiki/Kingdom_of_Portugal
+64;Marinid dynasty;http://en.wikipedia.org/wiki/Marinid_dynasty
+65;Emirate of Granada;http://en.wikipedia.org/wiki/Emirate_of_Granada
+66; House of Blois;NULL
+67;France;http://en.wikipedia.org/wiki/France
+68; House of Montfort;NULL
+69;Republic of Genoa;http://en.wikipedia.org/wiki/Republic_of_Genoa
+70;Aydınids;http://en.wikipedia.org/wiki/Emirate_of_Aydin
+71;Serbian Empire;http://en.wikipedia.org/wiki/Serbian_Empire
+72;Stephen Uroš IV Dušan of Serbia;http://en.wikipedia.org/wiki/Stefan_Du%C5%A1an
+73;and Angevin lands;NULL
+74;March of Montferrat;http://en.wikipedia.org/wiki/March_of_Montferrat
+75;Asti;http://en.wikipedia.org/wiki/Asti
+76;Pavia;http://en.wikipedia.org/wiki/Pavia
+77;Momchil;http://en.wikipedia.org/wiki/Momchil
+78;John VI Kantakouzenos;http://en.wikipedia.org/wiki/John_VI_Kantakouzenos
+79;Holland;http://en.wikipedia.org/wiki/Holland
+80;Frisia;http://en.wikipedia.org/wiki/Frisia
+81; England;NULL
+82; France;NULL
+83;Holy Roman Empire;http://en.wikipedia.org/wiki/Holy_Roman_Empire
+84; House of Montfort (England);NULL
+85; House of Blois (France);NULL
+86;Gascony;http://en.wikipedia.org/wiki/Gascony
+87;English forces;NULL
+88;French forces;NULL
+89;Duchy of Gascony;http://en.wikipedia.org/wiki/Duchy_of_Gascony
+90;Noble coalition;NULL
+91;Peasant Jacques army;NULL
+92;Denmark;http://en.wikipedia.org/wiki/Denmark
+93;Gotland;http://en.wikipedia.org/wiki/Gotland
+94;Hanseatic League;http://en.wikipedia.org/wiki/Hanseatic_League
+95;Duchy of Burgundy;http://en.wikipedia.org/wiki/Duchy_of_Burgundy
+96;Duchy of Brittany;http://en.wikipedia.org/wiki/Duchy_of_Bretagne
+97;Kingdom of Navarre;http://en.wikipedia.org/wiki/Kingdom_of_Navarre
+98;Brittany;http://en.wikipedia.org/wiki/Brittany
+99;Charles I, Duke of Brittany;http://en.wikipedia.org/wiki/Charles,_Duke_of_Brittany
+100;Crown of Castile;http://en.wikipedia.org/wiki/Crown_of_Castile
+101;Duke of Aquitaine;http://en.wikipedia.org/wiki/Duke_of_Aquitaine
+102;Kingdom of Majorca;http://en.wikipedia.org/wiki/Kingdom_of_Mallorca
+103;Emirate of Granada;http://en.wikipedia.org/wiki/Kingdom_of_Granada
+104;Duchy of Jülich;http://en.wikipedia.org/wiki/Duchy_of_J%C3%BClich
+105;Guelders;http://en.wikipedia.org/wiki/Duchy_of_Guelders
+106;Duchy of Brabant;http://en.wikipedia.org/wiki/Duchy_of_Brabant
+107;County of Namur;http://en.wikipedia.org/wiki/County_of_Namur
+108;Papal States;http://en.wikipedia.org/wiki/Papal_States
+109;Republic of Siena;http://en.wikipedia.org/wiki/Republic_of_Siena
+110;Russian Forces;NULL
+111;Hordes of the Jochid Ulus;http://en.wikipedia.org/wiki/Blue_Horde
+112;Serbia;http://en.wikipedia.org/wiki/Serbia
+113;Moravian Serbia;http://en.wikipedia.org/wiki/Moravian_Serbia
+114;Grand Duchy of Moscow;http://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow
+115;Principality of Tver;http://en.wikipedia.org/wiki/Principality_of_Tver
+116;Principality of Suzdal—Nizhny Novgorod;http://en.wikipedia.org/wiki/Principality_of_Suzdal%E2%80%94Nizhny_Novgorod
+117;Principality of Smolensk;http://en.wikipedia.org/wiki/Principality_of_Smolensk
+118;Rostov;http://en.wikipedia.org/wiki/Rostov
+119;Principality of Yaroslavl;http://en.wikipedia.org/wiki/Principality_of_Yaroslavl
+120;Principality of Murom;http://en.wikipedia.org/wiki/Principality_of_Murom
+121;Principality of Polotsk;http://en.wikipedia.org/wiki/Principality_of_Polotsk
+122;Principality of Beloozero;http://en.wikipedia.org/wiki/Principality_of_Beloozero
+123;Bishop of Norwich;http://en.wikipedia.org/wiki/Bishop_of_Norwich
+124;Norfolk;http://en.wikipedia.org/wiki/Norfolk
+125;Ghent;http://en.wikipedia.org/wiki/Ghent
+126;Kingdom of Uí Failghe;http://en.wikipedia.org/wiki/Kingdom_of_U%C3%AD_Failghe
+127;Crown of Aragon;http://en.wikipedia.org/wiki/Crown_of_Aragon
+128;Italian allies;NULL
+129;United States;http://en.wikipedia.org/wiki/United_States
+130;Confederate States of America;http://en.wikipedia.org/wiki/Confederate_States_of_America
+131;Zeta under the Balšići;http://en.wikipedia.org/wiki/Zeta_under_the_Bal%C5%A1i%C4%87i
+132;Old Swiss Confederacy;http://en.wikipedia.org/wiki/Old_Swiss_Confederacy
+133;Canton of Lucerne;http://en.wikipedia.org/wiki/Canton_of_Lucerne
+134;Province of Verona;http://en.wikipedia.org/wiki/Province_of_Verona
+135;Province of Padua;http://en.wikipedia.org/wiki/Province_of_Padua
+136;White Company;http://en.wikipedia.org/wiki/White_Company
+137;Kingdom of Bosnia;http://en.wikipedia.org/wiki/Bosnian_Kingdom
+138;District of Branković;http://en.wikipedia.org/wiki/District_of_Brankovi%C4%87
+139;Kingdom of Bosnia;http://en.wikipedia.org/wiki/Kingdom_of_Bosnia
+140;List of kings of Leinster;http://en.wikipedia.org/wiki/Kings_of_Leinster
+141;Chattan Confederation;http://en.wikipedia.org/wiki/Chattan_Confederation
+142;Clan Mackintosh;http://en.wikipedia.org/wiki/Clan_Mackintosh
+143;"Clan Kay" (Camerons or Davidsons?);NULL
+144;Republic of Venice;http://en.wikipedia.org/wiki/Republic_of_Venice
+145;Second Bulgarian Empire;http://en.wikipedia.org/wiki/Second_Bulgarian_Empire
+146;Golden Horde;http://en.wikipedia.org/wiki/Golden_Horde
+147;Grand Duchy of Lithuania;http://en.wikipedia.org/wiki/Grand_Duchy_of_Lithuania
+148;Tokhtamysh forces;NULL
+149;Welsh rebel forces;NULL
+150;English and Flemish settlers;NULL
+151;Duchy of Milan;http://en.wikipedia.org/wiki/Duchy_of_Milan
+152;Wales;http://en.wikipedia.org/wiki/Wales
+153;Timurid dynasty;http://en.wikipedia.org/wiki/Timurid_Empire
+154;Dhimitër Jonima;http://en.wikipedia.org/wiki/Dhimit%C3%ABr_Jonima
+155;Principality of Dukagjini;http://en.wikipedia.org/wiki/Principality_of_Dukagjini
+156;Serbian Despotate;http://en.wikipedia.org/wiki/Serbian_Despotate
+157; Rebel forces;NULL
+158;Clan Mackay;http://en.wikipedia.org/wiki/Clan_Mackay
+159;Clan Sutherland;http://en.wikipedia.org/wiki/Clan_Sutherland
+160;Clan MacLeod of Lewis;http://en.wikipedia.org/wiki/Clan_MacLeod_of_Lewis
+161;Royalist forces;NULL
+162;Percy Faction;NULL
+163;Kingdom of Sicily;http://en.wikipedia.org/wiki/Kingdom_of_Sicily
+164;Giudicato of Arborea;http://en.wikipedia.org/wiki/Giudicato_of_Arborea
+165;Eastern Mongols;NULL
+166;Ming dynasty;http://en.wikipedia.org/wiki/Ming_Dynasty
+167;History of Poland during the Jagiellonian dynasty;http://en.wikipedia.org/wiki/History_of_Poland_(1385%E2%80%931569)
+168;Czechs;http://en.wikipedia.org/wiki/Czechs
+169;State of the Teutonic Order;http://en.wikipedia.org/wiki/State_of_the_Teutonic_Order
+170;Poland;http://en.wikipedia.org/wiki/Poland
+171;Czech Republic;http://en.wikipedia.org/wiki/Czech_Republic
+172;Silesia;http://en.wikipedia.org/wiki/Silesia
+173;Aberdonian Gentry (Lowland clans);NULL
+174;Robert Stewart, Duke of Albany;http://en.wikipedia.org/wiki/Robert_Stewart,_Duke_of_Albany
+175;Lord of the Isles;http://en.wikipedia.org/wiki/Lord_of_the_Isles
+176;Kara Koyunlu;http://en.wikipedia.org/wiki/Kara_Koyunlu
+177;Kingdom of Georgia;http://en.wikipedia.org/wiki/Kingdom_of_Georgia
+178;Shirvanshah;http://en.wikipedia.org/wiki/Shirvanshah
+179;Hussites;http://en.wikipedia.org/wiki/Hussite
+180;Catholicism;http://en.wikipedia.org/wiki/Catholics
+181;Hussites;NULL
+182;Catholics;NULL
+183;Hussites;http://en.wikipedia.org/wiki/Hussites
+184;Hungary;http://en.wikipedia.org/wiki/Hungary
+185;Canton of Zug;http://en.wikipedia.org/wiki/Canton_of_Zug
+186;Taborites;NULL
+187;Utraquists;NULL
+188;Duchy of Brittany;http://en.wikipedia.org/wiki/Duchy_of_Brittany
+189;French;NULL
+190;Anjou;http://en.wikipedia.org/wiki/Anjou
+191;Counts and dukes of Maine;http://en.wikipedia.org/wiki/Counts_and_Dukes_of_Maine
+192; English;NULL
+193;Jaqueline, Countess of Hainaut, Holland and Zeeland;NULL
+194;Philip, Duke of Burgundy;NULL
+195; French forces;NULL
+196;Catholic Church;http://en.wikipedia.org/wiki/Roman_Catholic_Church
+197;Alexander of Islay, Earl of Ross;http://en.wikipedia.org/wiki/Alexander_of_Islay,_Earl_of_Ross
+198;Clan Donald;http://en.wikipedia.org/wiki/Clan_Donald
+199;James I of Scotland;http://en.wikipedia.org/wiki/James_I_of_Scotland
+200;Taborite;http://en.wikipedia.org/wiki/Taborites
+201;Sirotci;http://en.wikipedia.org/wiki/Sirot%C4%8D%C3%AD
+202;Utraquism;http://en.wikipedia.org/wiki/Utraquism
+203;Italic League;http://en.wikipedia.org/wiki/Italian_League
+204;Republic of Ragusa;http://en.wikipedia.org/wiki/Republic_of_Ragusa
+205;Kingdom of Hungary;http://en.wikipedia.org/wiki/Kingdom_of_Hungary_in_the_Middle_Ages
+206;Kingdom of Poland (1385–1569);http://en.wikipedia.org/wiki/Kingdom_of_Poland_(1385%E2%80%931569)
+207;Kingdom of Hungary;http://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1000%E2%80%931538)
+208;Lands of the Bohemian Crown;http://en.wikipedia.org/wiki/Lands_of_the_Bohemian_crown
+209;Moldavia;http://en.wikipedia.org/wiki/Moldavia
+210;Uprising of Konstantin and Fruzhin;http://en.wikipedia.org/wiki/Uprising_of_Konstantin_and_Fruzhin
+211;Ethiopia;http://en.wikipedia.org/wiki/Ethiopia
+212;Adal Sultanate;http://en.wikipedia.org/wiki/Adal_Sultanate
+213;Timurid dynasty;http://en.wikipedia.org/wiki/Timurids
+214;Greater Khorasan;http://en.wikipedia.org/wiki/Greater_Khorasan
+215;Samarkand;http://en.wikipedia.org/wiki/Samarkand
+216;Portugal;http://en.wikipedia.org/wiki/Portugal
+217;Duke of Coimbra;http://en.wikipedia.org/wiki/Duke_of_Coimbra
+218;Post-Imperial Mongolia;http://en.wikipedia.org/wiki/Post-imperial_Mongolia
+219;Prussian Confederation;http://en.wikipedia.org/wiki/Prussian_Confederation
+220;James II of Scotland;http://en.wikipedia.org/wiki/James_II_of_Scotland
+221;Earl of Douglas;http://en.wikipedia.org/wiki/Earl_of_Douglas
+222;House of York;http://en.wikipedia.org/wiki/House_of_York
+223;House of Lancaster;http://en.wikipedia.org/wiki/House_of_Lancaster
+224;Crusades;http://en.wikipedia.org/wiki/Crusades
+225;Crown of the Kingdom of Poland;http://en.wikipedia.org/wiki/Polish_Crown
+226;Prince-Bishopric of Liège;http://en.wikipedia.org/wiki/Prince-Bishopric_of_Li%C3%A8ge
+227;Sweden;http://en.wikipedia.org/wiki/Sweden
+228;Sture;http://en.wikipedia.org/wiki/Sture_party
+229;Ag Qoyunlu;http://en.wikipedia.org/wiki/Aq_Qoyunlu
+230;Electorate of Cologne;http://en.wikipedia.org/wiki/Electorate_of_Cologne
+231;Electoral Palatinate;http://en.wikipedia.org/wiki/Electorate_of_the_Palatinate
+232;Guelders;http://en.wikipedia.org/wiki/Guelders
+233;Duchy of Cleves;http://en.wikipedia.org/wiki/Duchy_of_Cleves
+234;United Duchies of Jülich-Cleves-Berg;http://en.wikipedia.org/wiki/J%C3%BClich-Berg
+235;Duchy of Savoy;http://en.wikipedia.org/wiki/Duchy_of_Savoy
+236;History of Cologne;http://en.wikipedia.org/wiki/Imperial_City_of_Cologne
+237;Army of the Holy Roman Empire;http://en.wikipedia.org/wiki/Army_of_the_Holy_Roman_Empire
+238;Albanians;http://en.wikipedia.org/wiki/Albanians
+239;Lorraine (region);http://en.wikipedia.org/wiki/Lorraine_(region)
+240;Lorraine (duchy);http://en.wikipedia.org/wiki/Lorraine_(duchy)
+241;Vlachs;http://en.wikipedia.org/wiki/Vlach
+242;Clan Maclean;http://en.wikipedia.org/wiki/Clan_MacLean
+243;Clan MacNeil;http://en.wikipedia.org/wiki/Clan_MacNeil
+244;Clan MacLeod;http://en.wikipedia.org/wiki/Clan_MacLeod
+245;Clan Macdonald of Clanranald;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Clanranald
+246;Clan Macdonald of Sleat;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Sleat
+247;Clan MacDonald of Keppoch;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Keppoch
+248;Scottish Rebels (with English support);NULL
+249; Scottish Royalist forces;NULL
+250;Clan Ross;http://en.wikipedia.org/wiki/Clan_Ross
+251;Tudor dynasty;http://en.wikipedia.org/wiki/House_of_Tudor
+252;Rebels;NULL
+253;Catholic Monarchs;http://en.wikipedia.org/wiki/Catholic_Monarchs
+254;Croatia in the union with Hungary;http://en.wikipedia.org/wiki/Croatia_in_the_union_with_Hungary
+255;Italian War of 1494–98;http://en.wikipedia.org/wiki/League_of_Venice
+256;History of Moldova;http://en.wikipedia.org/wiki/History_of_Moldova
+257;Clan Mackenzie;http://en.wikipedia.org/wiki/Clan_Mackenzie
+258;Clan Munro;http://en.wikipedia.org/wiki/Clan_Munro
+259;James IV of Scotland;http://en.wikipedia.org/wiki/James_IV_of_Scotland
+260;Clan MacDonald of Lochalsh;http://en.wikipedia.org/wiki/Clan_MacDonald_of_Lochalsh
+261;Domhnall Dubh;http://en.wikipedia.org/wiki/Domhnall_Dubh
+262;Dithmarschen;http://en.wikipedia.org/wiki/Dithmarschen
+263;Kalmar Union;http://en.wikipedia.org/wiki/Kalmar_Union
+264;Spain;http://en.wikipedia.org/wiki/Spain
+265;Portuguese Empire;http://en.wikipedia.org/wiki/Portuguese_Empire
+266;Gujarat Sultanate;http://en.wikipedia.org/wiki/Gujarat_Sultanate
+267;Mamluk Sultanate (Cairo);http://en.wikipedia.org/wiki/Mamluk_Sultanate_(Cairo)
+268;Zamorin of Calicut;http://en.wikipedia.org/wiki/Saamoothiri
+269;Military of the Ottoman Empire;http://en.wikipedia.org/wiki/Military_of_the_Ottoman_Empire
+270;Supported by;NULL
+271;Duchy of Ferrara;http://en.wikipedia.org/wiki/Duchy_of_Ferrara
+272;Old Swiss Confederacy;http://en.wikipedia.org/wiki/Old_Swiss_Confederation
+273;Safavid dynasty;http://en.wikipedia.org/wiki/Safavid_dynasty
+274;Seventeen Provinces;http://en.wikipedia.org/wiki/Seventeen_Provinces
+275; Arumer Zwarte Hoop;NULL
+276;Charles II, Duke of Guelders;http://en.wikipedia.org/wiki/Charles_II,_Duke_of_Guelders
+277;Duchy of Urbino;http://en.wikipedia.org/wiki/Duchy_of_Urbino
+278;Miura clan;http://en.wikipedia.org/wiki/Miura_clan
+279;Hōjō Sōun;http://en.wikipedia.org/wiki/H%C5%8Dj%C5%8D_Soun
+280;Spanish Empire;http://en.wikipedia.org/wiki/Spanish_Empire
+281;Tlaxcala (Nahua state);http://en.wikipedia.org/wiki/Tlaxcala_(Nahua_state)
+282;Aztec Empire;http://en.wikipedia.org/wiki/Aztec_Empire
+283;Habsburg Spain;http://en.wikipedia.org/wiki/Habsburg_Spain
+284;Late Hōjō clan;http://en.wikipedia.org/wiki/Late_H%C5%8Dj%C5%8D_clan
+285;Uesugi Clan;NULL
+286;Quito;http://en.wikipedia.org/wiki/Quito
+287;Landgraviate of Hesse;http://en.wikipedia.org/wiki/Landgraviate_of_Hesse
+288;Duchy of Brunswick-Lüneburg;http://en.wikipedia.org/wiki/Brunswick-L%C3%BCneburg
+289;Electorate of Saxony;http://en.wikipedia.org/wiki/Electorate_of_Saxony
+290;Peasants' army;NULL
+291;Charles V, Holy Roman Emperor;http://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor
+292;Mughal Empire;http://en.wikipedia.org/wiki/Mughal_Empire
+293;Lodi dynasty;http://en.wikipedia.org/wiki/Lodi_dynasty
+294;Croatia in the union with Hungary;http://en.wikipedia.org/wiki/Kingdom_of_Croatia_(1102%E2%80%931526)
+295;Bavaria;http://en.wikipedia.org/wiki/Bavaria
+296;Uesugi clan;http://en.wikipedia.org/wiki/Uesugi_clan
+297;It%C5%8D_family;NULL
+298;Ogasawara_family;NULL
+299;Duchy of Guastalla;http://en.wikipedia.org/wiki/Duchy_of_Guastalla
+300;Ethiopian Empire;http://en.wikipedia.org/wiki/Ethiopian_Empire
+301;Kingdom of Bohemia;http://en.wikipedia.org/wiki/Kingdom_of_Bohemia
+302;Florence;http://en.wikipedia.org/wiki/Florence
+303;Puná natives;NULL
+304;Canton of Zürich;http://en.wikipedia.org/wiki/Canton_of_Z%C3%BCrich
+305;Inca Empire;http://en.wikipedia.org/wiki/Inca_Empire
+306;Conquistador;http://en.wikipedia.org/wiki/Conquistador
+307;Hiraga Genshin;http://en.wikipedia.org/wiki/Hiraga_Genshin
+308;Takeda clan;http://en.wikipedia.org/wiki/Takeda_clan
+309;Pizarro brothers;http://en.wikipedia.org/wiki/Pizarro_brothers
+310;Indian auxiliaries;http://en.wikipedia.org/wiki/Indian_auxiliaries
+311;Governorate of New Castile;http://en.wikipedia.org/wiki/Governorate_of_New_Castile
+312;Governorate of New Toledo;http://en.wikipedia.org/wiki/Governorate_of_New_Toledo
+313;Holy League (1538);http://en.wikipedia.org/wiki/Holy_League_(1538)
+314;History of Malta under the Order of Saint John;http://en.wikipedia.org/wiki/History_of_Malta_under_the_Order_of_Saint_John
+315;Mississippian culture;http://en.wikipedia.org/wiki/Mississippian_culture
+316;Takeda Shingen;http://en.wikipedia.org/wiki/Takeda_Shingen
+317;combined forces of Shinano daimyō;NULL
+318;Imagawa Yoshimoto;http://en.wikipedia.org/wiki/Imagawa_Yoshimoto
+319;Oda clan;http://en.wikipedia.org/wiki/Oda_clan
+320;Suwa Yorishige;http://en.wikipedia.org/wiki/Suwa_Yorishige_(Sengoku)
+321;Takeda family forces;NULL
+322;Suwa Yorishige;http://en.wikipedia.org/wiki/Suwa_Yorishige
+323;Forces of Tozawa Yorichika;NULL
+324;Earl of Sutherland;http://en.wikipedia.org/wiki/Earl_of_Sutherland
+325;Forces of Oi Sadataka;NULL
+326;forces of Tozawa family;NULL
+327;Clan Fraser of Lovat;http://en.wikipedia.org/wiki/Clan_Fraser_of_Lovat
+328;Clan Grant;http://en.wikipedia.org/wiki/Clan_Grant
+329;Clan Macdonald of Clanranald;http://en.wikipedia.org/wiki/Clan_Macdonald_of_Clanranald
+330;Clan Cameron;http://en.wikipedia.org/wiki/Clan_Cameron
+331;forces of Takatō Yoritsugu;NULL
+332;Forces loyal to Tozawa Yorichika;NULL
+333;Early modern France;http://en.wikipedia.org/wiki/Early_Modern_France
+334;Ashikaga shogunate;http://en.wikipedia.org/wiki/Ashikaga_Shogunate
+335;Kantō kubō;http://en.wikipedia.org/wiki/Kant%C5%8D_Kub%C5%8D
+336;and others;NULL
+337;Schmalkaldic League;http://en.wikipedia.org/wiki/Schmalkaldic_League
+338;Bremen;http://en.wikipedia.org/wiki/Bremen
+339;Lübeck;http://en.wikipedia.org/wiki/L%C3%BCbeck
+340;Murakami Yoshikiyo;http://en.wikipedia.org/wiki/Murakami_Yoshikiyo
+341;Ogasawara Nagatoki;http://en.wikipedia.org/wiki/Ogasawara_Nagatoki
+342;Sovereign Military Order of Malta;http://en.wikipedia.org/wiki/Sovereign_Military_Order_of_Malta
+343;Takeda clan;http://en.wikipedia.org/wiki/Takeda_family
+344;Tsardom of Russia;http://en.wikipedia.org/wiki/Tsardom_of_Russia
+345;Qasim Khanate;http://en.wikipedia.org/wiki/Qasim_Khanate
+346;Taw yağı;http://en.wikipedia.org/wiki/Taw_ya%C4%9F%C4%B1
+347;Khanate of Kazan;http://en.wikipedia.org/wiki/Khanate_of_Kazan
+348;Mari people;http://en.wikipedia.org/wiki/Mari_people
+349;Nogais;http://en.wikipedia.org/wiki/Nogai_people
+350;Kingdom of Hungary (1526–1867);http://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1538%E2%80%931867)
+351;Takeda forces;NULL
+352;Uesugi forces;NULL
+353;Mughal Empire;NULL
+354;Emperor;http://en.wikipedia.org/wiki/Emperor
+355;Hindustan;http://en.wikipedia.org/wiki/Hindustan
+356;Azai clan;http://en.wikipedia.org/wiki/Azai_clan
+357;Rokkaku clan;http://en.wikipedia.org/wiki/Rokkaku_clan
+358;Oda Nobunaga;http://en.wikipedia.org/wiki/Oda_Nobunaga
+359;Clan Fraser;http://en.wikipedia.org/wiki/Clan_Fraser
+360;Clan Forbes;http://en.wikipedia.org/wiki/Clan_Forbes
+361;Clan Gordon;http://en.wikipedia.org/wiki/Clan_Gordon
+362;Clan Brodie;http://en.wikipedia.org/wiki/Clan_Brodie
+363;Catholicism;http://en.wikipedia.org/wiki/Catholic
+364;Huguenot;http://en.wikipedia.org/wiki/Huguenot
+365;Hōjō Ujiyasu;http://en.wikipedia.org/wiki/H%C5%8Dj%C5%8D_Ujiyasu
+366;Satomi Yoshihiro;http://en.wikipedia.org/wiki/Satomi_Yoshihiro
+367;Ikkō-ikki;http://en.wikipedia.org/wiki/Ikk%C5%8D-ikki
+368;Matsudaira clan;http://en.wikipedia.org/wiki/Matsudaira_clan
+369;Pure Land Buddhism;http://en.wikipedia.org/wiki/Pure_Land_Buddhism
+370;Maltese people;http://en.wikipedia.org/wiki/Maltese_people
+371;Habsburg Monarchy;http://en.wikipedia.org/wiki/Habsburg_Monarchy
+372;Dutch Rebels;NULL
+373;Forces loyal to Mary, Queen of Scots;NULL
+374;Forces opposed to Mary, Queen of Scots;NULL
+375;James Stewart, 1st Earl of Moray;http://en.wikipedia.org/wiki/James_Stewart,_1st_Earl_of_Moray
+376;Mary, Queen of Scots;http://en.wikipedia.org/wiki/Mary,_Queen_of_Scots
+377;Netherlands;http://en.wikipedia.org/wiki/Netherlands
+378;Friesland;http://en.wikipedia.org/wiki/Friesland
+379;Hōjō Ujiyasu;http://en.wikipedia.org/wiki/Hojo_Ujiyasu
+380;Rokkaku Yoshisuke;http://en.wikipedia.org/wiki/Rokkaku_Yoshisuke
+381;Tokugawa Ieyasu;http://en.wikipedia.org/wiki/Tokugawa_Ieyasu
+382;Azai Nagamasa;http://en.wikipedia.org/wiki/Azai_Nagamasa
+383;Asakura Yoshikage;http://en.wikipedia.org/wiki/Asakura_Yoshikage
+384;Sōhei;http://en.wikipedia.org/wiki/Sohei
+385;Ikkō-ikki;http://en.wikipedia.org/wiki/Ikko-ikki
+386;Crimean Khanate;http://en.wikipedia.org/wiki/Crimean_Khanate
+387;Russian Empire;http://en.wikipedia.org/wiki/Russian_Empire
+388; Dutch Rebels;NULL
+389;Iwamura castle garrison;NULL
+390;Suganuma Sadamichi;http://en.wikipedia.org/wiki/Suganuma_Sadamichi
+391;Dutch Republic;http://en.wikipedia.org/wiki/Dutch_Republic
+392;German mercenaries;NULL
+393;Itami clan;NULL
+394;Takeda Katsuyori;http://en.wikipedia.org/wiki/Takeda_Katsuyori
+395;Mōri clan;http://en.wikipedia.org/wiki/M%C5%8Dri_clan
+396;Polish–Lithuanian Commonwealth;http://en.wikipedia.org/wiki/Polish-Lithuanian_Commonwealth
+397;Principality of Transylvania (1570–1711);http://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711)
+398;Gdańsk;http://en.wikipedia.org/wiki/Danzig
+399;Uesugi Kenshin;http://en.wikipedia.org/wiki/Uesugi_Kenshin
+400;States General of the Netherlands;http://en.wikipedia.org/wiki/States-General_of_the_Netherlands
+401;Moors;http://en.wikipedia.org/wiki/Moors
+402;Saadi dynasty;http://en.wikipedia.org/wiki/Saadi_dynasty
+403; States-General;NULL
+404;Toyotomi Hideyoshi;http://en.wikipedia.org/wiki/Toyotomi_Hideyoshi
+405;Safavid dynasty;http://en.wikipedia.org/wiki/Safavid_Persia
+406;Kingdom of Kartli;http://en.wikipedia.org/wiki/Kingdom_of_Kartli_(1484-1762)
+407;Araki Murashige;http://en.wikipedia.org/wiki/Araki_Murashige
+408;António, Prior of Crato;http://en.wikipedia.org/wiki/Ant%C3%B3nio,_Prior_of_Crato
+409;Saika Ikki;http://en.wikipedia.org/wiki/Saika_Ikki
+410;Bessho Nagaharu;http://en.wikipedia.org/wiki/Bessho_Nagaharu
+411;Akechi Mitsuhide;http://en.wikipedia.org/wiki/Akechi_Mitsuhide
+412;Oda Nobutaka;http://en.wikipedia.org/wiki/Oda_Nobutaka
+413;Georgia (country);http://en.wikipedia.org/wiki/Georgia_(country)
+414;Oda Nobukatsu;http://en.wikipedia.org/wiki/Oda_Nobukatsu
+415;Chōsokabe Motochika;http://en.wikipedia.org/wiki/Ch%C5%8Dsokabe_Motochika
+416; Royalist Army;NULL
+417;Huguenot;http://en.wikipedia.org/wiki/Huguenots
+418;Polish–Lithuanian Commonwealth;http://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth
+419;Sigismund III Vasa;http://en.wikipedia.org/wiki/Sigismund_III_Vasa
+420;Maximilian III, Archduke of Austria;http://en.wikipedia.org/wiki/Maximilian_III_of_Austria
+421;French Royal Army;NULL
+422;Catholic League (French);http://en.wikipedia.org/wiki/Catholic_League_(French)
+423;Japanese forces;NULL
+424;Korean forces;NULL
+425;Japanese army;NULL
+426;Korean army;NULL
+427;Joseon;http://en.wikipedia.org/wiki/Joseon_Dynasty
+428;Japanese Army;NULL
+429;Korean Garrison;NULL
+430;Joseon Navy;http://en.wikipedia.org/wiki/Joseon_Navy
+431;Naval history of Japan;http://en.wikipedia.org/wiki/Naval_history_of_Japan
+432;Japan;http://en.wikipedia.org/wiki/Japan
+433;Korea;http://en.wikipedia.org/wiki/Korea
+434;Bosnia Eyalet;http://en.wikipedia.org/wiki/Eyalet_of_Bosnia
+435;Clan Johnstone;http://en.wikipedia.org/wiki/Clan_Johnstone
+436;Clan Maxwell;http://en.wikipedia.org/wiki/Clan_Maxwell
+437;Clan Grierson;http://en.wikipedia.org/wiki/Clan_Grierson
+438;Clan Pollock;http://en.wikipedia.org/wiki/Clan_Pollock
+439;Clan Hay;http://en.wikipedia.org/wiki/Clan_Hay
+440;Clan Cumming;http://en.wikipedia.org/wiki/Clan_Cumming
+441;Clan Campbell;http://en.wikipedia.org/wiki/Clan_Campbell
+442;Clan Murray;http://en.wikipedia.org/wiki/Clan_Murray
+443;Clan Stewart;http://en.wikipedia.org/wiki/Clan_Stewart
+444;Clan MacGillivray;http://en.wikipedia.org/wiki/Clan_Macgillivray
+445;Clan Maclean;http://en.wikipedia.org/wiki/Clan_Maclean
+446;Principality of Transylvania (1570–1711);http://en.wikipedia.org/wiki/Principality_of_Transylvania_(1571%E2%80%931711)
+447;Walloons;http://en.wikipedia.org/wiki/Walloons
+448;Serbs;http://en.wikipedia.org/wiki/Serbs
+449;Cossacks;http://en.wikipedia.org/wiki/Cossacks
+450;Poles;http://en.wikipedia.org/wiki/Poles
+451;Japanese Left Army;http://en.wikipedia.org/wiki/Japanese_Left_Army_(1597)
+452;Ming army;NULL
+453;Gaelic Ireland;http://en.wikipedia.org/wiki/Gaelic_Ireland
+454;Polish–Swedish union;http://en.wikipedia.org/wiki/Polish%E2%80%93Swedish_union
+455;Joseon;http://en.wikipedia.org/wiki/Joseon
+456;Council of Five Elders;http://en.wikipedia.org/wiki/Council_of_Five_Elders
+457;Toyotomi Hideyori;http://en.wikipedia.org/wiki/Toyotomi_Hideyori
+458;Army of False Dmitry I;NULL
+459;Duchy of Courland and Semigallia;http://en.wikipedia.org/wiki/Duchy_of_Courland_and_Semigallia
+460;Cossacks, Tatars and other minorities;NULL
+461;History of Sweden (1523–1611);http://en.wikipedia.org/wiki/Kingdom_of_Sweden_(1523%E2%80%931611)
+462;German, Scottish and Dutch mercenaries;NULL
+463;Dutch East India Company;http://en.wikipedia.org/wiki/Dutch_East_India_Company
+464;History of Sweden (1523–1611);http://en.wikipedia.org/wiki/History_of_Sweden_(1523%E2%80%931611)
+465;Denmark–Norway;http://en.wikipedia.org/wiki/Denmark-Norway
+466;Tokugawa shogunate;http://en.wikipedia.org/wiki/Tokugawa_shogunate
+467;Toyotomi clan;http://en.wikipedia.org/wiki/Toyotomi_clan
+468;Bohemia;http://en.wikipedia.org/wiki/Bohemia
+469;Manchu people;http://en.wikipedia.org/wiki/Manchus
+470;Catholic League (German);http://en.wikipedia.org/wiki/Catholic_League_(German)
+471;Registered Cossacks;http://en.wikipedia.org/wiki/Registered_Cossacks
+472;Protestant Union;http://en.wikipedia.org/wiki/Protestant_Union
+473;Baden;http://en.wikipedia.org/wiki/Baden
+474;Bishopric of Halberstadt;http://en.wikipedia.org/wiki/Bishopric_of_Halberstadt
+475;Iberian Union;http://en.wikipedia.org/wiki/Iberian_Union
+476;Swedish Empire;http://en.wikipedia.org/wiki/Swedish_Empire
+477;Lower Saxon Circle;http://en.wikipedia.org/wiki/Lower_Saxon_Circle
+478;Kingdom of Cochin;http://en.wikipedia.org/wiki/Kingdom_of_Cochin
+479;Potiguara people;http://en.wikipedia.org/wiki/Potiguara
+480;Johor Sultanate;http://en.wikipedia.org/wiki/Johor_Sultanate
+481;Kingdom of Kandy;http://en.wikipedia.org/wiki/Kingdom_of_Kandy
+482;Kingdom of Kongo;http://en.wikipedia.org/wiki/Kingdom_of_Kongo
+483;Kingdom of Ndongo;http://en.wikipedia.org/wiki/Kingdom_of_Ndongo
+484;Tupí people;http://en.wikipedia.org/wiki/Rio_Grande_Tupis
+485;Nhandui Tarairiu Tribe;NULL
+486;Magdeburg;http://en.wikipedia.org/wiki/Magdeburg
+487;Kingdom of Croatia (Habsburg);http://en.wikipedia.org/wiki/Kingdom_of_Croatia_(Habsburg)
+488;Johor;http://en.wikipedia.org/wiki/Johore
+489;Aceh Sultanate;http://en.wikipedia.org/wiki/Sultanate_of_Aceh
+490;Cavalier;http://en.wikipedia.org/wiki/Cavalier
+491;Roundhead;http://en.wikipedia.org/wiki/Roundhead
+492;Parliamentarians;NULL
+493;Parliament of England;http://en.wikipedia.org/wiki/Parliament_of_England
+494;Electorate of Bavaria;http://en.wikipedia.org/wiki/Electorate_of_Bavaria
+495;Crimean Tatars;http://en.wikipedia.org/wiki/Crimean_Tatars
+496;Scotland;http://en.wikipedia.org/wiki/Scotland
+497;Irish expedition to Scotland;http://en.wikipedia.org/wiki/Irish_expedition_to_Scotland_1644
+498;Scots Covenanters;NULL
+499; Highland Scots;NULL
+500; Parliamentarian Scots Covenanters;NULL
+501;Pope Urban VIII;http://en.wikipedia.org/wiki/Pope_Urban_VIII
+502;Pope Innocent X;http://en.wikipedia.org/wiki/Pope_Innocent_X
+503;House of Farnese;http://en.wikipedia.org/wiki/House_of_Farnese
+504;Duchy of Parma;http://en.wikipedia.org/wiki/Duchy_of_Parma
+505;Duchy of Castro;http://en.wikipedia.org/wiki/Duchy_of_Castro
+506;Odoardo Farnese, Duke of Parma;http://en.wikipedia.org/wiki/Odoardo_Farnese,_Duke_of_Parma
+507;Ranuccio II Farnese, Duke of Parma;http://en.wikipedia.org/wiki/Ranuccio_II_Farnese,_Duke_of_Parma
+508;Protestantism;http://en.wikipedia.org/wiki/Protestant
+509;Confederate Ireland;http://en.wikipedia.org/wiki/Confederate_Ireland
+510;Highland Scots;NULL
+511;Scottish people;http://en.wikipedia.org/wiki/Scottish_people
+512;Covenanter;http://en.wikipedia.org/wiki/Covenanter
+513;New Model Army;http://en.wikipedia.org/wiki/New_Model_Army
+514;Saxe-Weimar;http://en.wikipedia.org/wiki/Saxe-Weimar
+515; Royalists;NULL
+516; Covenanters;NULL
+517;Covenanter;http://en.wikipedia.org/wiki/Covenanters
+518;Leinster;http://en.wikipedia.org/wiki/Leinster
+519;English Parliamentarians;NULL
+520;Irish Confederate Catholics Munster army and some Highland Scots;NULL
+521;Colonial Brazil;http://en.wikipedia.org/wiki/Colonial_Brazil
+522;Engagers;http://en.wikipedia.org/wiki/Engagers
+523;English Parliamentarains;NULL
+524;Commonwealth of England;http://en.wikipedia.org/wiki/Commonwealth_of_England
+525;Zaporozhian Cossacks;http://en.wikipedia.org/wiki/Zaporozhian_Cossacks
+526;Margraviate of Brandenburg;http://en.wikipedia.org/wiki/Margraviate_of_Brandenburg
+527;Brandenburg-Prussia;http://en.wikipedia.org/wiki/Brandenburg-Prussia
+528;Spain;NULL
+529;House of Stuart;http://en.wikipedia.org/wiki/House_of_Stuart
+530;Denmark–Norway;http://en.wikipedia.org/wiki/Denmark%E2%80%93Norway
+531;Tsardom of Russia;http://en.wikipedia.org/wiki/Russian_Tsardom
+532;Zaporozhian Cossacks;http://en.wikipedia.org/wiki/Zaporozhian_Host
+533;Koxinga;http://en.wikipedia.org/wiki/Koxinga
+534;Taiwanese aborigines;http://en.wikipedia.org/wiki/Taiwanese_Aborigines
+535;Bergenhus Fortress;http://en.wikipedia.org/wiki/Bergenhus_Fortress
+536;Dutch Republic;NULL
+537;Ahom kingdom;http://en.wikipedia.org/wiki/Ahom_kingdom
+538;Prince-Bishopric of Münster;http://en.wikipedia.org/wiki/Bishopric_of_M%C3%BCnster
+539;Prince-Bishopric of Münster;http://en.wikipedia.org/wiki/Prince-Bishopric_of_M%C3%BCnster
+540;New England Confederation;http://en.wikipedia.org/wiki/New_England_Confederation
+541;Pequot people;http://en.wikipedia.org/wiki/Pequot
+542;Mohegan people;http://en.wikipedia.org/wiki/Mohegan
+543;Narragansett people;http://en.wikipedia.org/wiki/Narragansett_tribe
+544; Covenanter rebels;NULL
+545; Royal army;NULL
+546; Government army;NULL
+547;Franconia;http://en.wikipedia.org/wiki/Franconia
+548;Kingdom of Hungary (1526–1867);http://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867)
+549;Swabia;http://en.wikipedia.org/wiki/Swabia
+550;James II of England;http://en.wikipedia.org/wiki/James_II_of_England
+551;James Scott, 1st Duke of Monmouth;http://en.wikipedia.org/wiki/James_Scott,_1st_Duke_of_Monmouth
+552;Jacobitism;http://en.wikipedia.org/wiki/Jacobitism
+553;Sikh;http://en.wikipedia.org/wiki/Sikhs
+554;Pir (Sufism);http://en.wikipedia.org/wiki/Pir_(Sufism)
+555;Udasi;http://en.wikipedia.org/wiki/Udasi
+556;Kahlur;http://en.wikipedia.org/wiki/Bhim_Chand
+557;Fateh Shah;http://en.wikipedia.org/wiki/Fateh_Shah
+558;Kirpal_of_Katoch;NULL
+559;Gopal_of_Guler;NULL
+560;Hari_Chand_of_Hindur;NULL
+561;Kesari_Chand;NULL
+562;Williamite;http://en.wikipedia.org/wiki/Williamite
+563;Massachusetts Bay Colony;http://en.wikipedia.org/wiki/Massachusetts_Bay_Colony
+564;New France;http://en.wikipedia.org/wiki/New_France
+565;Canada (New France);http://en.wikipedia.org/wiki/Canada_(New_France)
+566;Williamite forces - Irish, Dutch, English, Scottish, Danish and French Huguenot troops [1];NULL
+567;Holy League (1684);http://en.wikipedia.org/wiki/Holy_League_(1684)
+568;Kuruc;http://en.wikipedia.org/wiki/Kuruc
+569;Philip V of Spain;http://en.wikipedia.org/wiki/Philip_V_of_Spain
+570;Russia;http://en.wikipedia.org/wiki/Russia
+571;Charles VI, Holy Roman Emperor;http://en.wikipedia.org/wiki/Charles_VI,_Holy_Roman_Emperor
+572;Grand Alliance (League of Augsburg);http://en.wikipedia.org/wiki/Grand_Alliance_(League_of_Augsburg)
+573;Kingdom of Prussia;http://en.wikipedia.org/wiki/Kingdom_of_Prussia
+574;Enlightenment in Spain;http://en.wikipedia.org/wiki/Bourbon_Spain
+575;Grand Alliance;NULL
+576;Kingdom of Great Britain;http://en.wikipedia.org/wiki/Kingdom_of_Great_Britain
+577;Swedish Empire;http://en.wikipedia.org/wiki/Swedish_empire
+578;Enlightenment in Spain;http://en.wikipedia.org/wiki/Enlightenment_Spain
+579;Cossack Hetmanate;http://en.wikipedia.org/wiki/Cossack_Hetmanate
+580;Zaporizhian Sich;http://en.wikipedia.org/wiki/Zaporizhian_Sich
+581;New England;http://en.wikipedia.org/wiki/New_England
+582;British people;http://en.wikipedia.org/wiki/British_people
+583;Wabanaki Confederacy;http://en.wikipedia.org/wiki/Wabanaki_Confederacy
+584;Mi'kmaq;http://en.wikipedia.org/wiki/Mi%27kmaq_people
+585;Military history of the Mi'kmaq people;http://en.wikipedia.org/wiki/Military_history_of_the_Mi%E2%80%99kmaq_People
+586;Military history of the Acadians;http://en.wikipedia.org/wiki/Military_history_of_the_Acadians
+587;Swedish Navy;http://en.wikipedia.org/wiki/Swedish_Navy
+588;Imperial Russian Navy;http://en.wikipedia.org/wiki/Imperial_Russian_Navy
+589;Kingdom of Great Britain;http://en.wikipedia.org/wiki/Kingdom_of_Britain
+590;Kingdom of Croatia (Habsburg);http://en.wikipedia.org/wiki/Habsburg_Kingdom_of_Croatia
+591;Qing dynasty;http://en.wikipedia.org/wiki/Qing_dynasty
+592;Dzungar Khanate;http://en.wikipedia.org/wiki/Dzungar_Khanate
+593;Peshwa;http://en.wikipedia.org/wiki/Peshwa
+594;Nizam of Hyderabad;http://en.wikipedia.org/wiki/Nizam_of_Hyderabad
+595;Safavid dynasty;http://en.wikipedia.org/wiki/Safavid_Empire
+596;Hotak dynasty;http://en.wikipedia.org/wiki/Hotaki_dynasty
+597;Kingdom of Sardinia;http://en.wikipedia.org/wiki/Piedmont-Sardinia
+598;Austrian Empire;http://en.wikipedia.org/wiki/Austrian_Empire
+599;Travancore;http://en.wikipedia.org/wiki/Travancore
+600;Electorate of Brunswick-Lüneburg;http://en.wikipedia.org/wiki/Electorate_of_Brunswick-L%C3%BCneburg
+601;Electorate of Brunswick-Lüneburg;http://en.wikipedia.org/wiki/Electorate_of_Hanover
+602;Habsburg Monarchy;http://en.wikipedia.org/wiki/Habsburg_Austria
+603;Ojibwe;http://en.wikipedia.org/wiki/Ojibwe
+604;Mdewakanton;http://en.wikipedia.org/wiki/Mdewakanton
+605;Colony of Virginia;http://en.wikipedia.org/wiki/Colony_of_Virginia
+606;British America;http://en.wikipedia.org/wiki/British_America
+607;Wyandot people;http://en.wikipedia.org/wiki/Hurons
+608;Military_history_of_the_Mi%27kmaq_People;NULL
+609;East India Company;http://en.wikipedia.org/wiki/British_East_India_Company
+610;Principality of Bengal;http://en.wikipedia.org/wiki/Principality_of_Bengal
+611;Landgraviate of Hesse-Kassel;http://en.wikipedia.org/wiki/Landgraviate_of_Hesse-Kassel
+612;French East India Company;http://en.wikipedia.org/wiki/French_East_India_Company
+613;Principality of Brunswick-Wolfenbüttel;http://en.wikipedia.org/wiki/Brunswick-Wolfenb%C3%BCttel
+614;Principality of Schaumburg-Lippe;http://en.wikipedia.org/wiki/Schaumburg-Lippe
+615;Austria;http://en.wikipedia.org/wiki/Austria
+616;Iroquois;http://en.wikipedia.org/wiki/Iroquois
+617;Durrani Empire;http://en.wikipedia.org/wiki/Durrani_Empire
+618;Nawab of Awadh;http://en.wikipedia.org/wiki/Nawabs_of_Oudh
+619;Rohilla;http://en.wikipedia.org/wiki/Rohillas
+620;Maratha Empire;http://en.wikipedia.org/wiki/Maratha_Empire
+621;Spain;http://en.wikipedia.org/wiki/Kingdom_of_Spain
+622;Ohio Country;http://en.wikipedia.org/wiki/Ohio_Country
+623;Native Americans in the United States;http://en.wikipedia.org/wiki/Native_Americans_in_the_United_States
+624;Nawab of Awadh;http://en.wikipedia.org/wiki/Nawab_of_Awadh
+625;Nawabs of Bengal and Murshidabad;http://en.wikipedia.org/wiki/Nawab_of_Bengal
+626;Durrani;http://en.wikipedia.org/wiki/Durrani
+627;Rohilla;http://en.wikipedia.org/wiki/Rohilla
+628;Corsican Republic;http://en.wikipedia.org/wiki/Corsican_Republic
+629;Greeks;http://en.wikipedia.org/wiki/Greeks
+630;North Carolina provincial militia;NULL
+631;North Carolina Regulators;NULL
+632;Shawnee;http://en.wikipedia.org/wiki/Shawnee
+633;Mingo;http://en.wikipedia.org/wiki/Mingo
+634;Virginia;http://en.wikipedia.org/wiki/Virginia
+635;Massachusetts Bay;http://en.wikipedia.org/wiki/Massachusetts_Bay
+636;Green Mountain Boys;http://en.wikipedia.org/wiki/Green_Mountain_Boys
+637;Connecticut Colony;http://en.wikipedia.org/wiki/Connecticut_Colony
+638;Province of Massachusetts Bay;http://en.wikipedia.org/wiki/Province_of_Massachusetts_Bay
+639;26th (Cameronian) Regiment of Foot;http://en.wikipedia.org/wiki/26th_Regiment_of_Foot
+640;Thirteen Colonies;http://en.wikipedia.org/wiki/Thirteen_Colonies
+641;Province of New Hampshire;http://en.wikipedia.org/wiki/Province_of_New_Hampshire
+642;Colony of Rhode Island and Providence Plantations;http://en.wikipedia.org/wiki/Colony_of_Rhode_Island_and_Providence_Plantations
+643;Province of Quebec (1763–91);http://en.wikipedia.org/wiki/Province_of_Quebec_(1763-1791)
+644;Colony of Virginia;http://en.wikipedia.org/wiki/Province_of_Virginia
+645;Province of North Carolina;http://en.wikipedia.org/wiki/Province_of_North_Carolina
+646;1st Canadian Regiment;http://en.wikipedia.org/wiki/1st_Canadian_Regiment
+647;Province of Quebec (1763–91);http://en.wikipedia.org/wiki/Province_of_Quebec_(1763%E2%80%931791)
+648;North Carolina;http://en.wikipedia.org/wiki/North_Carolina
+649;Patriot (American Revolution);http://en.wikipedia.org/wiki/Patriot_(American_Revolution)
+650;Loyalist (American Revolution);http://en.wikipedia.org/wiki/Loyalist_(American_Revolution)
+651;Province of Georgia;http://en.wikipedia.org/wiki/Province_of_Georgia
+652;Province of South Carolina;http://en.wikipedia.org/wiki/Province_of_South_Carolina
+653;Canadian Militia;http://en.wikipedia.org/wiki/Canadian_militia
+654;Province of Quebec (1763–91);http://en.wikipedia.org/wiki/Province_of_Quebec_(1763%E2%80%9391)
+655;Oneida people;http://en.wikipedia.org/wiki/Oneida_tribe
+656;Iroquois;http://en.wikipedia.org/wiki/Iroquois_Confederacy
+657;Nipissing First Nation;http://en.wikipedia.org/wiki/Nipissing_First_Nation
+658;Vermont Republic;http://en.wikipedia.org/wiki/Vermont_Republic
+659;Hesse;http://en.wikipedia.org/wiki/Hesse
+660;Hanau;http://en.wikipedia.org/wiki/Hesse-Hanau
+661;2nd Canadian Regiment;http://en.wikipedia.org/wiki/2nd_Canadian_Regiment
+662;Hessian (soldier);http://en.wikipedia.org/wiki/Hessian_(soldiers)
+663;Apache;http://en.wikipedia.org/wiki/Apache
+664;Indigenous peoples of the Americas;http://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas
+665;Militia;http://en.wikipedia.org/wiki/Militia
+666;Waldeck (state);http://en.wikipedia.org/wiki/Waldeck_(state)
+667;Kingdom of Mysore;http://en.wikipedia.org/wiki/Sultanate_of_Mysore
+668;Indigenous peoples of the Americas;http://en.wikipedia.org/wiki/Indigenous_people_of_the_Americas
+669;Kentucky militia;NULL
+670;Navajo people;http://en.wikipedia.org/wiki/Navajo_people
+671;Habsburg Monarchy;http://en.wikipedia.org/wiki/Habsburg_Empire
+672;Austrian Netherlands;http://en.wikipedia.org/wiki/Austrian_Netherlands
+673;Brabant Revolution;http://en.wikipedia.org/wiki/Brabant_Revolution
+674;Hawaii (island);http://en.wikipedia.org/wiki/Hawaii_(island)
+675;Maui;NULL
+676;United States;NULL
+677;Miamis Indian Tribe;NULL
+678;Western Confederacy;http://en.wikipedia.org/wiki/Western_Confederacy
+679;Kingdom of France (1791–92);http://en.wikipedia.org/wiki/Kingdom_of_France_(1791%E2%80%931792)
+680;Kingdom of France (1791–92);http://en.wikipedia.org/wiki/Kingdom_of_France_(1791%E2%80%9392)
+681;French First Republic;http://en.wikipedia.org/wiki/First_French_Republic
+682;French First Republic;http://en.wikipedia.org/wiki/French_First_Republic
+683;House of Bourbon;http://en.wikipedia.org/wiki/House_of_Bourbon
+684;Ferdinand I of the Two Sicilies;http://en.wikipedia.org/wiki/Ferdinand_I_of_the_Two_Sicilies
+685;Electorate of Saxony;http://en.wikipedia.org/wiki/Electoral_Saxony
+686;Kingdom of Prussia;http://en.wikipedia.org/wiki/Prussian_Kingdom
+687; Polish forces;NULL
+688;New South Wales Corps;http://en.wikipedia.org/wiki/New_South_Wales_Corps
+689;Darug warriors;NULL
+690;Dutch Cape Colony;http://en.wikipedia.org/wiki/Dutch_Cape_Colony
+691;Kingdom of Kartli-Kakheti;http://en.wikipedia.org/wiki/Kartli-Kakheti
+692;Kingdom of Imereti;http://en.wikipedia.org/wiki/Kingdom_of_Imereti
+693;Qajar dynasty;http://en.wikipedia.org/wiki/Qajar_dynasty
+694;Ganja Khanate;http://en.wikipedia.org/wiki/Ganja_Khanate
+695;Erivan Khanate;http://en.wikipedia.org/wiki/Erivan_Khanate
+696;Habsburg Monarchy;http://en.wikipedia.org/wiki/Habsburg_monarchy
+697;Batavian Republic;http://en.wikipedia.org/wiki/Batavian_Republic
+698;Society of United Irishmen;http://en.wikipedia.org/wiki/Society_of_United_Irishmen
+699;British Army;http://en.wikipedia.org/wiki/British_Army
+700;Defenders (Ireland);http://en.wikipedia.org/wiki/Defenders_(Ireland)
+701;Society of United Irishmen;http://en.wikipedia.org/wiki/United_Irishmen
+702;Mamluk;http://en.wikipedia.org/wiki/Mamluks
+703;Kingdom of Ireland;http://en.wikipedia.org/wiki/Kingdom_of_Ireland
+704;French Directory;http://en.wikipedia.org/wiki/French_Directory
+705;Kingdom of Great Britain;http://en.wikipedia.org/wiki/Kingdom_of_great_britain
+706;Empire of Trebizond;http://en.wikipedia.org/wiki/Empire_of_Trebizond
+707;Despotate of the Morea;http://en.wikipedia.org/wiki/Despotate_of_the_Morea
+708;Despotate of Epirus;http://en.wikipedia.org/wiki/Despotate_of_Epirus
+709;Principality of Theodoro;http://en.wikipedia.org/wiki/Principality_of_Theodoro
+710;Irish supporters;NULL
+711;Kingdom of Scotland and Irish allies;NULL
+712;Marcher Lord;http://en.wikipedia.org/wiki/Marcher_Lord
+713;Kingdom of Aragon;http://en.wikipedia.org/wiki/Kingdom_of_Aragon
+714;County of Hainaut;http://en.wikipedia.org/wiki/County_of_Hainaut
+715;Duchy of Aquitaine;http://en.wikipedia.org/wiki/Duchy_of_Aquitaine
+716;Counts of Blois;http://en.wikipedia.org/wiki/Counts_of_Blois
+717;Montfort of Brittany;http://en.wikipedia.org/wiki/Montfort_of_Brittany
+718;John V Palaiologos;http://en.wikipedia.org/wiki/John_V_Palaiologos
+719;Regents;NULL
+720;Anna of Savoy;http://en.wikipedia.org/wiki/Anna_of_Savoy
+721;John XIV of Constantinople;http://en.wikipedia.org/wiki/John_XIV_Kalekas
+722;Alexios Apokaukos;http://en.wikipedia.org/wiki/Alexios_Apokaukos
+723;Allies;NULL
+724;Zealots of Thessalonica;http://en.wikipedia.org/wiki/Zealots_of_Thessalonica
+725;Serbia in the Middle Ages;http://en.wikipedia.org/wiki/Serbia_in_the_Middle_Ages
+726;Despotate of Dobruja;http://en.wikipedia.org/wiki/Principality_of_Karvuna
+727;Rise of the Ottoman Empire;http://en.wikipedia.org/wiki/Ottoman_emirate
+728;Sarukhanids;http://en.wikipedia.org/wiki/Sarukhanids
+729;Henry II of Castile;http://en.wikipedia.org/wiki/Henry_of_Trast%C3%A1mara
+730;Rebel forces;NULL
+731;Royal government;NULL
+732; Welsh rebels;NULL
+733;Radical_Hussites;NULL
+734;Kingdom of Croatia;http://en.wikipedia.org/wiki/Kingdom_of_Croatia
+735;Royal Prussia;http://en.wikipedia.org/wiki/Royal_Prussia
+736;Transylvania;http://en.wikipedia.org/wiki/Transylvania
+737; Isabella Supporters;NULL
+738; Juana Supporters;NULL
+739;Duchy of Mantua;http://en.wikipedia.org/wiki/Duchy_of_Mantua
+740;Conquistador;http://en.wikipedia.org/wiki/Conquistadors
+741;Cempoala;http://en.wikipedia.org/wiki/Cempoala
+742;Peasant Army;NULL
+743;Swabian League;http://en.wikipedia.org/wiki/Swabian_League
+744;Knights Hospitaller;http://en.wikipedia.org/wiki/Knights_of_Malta
+745;United Duchies of Jülich-Cleves-Berg;http://en.wikipedia.org/wiki/United_Duchies_of_J%C3%BClich-Cleves-Berg
+746;County of Nassau;http://en.wikipedia.org/wiki/County_of_Nassau
+747;Queen's Men;NULL
+748;King's Men;NULL
+749;Holy League (1571);http://en.wikipedia.org/wiki/Holy_League_(1571)
+750;Grand Duchy of Tuscany;http://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany
+751;Roman Catholic Archdiocese of Cologne;http://en.wikipedia.org/wiki/Archbishopric_of_Cologne
+752;Margraviate of Brandenburg;http://en.wikipedia.org/wiki/Electorate_of_Brandenburg
+753;Philip II of Spain;http://en.wikipedia.org/wiki/Philip_II_of_Spain
+754;Supporters of Sigismund Vasa, mainly Poles;NULL
+755;Supporters of Maximilian of Austria, mainly Germans, but including many Poles and Hungarians;NULL
+756;Azuchi–Momoyama period;http://en.wikipedia.org/wiki/Azuchi-Momoyama_period
+757;Uprising in Banat;http://en.wikipedia.org/wiki/Banat_Uprising
+758;Order of Saint Stephen;http://en.wikipedia.org/wiki/Knights_of_St._Stephen
+759;Nogai Horde;http://en.wikipedia.org/wiki/Nogai_Horde
+760;Henry IV of France;http://en.wikipedia.org/wiki/Henry_IV_of_France
+761;Redshank (soldier);http://en.wikipedia.org/wiki/Redshank_(soldier)
+762;Swedish separatists;NULL
+763;Sweden;http://en.wikipedia.org/wiki/Kingdom_of_Sweden
+764;Electoral Palatinate;http://en.wikipedia.org/wiki/Electoral_Palatinate
+765;Romanian and Hungarian Anti-Habsburg Rebels;NULL
+766;Chagatai Khanate;http://en.wikipedia.org/wiki/Chagatai_Khanate
+767;Roundhead;http://en.wikipedia.org/wiki/Roundheads
+768;Duchy of Modena and Reggio;http://en.wikipedia.org/wiki/Duchy_of_Modena
+769;History of Portugal (1640–1777);http://en.wikipedia.org/wiki/History_of_Portugal_(1640%E2%80%931777)
+770;Ming dynasty;http://en.wikipedia.org/wiki/Ming_Dynasty_China
+771;Ming Loyalists;NULL
+772;Savoy;http://en.wikipedia.org/wiki/Savoy
+773;Khanenko's Cossacks;NULL
+774;Moldavia;http://en.wikipedia.org/wiki/Principality_of_Moldavia
+775;Wampanoag people;http://en.wikipedia.org/wiki/Wampanoag_(tribe)
+776;Nipmuc;http://en.wikipedia.org/wiki/Nipmuck
+777;Podunk people;http://en.wikipedia.org/wiki/Podunk_(people)
+778;Narragansett people;http://en.wikipedia.org/wiki/Narragansett_(tribe)
+779;Nashaway people;http://en.wikipedia.org/wiki/Nashaway
+780;Dutch Republic;NULL
+781;Plantation of Ulster;http://en.wikipedia.org/wiki/Plantation_of_Ulster
+782;and mercenaries from various countries;NULL
+783;English America;http://en.wikipedia.org/wiki/English_America
+784;Enlightenment in Spain;http://en.wikipedia.org/wiki/Enlightenment_in_Spain
+785;Mohawk people;http://en.wikipedia.org/wiki/Mohawk_people
+786;Choctaw;http://en.wikipedia.org/wiki/Choctaw
+787;Timucua;http://en.wikipedia.org/wiki/Timucua
+788;Apalachee;http://en.wikipedia.org/wiki/Apalachee
+789;Natchez people;http://en.wikipedia.org/wiki/Natchez_people
+790;Chickasaw;http://en.wikipedia.org/wiki/Chickasaw
+791;Yamasee;http://en.wikipedia.org/wiki/Yamasee
+792;Cherokee;http://en.wikipedia.org/wiki/Cherokee
+793;Mohawk people;http://en.wikipedia.org/wiki/Mohawk_nation
+794;Lenape;http://en.wikipedia.org/wiki/Lenape
+795;Ojibwe;http://en.wikipedia.org/wiki/Ojibwa
+796;Odawa;http://en.wikipedia.org/wiki/Ottawa_(tribe)
+797;Wyandot people;http://en.wikipedia.org/wiki/Wyandot_people
+798;Age of Liberty;http://en.wikipedia.org/wiki/Age_of_Liberty
+799;Odawa;http://en.wikipedia.org/wiki/Ottawas
+800;Ojibwe;http://en.wikipedia.org/wiki/Ojibwas
+801;Potawatomi;http://en.wikipedia.org/wiki/Potawatomis
+802;Miami people;http://en.wikipedia.org/wiki/Miamis
+803;Wea;http://en.wikipedia.org/wiki/Wea
+804;Kickapoo people;http://en.wikipedia.org/wiki/Kickapoos
+805;Mascouten;http://en.wikipedia.org/wiki/Mascoutens
+806;Piankeshaw;http://en.wikipedia.org/wiki/Piankashaw
+807;Lenape;http://en.wikipedia.org/wiki/Delawares
+808;Shawnee;http://en.wikipedia.org/wiki/Shawnees
+809;Wyandot people;http://en.wikipedia.org/wiki/Wyandots
+810;Mingo;http://en.wikipedia.org/wiki/Mingos
+811;Seneca people;http://en.wikipedia.org/wiki/Seneca_nation
+812;Kingdom of Kartli-Kakheti;http://en.wikipedia.org/wiki/Kartl-Kakheti
+813;Mexico;http://en.wikipedia.org/wiki/Mexico
+814;Purépecha people;http://en.wikipedia.org/wiki/Tarascans
+815;Tlaxcaltec;http://en.wikipedia.org/wiki/Tlaxcalans
+816;Maya peoples;http://en.wikipedia.org/wiki/Maya_peoples
+817;Indigenous peoples of Mexico;http://en.wikipedia.org/wiki/Native_Mexicans
+818;Kingdom of Mysore;http://en.wikipedia.org/wiki/Kingdom_of_Mysore
+819;East India Company;http://en.wikipedia.org/wiki/East_India_Company
+820;Targowica Confederation;http://en.wikipedia.org/wiki/Targowica_Confederation
+821;United Kingdom of Great Britain and Ireland;http://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland
+822;Armée des Émigrés;http://en.wikipedia.org/wiki/%C3%89migr%C3%A9_armies_of_the_French_Revolutionary_Wars
+823;Catholic and Royal Army;http://en.wikipedia.org/wiki/Catholic_and_Royal_Army
+824;Newfoundland Colony;http://en.wikipedia.org/wiki/Newfoundland_Colony
+825;Malta;http://en.wikipedia.org/wiki/Malta
+826;Émigré;http://en.wikipedia.org/wiki/%C3%89migr%C3%A9s
+827;Indigenous Clans;NULL
+828;Polish Legions (Napoleonic period);http://en.wikipedia.org/wiki/Polish_Legions_(Napoleonic_period)
+829;Sister Republic;http://en.wikipedia.org/wiki/French_client_republic
