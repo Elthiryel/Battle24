@@ -8,10 +8,13 @@
       <column name="Name" sql-type="nvarchar" not-null="false" />
     </property>
     <property name="Date">
-      <column name="Date" sql-type="date" not-null="false" />
+      <column name="Date" sql-type="nvarchar" not-null="false" />
     </property>
     <property name="Summary">
       <column name="Summary" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="URL">
+      <column name="URL" sql-type="nvarchar" not-null="false" />
     </property>
   </class>
 </hibernate-mapping>
