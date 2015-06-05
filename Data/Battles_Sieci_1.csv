@@ -16,24 +16,24 @@ Holy Roman Empire;France;25
 France;Holy Roman Empire;25
 Spain;England;23
 England;Spain;23
-Austria;Prussia;22
 Prussia;Austria;22
+Austria;Prussia;22
 Scotland;England;20
 England;Scotland;20
 Great Britain;Spain;19
 Spain;Great Britain;19
 House of York;House of Lancaster;18
 House of Lancaster;House of York;18
-Portugal;The Netherlands;17
 The Netherlands;Portugal;17
+Portugal;The Netherlands;17
 Great Britain;Society of United Irishmen;16
 Society of United Irishmen;Great Britain;16
-Poland;Sweden;15
 Sweden;Poland;15
+Poland;Sweden;15
 Denmark;Sweden;14
 England;The Netherlands;14
-Ottoman Empire;Hungary;14
 Hungary;Ottoman Empire;14
+Ottoman Empire;Hungary;14
 The Netherlands;England;14
 Sweden;Denmark;14
 Great Britain;Canada;13
@@ -45,94 +45,96 @@ Poland;Russia;12
 Cavalier;Roundhead;11
 Roundhead;Cavalier;11
 Prussia;France;10
-Sweden;Holy Roman Empire;10
 France;Prussia;10
-Holy Roman Empire;Sweden;10
-Russia;Sweden;10
+Sweden;Holy Roman Empire;10
 Sweden;Russia;10
+Russia;Sweden;10
+Holy Roman Empire;Sweden;10
+Ottoman Empire;Republic of Venice;9
+Spain;Portugal;9
 Ottoman Empire;Serbia;9
 Portugal;Spain;9
-Holy Roman Empire;Prussia;9
-Ottoman Empire;Republic of Venice;9
-Ottoman Empire;Poland;9
-Spain;Portugal;9
 Prussia;Holy Roman Empire;9
 France;Kingdom of Sardinia;9
-Poland;Ottoman Empire;9
+Holy Roman Empire;Prussia;9
+Ottoman Empire;Poland;9
 Republic of Venice;Ottoman Empire;9
 Serbia;Ottoman Empire;9
+Poland;Ottoman Empire;9
 Kingdom of Sardinia;France;9
 Spain;Austria;8
 Holy Roman Empire;Ottoman Empire;8
 Ottoman Empire;Holy Roman Empire;8
 Austria;Spain;8
-Papal States;Ottoman Empire;7
 Landgraviate of Hesse-Kassel;United States;7
-Ottoman Empire;Papal States;7
 United States;Landgraviate of Hesse-Kassel;7
-Spain;Ottoman Empire;6
+Ottoman Empire;Papal States;7
+Papal States;Ottoman Empire;7
 Russia;Ottoman Empire;6
-Thirteen Colonies;Great Britain;6
-Jacobitism;Great Britain;6
-Japan;Joseon;6
-Great Britain;Jacobitism;6
+Spain;Ottoman Empire;6
+Adal Sultanate;Portugal;6
 Joseon;Japan;6
-Great Britain;Batavian Republic;6
+Japan;Joseon;6
+Thirteen Colonies;Great Britain;6
+Batavian Republic;Great Britain;6
+Great Britain;Jacobitism;6
 Ethiopian Empire;Adal Sultanate;6
 Portugal;Adal Sultanate;6
+Great Britain;Batavian Republic;6
 Russia;France;6
-Batavian Republic;Great Britain;6
+Jacobitism;Great Britain;6
 Sweden;Electorate of Saxony;6
 Adal Sultanate;Ethiopian Empire;6
 Great Britain;Thirteen Colonies;6
-Adal Sultanate;Portugal;6
-France;Russia;6
 Ottoman Empire;Russia;6
+France;Russia;6
 Ottoman Empire;Spain;6
 Electorate of Saxony;Sweden;6
 Uesugi forces;Takeda forces;5
 Poland;Teutonic Order;5
-France;Scotland;5
-Duchy of Milan;Republic of Venice;5
-Teutonic Order;Poland;5
-Thirteen Colonies;Province of Quebec (1763–91);5
-France;Portugal;5
-Ottoman Empire;Portugal;5
 Province of Quebec (1763–91);Thirteen Colonies;5
+France;Scotland;5
 Takeda forces;Uesugi forces;5
 Ottoman Empire;Wallachia;5
 British America;France;5
 Scotland;France;5
 Landgraviate of Hesse-Kassel;France;5
 Portugal;France;5
-Huguenot;Catholicism;5
+Ottoman Empire;Austria;5
 Canada;British America;5
 France;British America;5
 Ottoman Empire;Byzantine Empire;5
 British America;Canada;5
-Ottoman Empire;Austria;5
+Huguenot;Catholicism;5
 Republic of Venice;Duchy of Milan;5
+Oda Nobunaga;Ikkō-ikki;5
+Catholicism;Huguenot;5
 Korea;Japan;5
 Ming dynasty;Japan;5
-Catholicism;Huguenot;5
-Oda Nobunaga;Ikkō-ikki;5
-Wallachia;Ottoman Empire;5
-Moldavia;Ottoman Empire;5
-Portugal;Ottoman Empire;5
 Japan;Korea;5
 France;Landgraviate of Hesse-Kassel;5
 Japan;Ming dynasty;5
 Ottoman Empire;Moldavia;5
+Oda Nobunaga;Mōri clan;5
 Ikkō-ikki;Oda Nobunaga;5
 Mōri clan;Oda Nobunaga;5
-Oda Nobunaga;Mōri clan;5
+Teutonic Order;Poland;5
+France;Portugal;5
+Ottoman Empire;Portugal;5
+Thirteen Colonies;Province of Quebec (1763–91);5
+Duchy of Milan;Republic of Venice;5
+Wallachia;Ottoman Empire;5
+Moldavia;Ottoman Empire;5
+Portugal;Ottoman Empire;5
 Austria;Ottoman Empire;5
 Byzantine Empire;Ottoman Empire;5
-United States;Loyalist (American Revolution);4
-Republic of Genoa;Ottoman Empire;4
 Czech Republic;Ottoman Empire;4
+Republic of Genoa;Ottoman Empire;4
 France;Ottoman Empire;4
 History of Malta under the Order of Saint John;Ottoman Empire;4
+Ottoman Empire;Republic of Genoa;4
+Russia;Prussia;4
+United States;Loyalist (American Revolution);4
 Spain;Inca Empire;4
 Great Britain;Ireland;4
 Scots Covenanters;Irish expedition to Scotland;4
@@ -142,97 +144,256 @@ Holy Roman Empire;Czech Republic;4
 Ottoman Empire;Czech Republic;4
 Ottoman Empire;France;4
 Ireland;Great Britain;4
-Loyalist (American Revolution);United States;4
 Spain;Waldeck (state);4
-Russia;Prussia;4
-Prussia;Russia;4
+Loyalist (American Revolution);United States;4
 Irish expedition to Scotland;Scots Covenanters;4
-Ottoman Empire;Republic of Genoa;4
-Waldeck (state);Spain;4
+Prussia;Russia;4
 Inca Empire;Spain;4
-Charles VI, Holy Roman Emperor;Spain;3
-Dutch Rebels;Spain;3
-Apache;Spain;3
-Ottoman Empire;Safavid dynasty;3
-Electorate of Bavaria;The Netherlands;3
-Great Britain;The Netherlands;3
-Prince-Bishopric of Münster;The Netherlands;3
-Sweden;The Netherlands;3
+Waldeck (state);Spain;4
 Oda Nobunaga;Takeda Katsuyori;3
 Hōjō Ujiyasu;Takeda Shingen;3
 The Netherlands;Sweden;3
+Prince-Bishopric of Münster;The Netherlands;3
+Sweden;The Netherlands;3
+Electorate of Bavaria;The Netherlands;3
+Great Britain;The Netherlands;3
+Apache;Spain;3
+Charles VI, Holy Roman Emperor;Spain;3
+Dutch Rebels;Spain;3
+Ottoman Empire;Safavid dynasty;3
 Papal States;Republic of Venice;3
 Batavian Republic;Russia;3
 Crimean Khanate;Russia;3
-Duchy of Milan;Republic of Florence;3
-Holy Roman Empire;Republic of Venice;3
-Poland;Prussia;3
-Electorate of Saxony;Prussia;3
-The Netherlands;Prince-Bishopric of Münster;3
-Holy Roman Empire;Protestant Union;3
-Great Britain;Province of Massachusetts Bay;3
-England;Portugal;3
-Prussia;Poland;3
 Iroquois;United States;3
 Toyotomi clan;Tokugawa shogunate;3
 Tokugawa shogunate;Toyotomi clan;3
-Joseon;Toyotomi Hideyoshi;3
 Late Hōjō clan;Uesugi Clan;3
+Joseon;Toyotomi Hideyoshi;3
+Patriot (American Revolution);Great Britain;3
+Province of Massachusetts Bay;Great Britain;3
 County of Flanders;France;3
 Duchy of Brunswick-Lüneburg;France;3
 Duchy of Burgundy;France;3
 Duchy of Milan;France;3
 Bavaria;France;3
-Portugal;England;3
  House of Montfort;France;3
+Portugal;England;3
 Duchy of Brittany;England;3
 Electorate of Bavaria;England;3
+The Netherlands;Electorate of Bavaria;3
 Prussia;Electorate of Saxony;3
-Spain;Charles VI, Holy Roman Emperor;3
+Spain;Dutch Rebels;3
+England;Electorate of Bavaria;3
+Ottoman Empire;Croatia;3
+England;Duchy of Brittany;3
+France;Duchy of Brunswick-Lüneburg;3
+France;Duchy of Milan;3
+Republic of Florence;Duchy of Milan;3
+France;Duchy of Burgundy;3
+Old Swiss Confederacy;Duchy of Burgundy;3
+New Model Army;Cavalier;3
+Parliament of England;Cavalier;3
 France;County of Flanders;3
 Poland;Crimean Khanate;3
 Russia;Crimean Khanate;3
-Ottoman Empire;Croatia;3
-Spain;Dutch Rebels;3
-England;Electorate of Bavaria;3
-The Netherlands;Electorate of Bavaria;3
-England;Duchy of Brittany;3
-France;Duchy of Brunswick-Lüneburg;3
-France;Duchy of Burgundy;3
-Old Swiss Confederacy;Duchy of Burgundy;3
-France;Duchy of Milan;3
-Republic of Florence;Duchy of Milan;3
-New Model Army;Cavalier;3
-Parliament of England;Cavalier;3
-Spain;Apache;3
+Spain;Charles VI, Holy Roman Emperor;3
+France;Bavaria;3
+Russia;Batavian Republic;3
  House of Montfort; House of Blois;3
  House of Blois; House of Montfort;3
 France; House of Montfort;3
-Russia;Batavian Republic;3
-France;Bavaria;3
-Republic of Venice;Holy Roman Empire;3
-Protestant Union;Holy Roman Empire;3
+Spain;Apache;3
 Hussite;Holy Roman Empire;3
+Protestant Union;Holy Roman Empire;3
+Republic of Venice;Holy Roman Empire;3
 Takeda Shingen;Hōjō Ujiyasu;3
-Patriot (American Revolution);Great Britain;3
-Province of Massachusetts Bay;Great Britain;3
 The Netherlands;Great Britain;3
-United States;Iroquois;3
 Holy Roman Empire;Hussite;3
-Toyotomi Hideyoshi;Joseon;3
+Ottoman Empire;Mamluk Sultanate (Cairo);3
+Poland;Moldavia;3
+Takeda Katsuyori;Oda Nobunaga;3
+Cavalier;New Model Army;3
+Duchy of Burgundy;Old Swiss Confederacy;3
+United States;Iroquois;3
 Ottoman Empire;Knights Hospitaller;3
+Uesugi Clan;Late Hōjō clan;3
+Toyotomi Hideyoshi;Joseon;3
+Poland;Prussia;3
+Electorate of Saxony;Prussia;3
+Duchy of Milan;Republic of Florence;3
+Holy Roman Empire;Republic of Venice;3
+England;Portugal;3
+Holy Roman Empire;Protestant Union;3
+Great Britain;Province of Massachusetts Bay;3
+The Netherlands;Prince-Bishopric of Münster;3
 Knights Hospitaller;Ottoman Empire;3
 Mamluk Sultanate (Cairo);Ottoman Empire;3
-Safavid dynasty;Ottoman Empire;3
+Croatia;Ottoman Empire;3
 Republic of Venice;Papal States;3
 Cavalier;Parliament of England;3
 Great Britain;Patriot (American Revolution);3
+Safavid dynasty;Ottoman Empire;3
 Crimean Khanate;Poland;3
 Moldavia;Poland;3
-Ottoman Empire;Mamluk Sultanate (Cairo);3
-Poland;Moldavia;3
-Uesugi Clan;Late Hōjō clan;3
-Croatia;Ottoman Empire;3
-Cavalier;New Model Army;3
-Takeda Katsuyori;Oda Nobunaga;3
-Duchy of Burgundy;Old Swiss Confederacy;3
+Prussia;Poland;3
+Loyalist (American Revolution);Patriot (American Revolution);2
+France;Papal States;2
+Bosnia;Ottoman Empire;2
+Electorate of Bavaria;Ottoman Empire;2
+Electorate of Saxony;Ottoman Empire;2
+Ethiopian Empire;Ottoman Empire;2
+France;Principality of Brunswick-Wolfenbüttel;2
+Catholic League (German);Protestant Union;2
+1st Canadian Regiment;Province of Quebec (1763–91);2
+Kingdom of Kongo;Portugal;2
+Kingdom of Ndongo;Portugal;2
+Marinid dynasty;Portugal;2
+Zaporozhian Cossacks;Poland;2
+Crown of Aragon;Portugal;2
+Old Swiss Confederacy;Republic of Venice;2
+France;Republic of Venice;2
+Republic of Pisa;Republic of Florence;2
+England;Republic of Genoa;2
+Republic of Florence;Republic of Pisa;2
+United States;Province of Quebec (1763–91);2
+Teutonic Order;Prussian Confederation;2
+Toyotomi Hideyoshi;Joseon Navy;2
+Portugal;Kingdom of Kongo;2
+Portugal;Kingdom of Ndongo;2
+Spain;Kingdom of Sardinia;2
+Russia;Lithuania;2
+Patriot (American Revolution);Loyalist (American Revolution);2
+Toyotomi Hideyoshi;Late Hōjō clan;2
+France;Old Swiss Confederacy;2
+Republic of Venice;Old Swiss Confederacy;2
+Asakura Yoshikage;Oda Nobunaga;2
+Azai Nagamasa;Oda Nobunaga;2
+Takeda Shingen;Ogasawara Nagatoki;2
+East India Company;Mughal Empire;2
+Portugal;Marinid dynasty;2
+Great Britain;Military history of the Acadians;2
+Hungary;Hussite;2
+The Netherlands;Iberian Union;2
+The Netherlands;Jacobitism;2
+France;Iroquois;2
+Thirteen Colonies;Iroquois;2
+Hussite;Hungary;2
+Russia;Hordes of the Jochid Ulus;2
+Wallachia;Hungary;2
+Catholics;Hussite;2
+United States;Hesse;2
+Oda Nobunaga;Asakura Yoshikage;2
+Bavaria;Austria;2
+Canton of Schwyz;Austria;2
+Canton of Uri;Austria;2
+Electorate of Bavaria;Austria;2
+Unterwalden;Austria;2
+Oda Nobunaga;Azai Nagamasa;2
+Spain;Aztec Empire;2
+Tlaxcala (Nahua state);Aztec Empire;2
+Great Britain;1st Canadian Regiment;2
+Province of Quebec (1763–91);1st Canadian Regiment;2
+Great Britain;2nd Canadian Regiment;2
+Ethiopia;Adal Sultanate;2
+England; House of Blois;2
+Toyotomi Hideyoshi;Akechi Mitsuhide;2
+Austria;Bavaria;2
+Ottoman Empire;Bosnia;2
+England;Brittany;2
+Hussite;Catholics;2
+England;Canada;2
+Austria;Canton of Schwyz;2
+Austria;Canton of Uri;2
+Protestant Union;Catholic League (German);2
+Sweden;Catholic League (German);2
+Clan Grant;Clan Cameron;2
+Clan Gordon;Clan Forbes;2
+Clan Forbes;Clan Gordon;2
+Clan Mackintosh;Clan Gordon;2
+Clan Cameron;Clan Grant;2
+Clan Sutherland;Clan Mackay;2
+Clan Gordon;Clan Mackintosh;2
+Clan Mackay;Clan Sutherland;2
+The Netherlands;Colonial Brazil;2
+Covenanter;Confederate Ireland;2
+Great Britain;Connecticut Colony;2
+France;Corsican Republic;2
+Sweden;Crimean Khanate;2
+Confederate Ireland;Covenanter;2
+France;Charles VI, Holy Roman Emperor;2
+Scotland;Duchy of Burgundy;2
+Sweden;Duchy of Courland and Semigallia;2
+France;Duchy of Savoy;2
+Great Britain;Dutch East India Company;2
+Spain;Duchy of Brunswick-Lüneburg;2
+Portugal;Crown of Aragon;2
+France;Electorate of Bavaria;2
+Ottoman Empire;Electorate of Bavaria;2
+Scotland;Electorate of Bavaria;2
+French East India Company;East India Company;2
+Mughal Empire;East India Company;2
+Austria;Electorate of Bavaria;2
+Ottoman Empire;Electorate of Saxony;2
+Spain;Emirate of Granada;2
+ House of Blois;England;2
+Brittany;England;2
+Canada;England;2
+Republic of Genoa;England;2
+Wales;England;2
+Adal Sultanate;Ethiopia;2
+Ottoman Empire;Ethiopian Empire;2
+Charles VI, Holy Roman Emperor;France;2
+Corsican Republic;France;2
+Duchy of Savoy;France;2
+Electorate of Bavaria;France;2
+Iroquois;France;2
+Gascony;France;2
+Papal States;France;2
+Old Swiss Confederacy;France;2
+Principality of Brunswick-Wolfenbüttel;France;2
+Republic of Venice;France;2
+Military history of the Acadians;Great Britain;2
+Connecticut Colony;Great Britain;2
+Dutch East India Company;Great Britain;2
+East India Company;French East India Company;2
+France;Gascony;2
+1st Canadian Regiment;Great Britain;2
+2nd Canadian Regiment;Great Britain;2
+Joseon Navy;Toyotomi Hideyoshi;2
+Late Hōjō clan;Toyotomi Hideyoshi;2
+Akechi Mitsuhide;Toyotomi Hideyoshi;2
+Iroquois;Thirteen Colonies;2
+Hesse;United States;2
+Province of Quebec (1763–91);United States;2
+Western Confederacy;United States;2
+Austria;Unterwalden;2
+England;Wales;2
+Hungary;Wallachia;2
+United States;Western Confederacy;2
+Poland;Zaporozhian Cossacks;2
+Spain;Republic of Venice;2
+Hordes of the Jochid Ulus;Russia;2
+Lithuania;Russia;2
+Duchy of Burgundy;Scotland;2
+Electorate of Bavaria;Scotland;2
+Emirate of Granada;Spain;2
+Duchy of Brunswick-Lüneburg;Spain;2
+Aztec Empire;Spain;2
+Kingdom of Sardinia;Spain;2
+Republic of Venice;Spain;2
+Spain;Spain;2
+Iberian Union;The Netherlands;2
+Jacobitism;The Netherlands;2
+Prussian Confederation;Teutonic Order;2
+Colonial Brazil;The Netherlands;2
+Aztec Empire;Tlaxcala (Nahua state);2
+Takeda Katsuyori;Tokugawa Ieyasu;2
+Takeda Shingen;Tokugawa Ieyasu;2
+Suwa Yorishige;Takeda family forces;2
+Ogasawara Nagatoki;Takeda Shingen;2
+Tokugawa Ieyasu;Takeda Shingen;2
+Tokugawa Ieyasu;Takeda Katsuyori;2
+Takeda family forces;Suwa Yorishige;2
+Catholic League (German);Sweden;2
+Crimean Khanate;Sweden;2
+Duchy of Courland and Semigallia;Sweden;2

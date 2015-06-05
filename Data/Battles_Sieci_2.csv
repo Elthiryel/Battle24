@@ -1,11 +1,11 @@
 ﻿The Netherlands;England;24
 England;The Netherlands;24
-Holy Roman Empire;Austria;17
-Austria;Holy Roman Empire;17
-Spain;Holy Roman Empire;17
 Holy Roman Empire;Spain;17
-France;Spain;16
+Spain;Holy Roman Empire;17
+Austria;Holy Roman Empire;17
+Holy Roman Empire;Austria;17
 Spain;France;16
+France;Spain;16
 Canada;France;14
 France;Canada;14
 The Netherlands;Austria;13
@@ -16,8 +16,8 @@ Austria;Great Britain;11
 The Netherlands;Great Britain;11
 Great Britain;Austria;11
 Great Britain;The Netherlands;11
-Landgraviate of Hesse-Kassel;Great Britain;10
 Great Britain;Landgraviate of Hesse-Kassel;10
+Landgraviate of Hesse-Kassel;Great Britain;10
 Catholic League (German);Holy Roman Empire;9
 Holy Roman Empire;Catholic League (German);9
 Hungary;Holy Roman Empire;8
@@ -26,143 +26,138 @@ The Netherlands;Spain;8
 Spain;The Netherlands;8
 Papal States;Spain;6
 Portugal;Spain;6
-Spain;Portugal;6
-Spain;Papal States;6
-Hungary;Poland;6
 Poland;Hungary;6
 Great Britain;Iroquois;6
 Ming dynasty;Joseon;6
 Joseon;Ming dynasty;6
+Spain;Papal States;6
+Hungary;Poland;6
+Spain;Portugal;6
 Electorate of Brunswick-Lüneburg;Austria;6
 Iroquois;Great Britain;6
 Austria;Electorate of Brunswick-Lüneburg;6
-Scotland;England;5
-England;France;5
 France;England;5
+England;France;5
+Province of Quebec (1763–91);Great Britain;5
 British America;Great Britain;5
+Scotland;England;5
 Great Britain;British America;5
 Holy Roman Empire;Papal States;5
 Papal States;Holy Roman Empire;5
 Poland;Holy Roman Empire;5
 The Netherlands;Holy Roman Empire;5
-Province of Quebec (1763–91);Great Britain;5
+Holy Roman Empire;The Netherlands;5
+England;Scotland;5
 Great Britain;Province of Quebec (1763–91);5
 Holy Roman Empire;Poland;5
-England;Scotland;5
-Holy Roman Empire;The Netherlands;5
+Republic of Venice;Republic of Genoa;4
+Papal States;Republic of Venice;4
+Republic of Genoa;Republic of Venice;4
+Austria;Prussia;4
+Great Britain;Prussia;4
+France;Scotland;4
+The Netherlands;Scotland;4
+France;Republic of Venice;4
+Austria;Russia;4
+Catholic League (German);Spain;4
 Denmark;The Netherlands;4
 Electorate of Brunswick-Lüneburg;The Netherlands;4
 Scotland;The Netherlands;4
 Oda Nobunaga;Tokugawa Ieyasu;4
 Canton of Uri;Unterwalden;4
-France;Scotland;4
-The Netherlands;Scotland;4
-Republic of Venice;Republic of Genoa;4
-France;Republic of Venice;4
-Papal States;Republic of Venice;4
-Republic of Genoa;Republic of Venice;4
-Austria;Russia;4
-Catholic League (German);Spain;4
-Republic of Venice;Papal States;4
-Czech Republic;Poland;4
-Electorate of Saxony;Poland;4
-Crimean Khanate;Ottoman Empire;4
-Austria;Prussia;4
-Great Britain;Prussia;4
-Prussia;Great Britain;4
-Bavaria;Holy Roman Empire;4
-England;Holy Roman Empire;4
-Tokugawa Ieyasu;Oda Nobunaga;4
-Austria;Kingdom of Sardinia;4
 Electorate of Brunswick-Lüneburg;Landgraviate of Hesse-Kassel;4
 Great Britain;Loyalist (American Revolution);4
+Austria;Kingdom of Sardinia;4
+Republic of Venice;Papal States;4
+Tokugawa Ieyasu;Oda Nobunaga;4
+Crimean Khanate;Ottoman Empire;4
+Czech Republic;Poland;4
+Electorate of Saxony;Poland;4
 France;Batavian Republic;4
 Holy Roman Empire;Bavaria;4
 Kingdom of Sardinia;Austria;4
 Prussia;Austria;4
 Russia;Austria;4
 Spain;Catholic League (German);4
-Ottoman Empire;Crimean Khanate;4
-Poland;Czech Republic;4
+Unterwalden;Canton of Uri;4
 The Netherlands;Denmark;4
 France;Duchy of Brittany;4
+Poland;Czech Republic;4
 Great Britain;Duchy of Brunswick-Lüneburg;4
 England;Duchy of Burgundy;4
-Unterwalden;Canton of Uri;4
-France;Electorate of Bavaria;4
+Ottoman Empire;Crimean Khanate;4
 Duchy of Brunswick-Lüneburg;Great Britain;4
+Prussia;Great Britain;4
+Loyalist (American Revolution);Great Britain;4
+England;Holy Roman Empire;4
+Bavaria;Holy Roman Empire;4
 Republic of Venice;France;4
 Scotland;France;4
-Batavian Republic;France;4
-Loyalist (American Revolution);Great Britain;4
 Holy Roman Empire;England;4
-Poland;Electorate of Saxony;4
-Duchy of Burgundy;England;4
-Landgraviate of Hesse-Kassel;Electorate of Brunswick-Lüneburg;4
-The Netherlands;Electorate of Brunswick-Lüneburg;4
 Duchy of Brittany;France;4
 Electorate of Bavaria;France;4
-Holy Roman Empire;France;3
+Batavian Republic;France;4
+France;Electorate of Bavaria;4
+Landgraviate of Hesse-Kassel;Electorate of Brunswick-Lüneburg;4
+The Netherlands;Electorate of Brunswick-Lüneburg;4
+Poland;Electorate of Saxony;4
+Duchy of Burgundy;England;4
+Landgraviate of Hesse-Kassel;Duchy of Brunswick-Lüneburg;3
+Holy Roman Empire;Electorate of Saxony;3
+Austria;Electorate of Saxony;3
+Portugal;England;3
 Portugal;Ethiopian Empire;3
  House of Blois;France;3
-Austria;Electorate of Saxony;3
-Holy Roman Empire;Electorate of Saxony;3
-Portugal;England;3
+United States;France;3
+Holy Roman Empire;France;3
 Waldeck (state);Great Britain;3
 Great Britain;Hessian (soldier);3
+France;Holy Roman Empire;3
 Spain;History of Malta under the Order of Saint John;3
-United States;France;3
+Electorate of Saxony;Holy Roman Empire;3
+Czech Republic;Holy Roman Empire;3
+Russia;Great Britain;3
 Hessian (soldier);Great Britain;3
-The Netherlands;Dutch East India Company;3
-Landgraviate of Hesse-Kassel;Duchy of Brunswick-Lüneburg;3
 Poland;Crimean Khanate;3
-Holy Roman Empire;Czech Republic;3
-Hungary;Czech Republic;3
-Papal States;Czech Republic;3
+Unterwalden;Canton of Lucerne;3
 Austria;Charles VI, Holy Roman Emperor;3
 The Netherlands;Charles VI, Holy Roman Emperor;3
-Electorate of Saxony;Austria;3
-France; House of Blois;3
-Ottoman Empire;Adal Sultanate;3
-Charles VI, Holy Roman Emperor;Austria;3
+The Netherlands;Dutch East India Company;3
+Papal States;Czech Republic;3
+Holy Roman Empire;Czech Republic;3
+Hungary;Czech Republic;3
 Canton of Uri;Canton of Lucerne;3
-Unterwalden;Canton of Lucerne;3
 Canton of Uri;Canton of Schwyz;3
 Unterwalden;Canton of Schwyz;3
 Canton of Lucerne;Canton of Uri;3
 Canton of Schwyz;Canton of Uri;3
-Poland;Lithuania;3
-Duchy of Brunswick-Lüneburg;Landgraviate of Hesse-Kassel;3
-Adal Sultanate;Ottoman Empire;3
-Poland;Moldavia;3
-Hungary;Papal States;3
-Poland;Papal States;3
-Republic of Genoa;Papal States;3
-France;Holy Roman Empire;3
-Czech Republic;Holy Roman Empire;3
-Electorate of Saxony;Holy Roman Empire;3
-Russia;Great Britain;3
-Czech Republic;Hungary;3
-Serbia;Hungary;3
-Wallachia;Hungary;3
-Papal States;Hungary;3
-Papal States;Republic of Genoa;3
+Electorate of Saxony;Austria;3
+Ottoman Empire;Adal Sultanate;3
+Charles VI, Holy Roman Emperor;Austria;3
+France; House of Blois;3
+England;Portugal;3
+Ethiopian Empire;Portugal;3
+The Netherlands;Portugal;3
 Lithuania;Poland;3
 Moldavia;Poland;3
 Papal States;Poland;3
-England;Portugal;3
-Ethiopian Empire;Portugal;3
 Wallachia;Ottoman Empire;3
 Czech Republic;Papal States;3
+Adal Sultanate;Ottoman Empire;3
 United States;Patriot (American Revolution);3
 Crimean Khanate;Poland;3
-The Netherlands;Portugal;3
-History of Malta under the Order of Saint John;Spain;3
-Great Britain;Russia;3
-Hungary;Serbia;3
+Hungary;Papal States;3
+Poland;Papal States;3
+Republic of Genoa;Papal States;3
+Papal States;Hungary;3
+Duchy of Brunswick-Lüneburg;Landgraviate of Hesse-Kassel;3
+Poland;Lithuania;3
+Poland;Moldavia;3
+Czech Republic;Hungary;3
+Serbia;Hungary;3
+Wallachia;Hungary;3
 Great Britain;Waldeck (state);3
 Hungary;Wallachia;3
-Ottoman Empire;Wallachia;3
 France;United States;3
 Patriot (American Revolution);United States;3
 Thirteen Colonies;United States;3
@@ -170,5 +165,154 @@ Canton of Lucerne;Unterwalden;3
 Canton of Schwyz;Unterwalden;3
 United States;Thirteen Colonies;3
 Dutch East India Company;The Netherlands;3
-Charles VI, Holy Roman Emperor;The Netherlands;3
 Portugal;The Netherlands;3
+Charles VI, Holy Roman Emperor;The Netherlands;3
+History of Malta under the Order of Saint John;Spain;3
+Great Britain;Russia;3
+Hungary;Serbia;3
+Papal States;Republic of Genoa;3
+Ottoman Empire;Wallachia;3
+Spain;Republic of Genoa;2
+Byzantine Empire;Republic of Venice;2
+Spain;Republic of Venice;2
+Nawab of Awadh;Rohilla;2
+Russia;Prussia;2
+The Netherlands;Prussia;2
+Poland;Prussian Confederation;2
+France;Republic of Genoa;2
+History of Malta under the Order of Saint John;Republic of Genoa;2
+Electorate of Brunswick-Lüneburg;Prussia;2
+Iroquois;Province of Quebec (1763–91);2
+Ottoman Empire;Serbia;2
+Poland;Serbia;2
+Ireland;Society of United Irishmen;2
+Electorate of Saxony;Russia;2
+History of Malta under the Order of Saint John;Republic of Venice;2
+Knights Hospitaller;Republic of Venice;2
+Prussia;Russia;2
+Covenanter;Scotland;2
+Charles V, Holy Roman Emperor;Spain;2
+Czech Republic;Spain;2
+Duchy of Savoy;Spain;2
+Electorate of Bavaria;Spain;2
+Tlaxcala (Nahua state);Spain;2
+Republic of Genoa;Spain;2
+Republic of Venice;Spain;2
+Prussia;The Netherlands;2
+Kingdom of Ndongo;The Netherlands;2
+Spain;Tlaxcala (Nahua state);2
+2nd Canadian Regiment;United States;2
+1st Canadian Regiment;Thirteen Colonies;2
+Moldavia;Wallachia;2
+Canton of Zug;Unterwalden;2
+Old Swiss Confederacy;Unterwalden;2
+Great Britain;Indigenous peoples of the Americas;2
+Society of United Irishmen;Ireland;2
+The Netherlands;Kingdom of Ndongo;2
+Province of Quebec (1763–91);Iroquois;2
+France;Jacobitism;2
+Electorate of Saxony;Hungary;2
+Moldavia;Hungary;2
+Croatia;Hungary;2
+Wallachia;Moldavia;2
+Rohilla;Nawab of Awadh;2
+Hungary;Moldavia;2
+Ottoman Empire;Moldavia;2
+France;Military history of the Acadians;2
+Principality of Brunswick-Wolfenbüttel;Landgraviate of Hesse-Kassel;2
+Czech Republic;Lithuania;2
+Great Britain;Kingdom of Sardinia;2
+Republic of Venice;Knights Hospitaller;2
+Duchy of Brunswick-Lüneburg;Landgraviate of Hesse;2
+Electorate of Saxony;Landgraviate of Hesse;2
+History of Malta under the Order of Saint John;Papal States;2
+Moldavia;Ottoman Empire;2
+Serbia;Ottoman Empire;2
+Canton of Lucerne;Old Swiss Confederacy;2
+Canton of Uri;Old Swiss Confederacy;2
+Duchy of Milan;Old Swiss Confederacy;2
+Unterwalden;Old Swiss Confederacy;2
+Principality of Transylvania (1570–1711);Poland;2
+Prussian Confederation;Poland;2
+Serbia;Poland;2
+Austria;Portugal;2
+Charles VI, Holy Roman Emperor;Portugal;2
+Colonial Brazil;Portugal;2
+France;Prince-Bishopric of Münster;2
+Great Britain;Principality of Brunswick-Wolfenbüttel;2
+Landgraviate of Hesse-Kassel;Principality of Brunswick-Wolfenbüttel;2
+Poland;Principality of Transylvania (1570–1711);2
+Connecticut Colony;Province of Massachusetts Bay;2
+Great Britain;Portugal;2
+England; House of Montfort;2
+Thirteen Colonies;1st Canadian Regiment;2
+United States;2nd Canadian Regiment;2
+Electorate of Bavaria;Austria;2
+England;Austria;2
+Portugal;Austria;2
+France;Brittany;2
+Republic of Venice;Byzantine Empire;2
+Canton of Zug;Canton of Uri;2
+Old Swiss Confederacy;Canton of Uri;2
+Canton of Zug;Canton of Lucerne;2
+Old Swiss Confederacy;Canton of Lucerne;2
+Canton of Schwyz;Canton of Lucerne;2
+Canton of Lucerne;Canton of Zug;2
+Canton of Uri;Canton of Zug;2
+Unterwalden;Canton of Zug;2
+Holy Roman Empire;Charles V, Holy Roman Emperor;2
+Spain;Charles V, Holy Roman Emperor;2
+Lithuania;Czech Republic;2
+Electorate of Brunswick-Lüneburg;Duchy of Brunswick-Lüneburg;2
+Electorate of Saxony;Duchy of Brunswick-Lüneburg;2
+Czech Republic;Electoral Palatinate;2
+Austria;Electorate of Bavaria;2
+Old Swiss Confederacy;Duchy of Milan;2
+Spain;Duchy of Savoy;2
+Landgraviate of Hesse;Duchy of Brunswick-Lüneburg;2
+Spain;Czech Republic;2
+Clan Mackintosh;Chattan Confederation;2
+Clan Mackintosh;Clan Forbes;2
+Clan Sutherland;Clan Mackay;2
+Clan Munro;Clan Mackenzie;2
+Chattan Confederation;Clan Mackintosh;2
+Clan Forbes;Clan Mackintosh;2
+Clan MacNeil;Clan Maclean;2
+Clan Maclean;Clan MacNeil;2
+Clan Mackenzie;Clan Munro;2
+Clan Mackay;Clan Sutherland;2
+Portugal;Colonial Brazil;2
+Province of Massachusetts Bay;Connecticut Colony;2
+Scotland;Covenanter;2
+Great Britain;Charles VI, Holy Roman Emperor;2
+Portugal;Charles VI, Holy Roman Emperor;2
+Canton of Lucerne;Canton of Schwyz;2
+Hungary;Croatia;2
+Electoral Palatinate;Czech Republic;2
+Indigenous peoples of the Americas;Great Britain;2
+Hesse;Great Britain;2
+Charles VI, Holy Roman Emperor;Great Britain;2
+Kingdom of Sardinia;Great Britain;2
+Portugal;Great Britain;2
+Principality of Brunswick-Wolfenbüttel;Great Britain;2
+Electorate of Bavaria;Holy Roman Empire;2
+Charles V, Holy Roman Emperor;Holy Roman Empire;2
+Papal States;History of Malta under the Order of Saint John;2
+Republic of Genoa;History of Malta under the Order of Saint John;2
+Republic of Venice;History of Malta under the Order of Saint John;2
+Great Britain;Hesse;2
+Jacobitism;France;2
+Military history of the Acadians;France;2
+Prince-Bishopric of Münster;France;2
+Republic of Genoa;France;2
+Brittany;France;2
+Duchy of Brunswick-Lüneburg;Electorate of Saxony;2
+Prussia;Electorate of Brunswick-Lüneburg;2
+Holy Roman Empire;Electorate of Bavaria;2
+Spain;Electorate of Bavaria;2
+Duchy of Brunswick-Lüneburg;Electorate of Brunswick-Lüneburg;2
+Hungary;Electorate of Saxony;2
+Landgraviate of Hesse;Electorate of Saxony;2
+Russia;Electorate of Saxony;2
+ House of Montfort;England;2
+Austria;England;2
