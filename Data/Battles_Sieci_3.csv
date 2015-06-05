@@ -1,32 +1,32 @@
-﻿George Washington;Charles Cornwallis, 1st Marquess Cornwallis;6
-Charles Cornwallis, 1st Marquess Cornwallis;George Washington;6
+Source;Target;Liczba
+George Washington;Charles Cornwallis 1st Marquess Cornwallis;6
+Charles Cornwallis 1st Marquess Cornwallis;George Washington;6
 Nathanael Greene;George Washington;5
-Alasdair Mac Colla;James Graham, 1st Marquess of Montrose;5
-James Graham, 1st Marquess of Montrose;Alasdair Mac Colla;5
+Alasdair Mac Colla;James Graham 1st Marquess of Montrose;5
+James Graham 1st Marquess of Montrose;Alasdair Mac Colla;5
 Pierre André de Suffren;Edward Hughes (Royal Navy officer);5
 George Washington;Nathanael Greene;5
 Edward Hughes (Royal Navy officer);Pierre André de Suffren;5
 Tokugawa Ieyasu;Oda Nobunaga;4
 Michiel de Ruyter;Prince Rupert of the Rhine;4
-Charles I of England;Robert Devereux, 3rd Earl of Essex;4
-Charles Cornwallis, 1st Marquess Cornwallis;Nathanael Greene;4
-François Joseph Paul de Grasse;Samuel Hood, 1st Viscount Hood;4
+Charles I of England;Robert Devereux 3rd Earl of Essex;4
+Charles Cornwallis 1st Marquess Cornwallis;Nathanael Greene;4
+François Joseph Paul de Grasse;Samuel Hood 1st Viscount Hood;4
 Konishi Yukinaga;Sō Yoshitoshi;4
-Oda Nobunaga;Tokugawa Ieyasu;4
-Prince Rupert of the Rhine;Michiel de Ruyter;4
-Henri de la Tour d'Auvergne, Vicomte de Turenne;Louis, Grand Condé;4
+John Talbot 1st Earl of Shrewsbury;Joan of Arc;4
+Joan of Arc;John Talbot 1st Earl of Shrewsbury;4
+Dutch Republic;Kingdom of France;4
+Kingdom of France;Kingdom of Great Britain;4
 Kingdom of Great Britain;Kingdom of France;4
 Ukita Hideie;Kobayakawa Takakage;4
 Sō Yoshitoshi;Konishi Yukinaga;4
-John Talbot, 1st Earl of Shrewsbury;Joan of Arc;4
-Joan of Arc;John Talbot, 1st Earl of Shrewsbury;4
-Dutch Republic;Kingdom of France;4
-Kingdom of France;Kingdom of Great Britain;4
-Kingdom of France;Dutch Republic;4
+Henri de la Tour d'Auvergne Vicomte de Turenne;Louis Grand Condé;4
+Prince Rupert of the Rhine;Michiel de Ruyter;4
+Robert Devereux 3rd Earl of Essex;Charles I of England;4
+Nathanael Greene;Charles Cornwallis 1st Marquess Cornwallis;4
 Ahmad ibn Ibrahim al-Ghazi;Cristóvão da Gama;4
-Robert Devereux, 3rd Earl of Essex;Charles I of England;4
 Benedict Arnold;Daniel Morgan;4
-Nathanael Greene;Charles Cornwallis, 1st Marquess Cornwallis;4
+Kingdom of France;Dutch Republic;4
 Cristóvão da Gama;Ahmad ibn Ibrahim al-Ghazi;4
 Daniel Morgan;Benedict Arnold;4
 Charles XII of Sweden;Boris Sheremetev;4
@@ -34,41 +34,42 @@ Boris Sheremetev;Charles XII of Sweden;4
 Guillaume Brune;Herman Willem Daendels;4
 Francisco Pizarro;Hernando Pizarro;4
 Gonzalo Pizarro;Hernando Pizarro;4
-William Howe, 5th Viscount Howe;George Washington;4
+Hernando Pizarro;Francisco Pizarro;4
+William Howe 5th Viscount Howe;George Washington;4
 Hernando Pizarro;Gonzalo Pizarro;4
 Herman Willem Daendels;Guillaume Brune;4
-Louis, Grand Condé;Henri de la Tour d'Auvergne, Vicomte de Turenne;4
-Hernando Pizarro;Francisco Pizarro;4
-Samuel Hood, 1st Viscount Hood;François Joseph Paul de Grasse;4
+Louis Grand Condé;Henri de la Tour d'Auvergne Vicomte de Turenne;4
+Samuel Hood 1st Viscount Hood;François Joseph Paul de Grasse;4
+Oda Nobunaga;Tokugawa Ieyasu;4
 Kobayakawa Takakage;Ukita Hideie;4
 Yi Sun-sin;Wakisaka Yasuharu;4
-George Washington;William Howe, 5th Viscount Howe;4
+George Washington;William Howe 5th Viscount Howe;4
 Wakisaka Yasuharu;Yi Sun-sin;4
 Won Gyun;Yi Sun-sin;3
-Charles Cornwallis, 1st Marquess Cornwallis;William Howe, 5th Viscount Howe;3
+Charles Cornwallis 1st Marquess Cornwallis;William Howe 5th Viscount Howe;3
 Tōdō Takatora;Yi Sun-sin;3
-Konishi Yukinaga;Yi_Il;3
-Henry Clinton (American War of Independence);William Howe, 5th Viscount Howe;3
-John Sullivan (general);William Howe, 5th Viscount Howe;3
-Nathanael Greene;William Howe, 5th Viscount Howe;3
 Wakisaka Yasuharu;Yi Eokgi;3
 Won Gyun;Yi Eokgi;3
-William Alexander, Lord Stirling;William Howe, 5th Viscount Howe;3
+Konishi Yukinaga;Yi_Il;3
+William Alexander Lord Stirling;William Howe 5th Viscount Howe;3
 Tōdō Takatora;Won Gyun;3
 Wakisaka Yasuharu;Won Gyun;3
 Yi Eokgi;Won Gyun;3
 Yi Sun-sin;Won Gyun;3
+Henry Clinton (American War of Independence);William Howe 5th Viscount Howe;3
+John Sullivan (general);William Howe 5th Viscount Howe;3
+Nathanael Greene;William Howe 5th Viscount Howe;3
+William Howe 5th Viscount Howe;William Alexander Lord Stirling;3
 Nathanael Greene;Wilhelm von Knyphausen;3
-Charles Cornwallis, 1st Marquess Cornwallis;William Alexander, Lord Stirling;3
-George Washington;William Alexander, Lord Stirling;3
-John Sullivan (general);William Alexander, Lord Stirling;3
-William Howe, 5th Viscount Howe;William Alexander, Lord Stirling;3
-Kuroda Nagamasa;Ukita Hideie;3
+Charles Cornwallis 1st Marquess Cornwallis;William Alexander Lord Stirling;3
+George Washington;William Alexander Lord Stirling;3
+John Sullivan (general);William Alexander Lord Stirling;3
 Katō Yoshiaki;Wakisaka Yasuharu;3
 Tōdō Takatora;Wakisaka Yasuharu;3
 Won Gyun;Wakisaka Yasuharu;3
 Yi Eokgi;Wakisaka Yasuharu;3
-Shibata Katsuie;Toyotomi Hideyoshi;3
+Kuroda Nagamasa;Ukita Hideie;3
+Maeda Toshiie;Toyotomi Hideyoshi;3
 Benedict Arnold;Friedrich Adolf Riedesel;3
 Benjamin Lincoln;Friedrich Adolf Riedesel;3
 Daniel Morgan;Friedrich Adolf Riedesel;3
@@ -77,15 +78,26 @@ Enoch Poor;Friedrich Adolf Riedesel;3
 Horatio Gates;Friedrich Adolf Riedesel;3
 John Burgoyne;Friedrich Adolf Riedesel;3
 Simon Fraser of Balnain;Friedrich Adolf Riedesel;3
-Juan Pizarro (conquistador);Francisco Pizarro;3
+Spain;Francis Vere;3
 Prince Rupert of the Rhine;Charles I of England;3
 Gonzalo Pizarro;Francisco Pizarro;3
 Henry III of France;Gaspard II de Coligny;3
-Prince Frederick, Duke of York and Albany;Guillaume Brune;3
+Prince Frederick Duke of York and Albany;Guillaume Brune;3
 Juan Pizarro (conquistador);Gonzalo Pizarro;3
-John Sullivan (general);George Washington;3
-William Alexander, Lord Stirling;George Washington;3
+Juan Pizarro (conquistador);Francisco Pizarro;3
 Juan Pizarro (conquistador);Hernando Pizarro;3
+Prince Frederick Duke of York and Albany;Herman Willem Daendels;3
+Humphrey Stafford 1st Duke of Buckingham;Henry VI of England;3
+Richard Neville 16th Earl of Warwick;Henry VI of England;3
+John Sullivan (general);George Washington;3
+William Alexander Lord Stirling;George Washington;3
+Diego de Almagro;Gonzalo Pizarro;3
+Francisco Pizarro;Gonzalo Pizarro;3
+Charles Cornwallis 1st Marquess Cornwallis;Henry Clinton (American War of Independence);3
+William Howe 5th Viscount Howe;Henry Clinton (American War of Independence);3
+Gaspard II de Coligny;Henry III of France;3
+Sigismund Holy Roman Emperor;Jan Žižka;3
+Joan of Arc;Jean II Duke of Alençon;3
 Benedict Arnold;Horatio Gates;3
 Benjamin Lincoln;Horatio Gates;3
 Daniel Morgan;Horatio Gates;3
@@ -94,26 +106,15 @@ Enoch Poor;Horatio Gates;3
 Friedrich Adolf Riedesel;Horatio Gates;3
 John Burgoyne;Horatio Gates;3
 Simon Fraser of Balnain;Horatio Gates;3
-Charles Cornwallis, 1st Marquess Cornwallis;Henry Clinton (American War of Independence);3
-William Howe, 5th Viscount Howe;Henry Clinton (American War of Independence);3
-Gaspard II de Coligny;Henry III of France;3
-Humphrey Stafford, 1st Duke of Buckingham;Henry VI of England;3
-Richard Neville, 16th Earl of Warwick;Henry VI of England;3
-Prince Frederick, Duke of York and Albany;Herman Willem Daendels;3
-Sigismund, Holy Roman Emperor;Jan Žižka;3
-Diego de Almagro;Gonzalo Pizarro;3
-Francisco Pizarro;Gonzalo Pizarro;3
-Michiel de Ruyter;Jean II d'Estrées;3
-Joan of Arc;Jean II, Duke of Alençon;3
-Henry VI of England;Humphrey Stafford, 1st Duke of Buckingham;3
-Richard Neville, 16th Earl of Warwick;Humphrey Stafford, 1st Duke of Buckingham;3
+Henry VI of England;Humphrey Stafford 1st Duke of Buckingham;3
+Richard Neville 16th Earl of Warwick;Humphrey Stafford 1st Duke of Buckingham;3
 Carl Gustav Rehnskiöld;Charles XII of Sweden;3
 Ebenezer Learned;Benedict Arnold;3
 Enoch Poor;Benedict Arnold;3
 Friedrich Adolf Riedesel;Benedict Arnold;3
-Henry Clinton (American War of Independence);Charles Cornwallis, 1st Marquess Cornwallis;3
+Henry Clinton (American War of Independence);Charles Cornwallis 1st Marquess Cornwallis;3
 Benjamin Lincoln;Benedict Arnold;3
-John Sullivan (general);Charles Cornwallis, 1st Marquess Cornwallis;3
+John Sullivan (general);Charles Cornwallis 1st Marquess Cornwallis;3
 Charles XII of Sweden;Carl Gustav Rehnskiöld;3
 Horatio Gates;Benedict Arnold;3
 John Burgoyne;Benedict Arnold;3
@@ -126,10 +127,18 @@ Friedrich Adolf Riedesel;Benjamin Lincoln;3
 Horatio Gates;Benjamin Lincoln;3
 John Burgoyne;Benjamin Lincoln;3
 Simon Fraser of Balnain;Benjamin Lincoln;3
-William Alexander, Lord Stirling;Charles Cornwallis, 1st Marquess Cornwallis;3
-William Howe, 5th Viscount Howe;Charles Cornwallis, 1st Marquess Cornwallis;3
 Gonzalo Pizarro;Diego de Almagro;3
 Hernando Pizarro;Diego de Almagro;3
+Benjamin Lincoln;Daniel Morgan;3
+Ebenezer Learned;Daniel Morgan;3
+Enoch Poor;Daniel Morgan;3
+Friedrich Adolf Riedesel;Daniel Morgan;3
+Horatio Gates;Daniel Morgan;3
+John Burgoyne;Daniel Morgan;3
+Simon Fraser of Balnain;Daniel Morgan;3
+William Alexander Lord Stirling;Charles Cornwallis 1st Marquess Cornwallis;3
+William Howe 5th Viscount Howe;Charles Cornwallis 1st Marquess Cornwallis;3
+Richard Neville 16th Earl of Warwick;Edward IV of England;3
 Benedict Arnold;Ebenezer Learned;3
 Benjamin Lincoln;Ebenezer Learned;3
 Daniel Morgan;Ebenezer Learned;3
@@ -138,15 +147,6 @@ Friedrich Adolf Riedesel;Ebenezer Learned;3
 Horatio Gates;Ebenezer Learned;3
 John Burgoyne;Ebenezer Learned;3
 Simon Fraser of Balnain;Ebenezer Learned;3
-Benjamin Lincoln;Daniel Morgan;3
-Ebenezer Learned;Daniel Morgan;3
-Enoch Poor;Daniel Morgan;3
-Friedrich Adolf Riedesel;Daniel Morgan;3
-Horatio Gates;Daniel Morgan;3
-John Burgoyne;Daniel Morgan;3
-Simon Fraser of Balnain;Daniel Morgan;3
-Spain;Francis Vere;3
-Richard Neville, 16th Earl of Warwick;Edward IV of England;3
 Benedict Arnold;Enoch Poor;3
 Benjamin Lincoln;Enoch Poor;3
 Daniel Morgan;Enoch Poor;3
@@ -155,15 +155,27 @@ Friedrich Adolf Riedesel;Enoch Poor;3
 Horatio Gates;Enoch Poor;3
 John Burgoyne;Enoch Poor;3
 Simon Fraser of Balnain;Enoch Poor;3
+William Howe 5th Viscount Howe;Nathanael Greene;3
+Spain;Kingdom of France;3
+Shimazu Yoshihiro;Konishi Yukinaga;3
+Jean II d'Estrées;Michiel de Ruyter;3
+Toyotomi Hideyoshi;Maeda Toshiie;3
+Yi_Il;Konishi Yukinaga;3
+William Alexander Lord Stirling;John Sullivan (general);3
+William Howe 5th Viscount Howe;John Sullivan (general);3
+Ukita Hideie;Kuroda Nagamasa;3
+Sébastien Le Prestre de Vauban;Louis XIV of France;3
 Tōdō Takatora;Katō Yoshiaki;3
 Wakisaka Yasuharu;Katō Yoshiaki;3
-Diego de Almagro;Hernando Pizarro;3
-Jean II, Duke of Alençon;Joan of Arc;3
-William Alexander, Lord Stirling;John Sullivan (general);3
-William Howe, 5th Viscount Howe;John Sullivan (general);3
+Charles Cornwallis 1st Marquess Cornwallis;John Sullivan (general);3
+George Washington;John Sullivan (general);3
 Francisco Pizarro;Juan Pizarro (conquistador);3
 Gonzalo Pizarro;Juan Pizarro (conquistador);3
 Hernando Pizarro;Juan Pizarro (conquistador);3
+Paul Kray;Jean Victor Marie Moreau;3
+Michiel de Ruyter;Jean II d'Estrées;3
+Diego de Almagro;Hernando Pizarro;3
+Jean II Duke of Alençon;Joan of Arc;3
 Benedict Arnold;John Burgoyne;3
 Benjamin Lincoln;John Burgoyne;3
 Daniel Morgan;John Burgoyne;3
@@ -172,31 +184,15 @@ Enoch Poor;John Burgoyne;3
 Friedrich Adolf Riedesel;John Burgoyne;3
 Horatio Gates;John Burgoyne;3
 Simon Fraser of Balnain;John Burgoyne;3
-Prince Eugene of Savoy;John Churchill, 1st Duke of Marlborough;3
-Paul Kray;Jean Victor Marie Moreau;3
-Charles Cornwallis, 1st Marquess Cornwallis;John Sullivan (general);3
-George Washington;John Sullivan (general);3
-Yi_Il;Konishi Yukinaga;3
-Spain;Kingdom of France;3
-Ukita Hideie;Kuroda Nagamasa;3
-Toyotomi Hideyoshi;Maeda Toshiie;3
-Wilhelm von Knyphausen;Nathanael Greene;3
-Sébastien Le Prestre de Vauban;Louis XIV of France;3
-Shimazu Yoshihiro;Konishi Yukinaga;3
-Jean II d'Estrées;Michiel de Ruyter;3
-Maeda Toshiie;Toyotomi Hideyoshi;3
-Takeda Katsuyori;Tokugawa Ieyasu;3
-Katō Yoshiaki;Tōdō Takatora;3
-Wakisaka Yasuharu;Tōdō Takatora;3
-Won Gyun;Tōdō Takatora;3
-Yi Sun-sin;Tōdō Takatora;3
+Prince Eugene of Savoy;John Churchill 1st Duke of Marlborough;3
 Louis XIV of France;Sébastien Le Prestre de Vauban;3
-Tokugawa Ieyasu;Takeda Katsuyori;3
-Ogasawara Nagatoki;Takeda Shingen;3
-Richard Neville, 5th Earl of Salisbury;Richard of York, 3rd Duke of York;3
 Toyotomi Hideyoshi;Shibata Katsuie;3
 Konishi Yukinaga;Shimazu Yoshihiro;3
-Jan Žižka;Sigismund, Holy Roman Emperor;3
+Francis Vere;Spain;3
+Kingdom of France;Spain;3
+Richard Neville 5th Earl of Salisbury;Richard of York 3rd Duke of York;3
+Richard of York 3rd Duke of York;Richard Neville 5th Earl of Salisbury;3
+Jan Žižka;Sigismund Holy Roman Emperor;3
 Benedict Arnold;Simon Fraser of Balnain;3
 Benjamin Lincoln;Simon Fraser of Balnain;3
 Daniel Morgan;Simon Fraser of Balnain;3
@@ -205,18 +201,23 @@ Enoch Poor;Simon Fraser of Balnain;3
 Friedrich Adolf Riedesel;Simon Fraser of Balnain;3
 Horatio Gates;Simon Fraser of Balnain;3
 John Burgoyne;Simon Fraser of Balnain;3
-Francis Vere;Spain;3
-Kingdom of France;Spain;3
-John Churchill, 1st Duke of Marlborough;Prince Eugene of Savoy;3
-Guillaume Brune;Prince Frederick, Duke of York and Albany;3
-Herman Willem Daendels;Prince Frederick, Duke of York and Albany;3
-Henry VI of England;Richard Neville, 16th Earl of Warwick;3
-Humphrey Stafford, 1st Duke of Buckingham;Richard Neville, 16th Earl of Warwick;3
+Ogasawara Nagatoki;Takeda Shingen;3
+Tokugawa Ieyasu;Takeda Katsuyori;3
+Katō Yoshiaki;Tōdō Takatora;3
+Wakisaka Yasuharu;Tōdō Takatora;3
+Won Gyun;Tōdō Takatora;3
+Yi Sun-sin;Tōdō Takatora;3
+Takeda Katsuyori;Tokugawa Ieyasu;3
+Shibata Katsuie;Toyotomi Hideyoshi;3
+Henry VI of England;Richard Neville 16th Earl of Warwick;3
+Humphrey Stafford 1st Duke of Buckingham;Richard Neville 16th Earl of Warwick;3
+Guillaume Brune;Prince Frederick Duke of York and Albany;3
+Herman Willem Daendels;Prince Frederick Duke of York and Albany;3
 Charles I of England;Prince Rupert of the Rhine;3
-Edward IV of England;Richard Neville, 16th Earl of Warwick;3
-Richard of York, 3rd Duke of York;Richard Neville, 5th Earl of Salisbury;3
+Edward IV of England;Richard Neville 16th Earl of Warwick;3
+John Churchill 1st Duke of Marlborough;Prince Eugene of Savoy;3
+Wilhelm von Knyphausen;Nathanael Greene;3
 Takeda Shingen;Ogasawara Nagatoki;3
-William Howe, 5th Viscount Howe;Nathanael Greene;3
 Jean Victor Marie Moreau;Paul Kray;3
 Nuno Álvares Pereira;Pedro Álvares Pereira;2
 Hernán Cortés;Pedro de Alvarado;2
@@ -227,15 +228,229 @@ Adam Ludwig Lewenhaupt;Peter the Great;2
 Alexander Danilovich Menshikov;Peter the Great;2
 Boris Sheremetev;Peter the Great;2
 Charles XII of Sweden;Peter the Great;2
+Louis François Prince of Conti;Philip Duke of Parma;2
 Guido Starhemberg;Philip V of Spain;2
-James Stanhope, 1st Earl Stanhope;Philip V of Spain;2
+James Stanhope 1st Earl Stanhope;Philip V of Spain;2
 Pedro Manuel de Ataíde;Philip V of Spain;2
-Louis François, Prince of Conti;Philip, Duke of Parma;2
 Claes Uggla;Philips van Almonde;2
 Johan_B%C3%A4r;Philips van Almonde;2
 Lorentz Creutz;Philips van Almonde;2
 Niels Juel;Philips van Almonde;2
 Dragut;Piali Pasha;2
+Carl Gustav Rehnskiöld;Otto Vellingk;2
+Charles XII of Sweden;Otto Vellingk;2
+Suleiman the Magnificent;Pargalı Ibrahim Pasha;2
+William Alexander Lord Stirling;Nathanael Greene;2
+John Sullivan (general);Nathanael Greene;2
+Maximilian II Emanuel Elector of Bavaria;Prince Eugene of Savoy;2
+Toyotomi Hideyoshi;Oda Nobunaga;2
+Dutch Republic;Portugal;2
+Frederick the Great;Prince Charles Alexander of Lorraine;2
+Ferdinand de Marsin;Prince Eugene of Savoy;2
+Henry Holland 3rd Duke of Exeter;Richard Neville 16th Earl of Warwick;2
+Cornelis Tromp;Prince Rupert of the Rhine;2
+Jean II d'Estrées;Prince Rupert of the Rhine;2
+Jean-Baptiste Jourdan;Prince Josias of Saxe-Coburg-Saalfeld;2
+William I of the Netherlands;Prince Josias of Saxe-Coburg-Saalfeld;2
+Robert Devereux 3rd Earl of Essex;Prince Rupert of the Rhine;2
+Karl August Prince of Waldeck and Pyrmont;Prince William Duke of Cumberland;2
+Kingdom of France;Province of Hanover;2
+Herman Willem Daendels;Ralph Abercromby;2
+William Waller;Ralph Hopton 1st Baron Hopton;2
+Charles the Bold;René II Duke of Lorraine;2
+Rowland Laugharne;Rice Powell;2
+Henry Appleton;Richard Badiley;2
+Johan van Galen;Richard Badiley;2
+Edward IV of England;Richard III of England;2
+John de Vere 13th Earl of Oxford;Richard III of England;2
+William Hastings 1st Baron Hastings;Richard III of England;2
+Guy Carleton 1st Baron Dorchester;Richard Montgomery;2
+James Livingston (American Revolution);Richard Montgomery;2
+Richard Neville 5th Earl of Salisbury;Richard Neville 16th Earl of Warwick;2
+Richard of York 3rd Duke of York;Richard Neville 16th Earl of Warwick;2
+William Neville 1st Earl of Kent;Richard Neville 16th Earl of Warwick;2
+Henry VI of England;Richard Neville 5th Earl of Salisbury;2
+Humphrey Stafford 1st Duke of Buckingham;Richard Neville 5th Earl of Salisbury;2
+Richard Neville 16th Earl of Warwick;Richard Neville 5th Earl of Salisbury;2
+Prince Rupert of the Rhine;Robert Devereux 3rd Earl of Essex;2
+Henry Beaufort 3rd Duke of Somerset;Robert Hungerford 3rd Baron Hungerford;2
+John Neville 1st Marquess of Montagu;Robert Hungerford 3rd Baron Hungerford;2
+Thomas de Ros 9th Baron de Ros;Robert Hungerford 3rd Baron Hungerford;2
+Gottfried Heinrich Graf zu Pappenheim;Robert Munro 18th Baron of Foulis;2
+Gustavus Adolphus of Sweden;Robert Munro 18th Baron of Foulis;2
+Aymer de Valence 2nd Earl of Pembroke;Robert the Bruce;2
+Diego de Almagro;Rodrigo Orgóñez;2
+Gonzalo Pizarro;Rodrigo Orgóñez;2
+Hernando Pizarro;Rodrigo Orgóñez;2
+Rice Powell;Rowland Laugharne;2
+Tokugawa Ieyasu;Sakai Tadatsugu;2
+Tokugawa Ieyasu;Toyotomi Hideyoshi;2
+Uesugi Kagekatsu;Toyotomi Hideyoshi;2
+Takeda Shingen;Tozawa_Yorichika;2
+Maeda Toshiie;Uesugi Kagekatsu;2
+Toyotomi Hideyoshi;Uesugi Kagekatsu;2
+Chōsokabe Motochika;Ukita Hideie;2
+Ishida Mitsunari;Ukita Hideie;2
+Katō Kiyomasa;Ukita Hideie;2
+Toyotomi Hideyoshi;Tokugawa Ieyasu;2
+Akechi Mitsuhide;Toyotomi Hideyoshi;2
+Kobayakawa Takakage;Toyotomi Hideyoshi;2
+Hattori Hanzō;Tokugawa Ieyasu;2
+Ii Naomasa;Tokugawa Ieyasu;2
+Ishida Mitsunari;Tokugawa Ieyasu;2
+Maeda Toshiie;Tokugawa Ieyasu;2
+Yi Eokgi;Tōdō Takatora;2
+Baba Nobuharu;Takeda Shingen;2
+Hōjō Ujikuni;Takeda Shingen;2
+Murakami Yoshikiyo;Takeda Shingen;2
+Suwa Yorishige;Takeda Shingen;2
+Tozawa_Yorichika;Takeda Shingen;2
+Yamagata Masakage;Takeda Shingen;2
+Charles I Duke of Brittany;Thomas Dagworth;2
+Henry Beaufort 3rd Duke of Somerset;Thomas de Ros 9th Baron de Ros;2
+John Neville 1st Marquess of Montagu;Thomas de Ros 9th Baron de Ros;2
+Robert Hungerford 3rd Baron Hungerford;Thomas de Ros 9th Baron de Ros;2
+John Stewart Earl of Buchan;Thomas Montacute 4th Earl of Salisbury;2
+Charles XI of Sweden;Simon Grundel-Helmfelt;2
+Christian V of Denmark;Simon Grundel-Helmfelt;2
+Henry VI of England;Richard of York 3rd Duke of York;2
+Humphrey Stafford 1st Duke of Buckingham;Richard of York 3rd Duke of York;2
+Richard Neville 16th Earl of Warwick;Richard of York 3rd Duke of York;2
+Louis Antoine de Bougainville;Samuel Hood 1st Viscount Hood;2
+Dutch Republic;Sébastien Le Prestre de Vauban;2
+Maurice Prince of Orange;Spain;2
+Gustavus Adolphus of Sweden;Stanisław Koniecpolski;2
+John II Casimir Vasa;Stanisław Lanckoroński (hetman);2
+Bayezid I;Stefan Lazarević;2
+Pargalı Ibrahim Pasha;Suleiman the Magnificent;2
+Takeda Shingen;Suwa Yorishige;2
+Denmark;Sweden;2
+Konishi Yukinaga;Tachibana Muneshige;2
+Fiodor Denisov;Tadeusz Kościuszko;2
+Oda Nobunaga;Takeda Katsuyori;2
+Sō Yoshitoshi;Shimazu Yoshihiro;2
+Wakisaka Yasuharu;Shimazu Yoshihiro;2
+Napoleon;Sidney Smith (Royal Navy officer);2
+Maeda Toshiie;Shibata Katsuie;2
+Oda Nobunaga;Shibata Katsuie;2
+Shimazu Yoshihiro;Sō Yoshitoshi;2
+Dutch Republic;Spain;2
+Henry VII of England;John de Vere 13th Earl of Oxford;2
+Jasper Tudor Duke of Bedford;John de Vere 13th Earl of Oxford;2
+Richard III of England;John de Vere 13th Earl of Oxford;2
+Johan Banér;John George I Elector of Saxony;2
+Đurađ Branković;John Hunyadi;2
+Murad II;John Hunyadi;2
+Władysław III of Poland;John Hunyadi;2
+Charles X Gustav of Sweden;John II Casimir Vasa;2
+Stanisław Lanckoroński (hetman);John II Casimir Vasa;2
+Henry Beaufort 3rd Duke of Somerset;John Neville 1st Marquess of Montagu;2
+Robert Hungerford 3rd Baron Hungerford;John Neville 1st Marquess of Montagu;2
+Thomas de Ros 9th Baron de Ros;John Neville 1st Marquess of Montagu;2
+Joseph Warren;John Pitcairn;2
+Thomas Montacute 4th Earl of Salisbury;John Stewart Earl of Buchan;2
+Joseph Brant;John Butler (pioneer);2
+Henry de Nassau Lord Overkirk;John Churchill 1st Duke of Marlborough;2
+Maximilian II Emanuel Elector of Bavaria;John Churchill 1st Duke of Marlborough;2
+Prince Rupert of the Rhine;Jean II d'Estrées;2
+Antoniotto Botta Adorno;Jean-Baptiste Francois des Marets marquis de Maillebois;2
+François Sébastien Charles Joseph de Croix Count of Clerfayt;Jean-Baptiste Jourdan;2
+Prince Josias of Saxe-Coburg-Saalfeld;Jean-Baptiste Jourdan;2
+William I of the Netherlands;Jean-Baptiste Jourdan;2
+Napoleon;Jezzar Pasha;2
+La Hire;Joan of Arc;2
+William de la Pole 1st Duke of Suffolk;Joan of Arc;2
+John George I Elector of Saxony;Johan Banér;2
+Henry Appleton;Johan van Galen;2
+Richard Badiley;Johan van Galen;2
+Claes Uggla;Johan_B%C3%A4r;2
+Lorentz Creutz;Johan_B%C3%A4r;2
+Niels Juel;Johan_B%C3%A4r;2
+Philips van Almonde;Johan_B%C3%A4r;2
+Christian the Younger of Brunswick;Johann Tserclaes Count of Tilly;2
+Georg Friedrich Margrave of Baden-Durlach;Johann Tserclaes Count of Tilly;2
+Gonzalo Fernández de Córdoba (1585–1645);Johann Tserclaes Count of Tilly;2
+Gottfried Heinrich Graf zu Pappenheim;Johann Tserclaes Count of Tilly;2
+Kingdom of France;Karl August Prince of Waldeck and Pyrmont;2
+Prince William Duke of Cumberland;Karl August Prince of Waldeck and Pyrmont;2
+Konishi Yukinaga;Katō Kiyomasa;2
+Kuroda Nagamasa;Katō Kiyomasa;2
+Kwon Yul;Katō Kiyomasa;2
+Ukita Hideie;Katō Kiyomasa;2
+Kuki Yoshitaka;Katō Yoshiaki;2
+Nathanael Greene;John Sullivan (general);2
+Wilhelm von Knyphausen;John Sullivan (general);2
+La Hire;John Talbot 1st Earl of Shrewsbury;2
+John Butler (pioneer);Joseph Brant;2
+John Pitcairn;Joseph Warren;2
+Napoleon;József Alvinczi;2
+Diego de Almagro;Juan Pizarro (conquistador);2
+Won Gyun;Katō Yoshiaki;2
+Yi Eokgi;Katō Yoshiaki;2
+Yi Sun-sin;Katō Yoshiaki;2
+Kobayakawa Takakage;Kikkawa Motoharu;2
+Kingdom of France;Kingdom of England;2
+Holy Roman Empire;Kingdom of France;2
+Karl August Prince of Waldeck and Pyrmont;Kingdom of France;2
+Kingdom of England;Kingdom of France;2
+United States;Kingdom of Great Britain;2
+Habsburg Monarchy;Kingdom of Prussia;2
+Holy Roman Empire;Kingdom of Prussia;2
+Chōsokabe Motochika;Kobayakawa Takakage;2
+Ishida Mitsunari;Kobayakawa Takakage;2
+Kikkawa Motoharu;Kobayakawa Takakage;2
+Toyotomi Hideyoshi;Kobayakawa Takakage;2
+Francis de Gaston Chevalier de Levis;Louis-Joseph de Montcalm;2
+George Howe 3rd Viscount Howe;Louis-Joseph de Montcalm;2
+James Abercrombie (British Army general);Louis-Joseph de Montcalm;2
+James Wolfe;Louis-Joseph de Montcalm;2
+George Monck 1st Duke of Albemarle;Maarten Tromp;2
+Oda Nobunaga;Maeda Toshiie;2
+Shibata Katsuie;Maeda Toshiie;2
+Tokugawa Ieyasu;Maeda Toshiie;2
+Katō Kiyomasa;Kwon Yul;2
+Konishi Yukinaga;Kwon Yul;2
+Jean Poton de Xaintrailles;La Hire;2
+Joan of Arc;La Hire;2
+John Talbot 1st Earl of Shrewsbury;La Hire;2
+Charles Edward Stuart;Lord George Murray (general);2
+Claes Uggla;Lorentz Creutz;2
+Johan_B%C3%A4r;Lorentz Creutz;2
+Niels Juel;Lorentz Creutz;2
+Philips van Almonde;Lorentz Creutz;2
+François Joseph Paul de Grasse;Louis Antoine de Bougainville;2
+Samuel Hood 1st Viscount Hood;Louis Antoine de Bougainville;2
+Philip Duke of Parma;Louis François Prince of Conti;2
+Archduke Leopold Wilhelm of Austria;Louis Grand Condé;2
+Jean II Duke of Alençon;John Talbot 1st Earl of Shrewsbury;2
+Province of Hanover;Kingdom of France;2
+Katō Kiyomasa;Konishi Yukinaga;2
+Kuroda Nagamasa;Konishi Yukinaga;2
+Kwon Yul;Konishi Yukinaga;2
+Katō Yoshiaki;Kuki Yoshitaka;2
+Katō Kiyomasa;Kuroda Nagamasa;2
+Konishi Yukinaga;Kuroda Nagamasa;2
+Tachibana Muneshige;Konishi Yukinaga;2
+Ukita Hideie;Konishi Yukinaga;2
+Wakisaka Yasuharu;Konishi Yukinaga;2
+Yang Hao (Ming dynasty);Konishi Yukinaga;2
+Uesugi Kagekatsu;Maeda Toshiie;2
+Francis Vere;Maurice Prince of Orange;2
+Spain;Maurice Prince of Orange;2
+Charles V Duke of Lorraine;Maximilian II Emanuel Elector of Bavaria;2
+John Churchill 1st Duke of Marlborough;Maximilian II Emanuel Elector of Bavaria;2
+Prince Eugene of Savoy;Maximilian II Emanuel Elector of Bavaria;2
+Frederick the Great;Maximilian Ulysses Browne;2
+Alexander Suvorov;Michael von Melas;2
+Adriaen Banckert;Michiel de Ruyter;2
+Cornelis Tromp;Michiel de Ruyter;2
+George Monck 1st Duke of Albemarle;Michiel de Ruyter;2
+France;Kingdom of Great Britain;2
+Bartolomeo d'Alviano;Louis II de la Trémoille;2
+Gian Giacomo Trivulzio;Louis II de la Trémoille;2
+Frederick the Fair;Louis IV Holy Roman Emperor;2
+Gaspard II de Coligny;Louis Prince of Condé (1530–1569);2
+Dutch Republic;Louis XIV of France;2
 Hugues Quiéret;Nicolas Béhuchet;2
 Claes Uggla;Niels Juel;2
 Johan_B%C3%A4r;Niels Juel;2
@@ -248,99 +463,6 @@ Azai Nagamasa;Oda Nobunaga;2
 Maeda Toshiie;Oda Nobunaga;2
 Shibata Katsuie;Oda Nobunaga;2
 Takeda Katsuyori;Oda Nobunaga;2
-Carl Gustav Rehnskiöld;Otto Vellingk;2
-Charles XII of Sweden;Otto Vellingk;2
-Suleiman the Magnificent;Pargalı Ibrahim Pasha;2
-Dutch Republic;Portugal;2
-Frederick the Great;Prince Charles Alexander of Lorraine;2
-Ferdinand de Marsin;Prince Eugene of Savoy;2
-Henry VI of England;Richard of York, 3rd Duke of York;2
-Humphrey Stafford, 1st Duke of Buckingham;Richard of York, 3rd Duke of York;2
-Richard Neville, 16th Earl of Warwick;Richard of York, 3rd Duke of York;2
-Henry Holland, 3rd Duke of Exeter;Richard Neville, 16th Earl of Warwick;2
-Cornelis Tromp;Prince Rupert of the Rhine;2
-Jean II d'Estrées;Prince Rupert of the Rhine;2
-Richard Neville, 5th Earl of Salisbury;Richard Neville, 16th Earl of Warwick;2
-Richard of York, 3rd Duke of York;Richard Neville, 16th Earl of Warwick;2
-William Neville, 1st Earl of Kent;Richard Neville, 16th Earl of Warwick;2
-Henry VI of England;Richard Neville, 5th Earl of Salisbury;2
-Humphrey Stafford, 1st Duke of Buckingham;Richard Neville, 5th Earl of Salisbury;2
-Richard Neville, 16th Earl of Warwick;Richard Neville, 5th Earl of Salisbury;2
-Jean-Baptiste Jourdan;Prince Josias of Saxe-Coburg-Saalfeld;2
-William I of the Netherlands;Prince Josias of Saxe-Coburg-Saalfeld;2
-Maximilian II Emanuel, Elector of Bavaria;Prince Eugene of Savoy;2
-Toyotomi Hideyoshi;Oda Nobunaga;2
-Robert Devereux, 3rd Earl of Essex;Prince Rupert of the Rhine;2
-Karl August, Prince of Waldeck and Pyrmont;Prince William, Duke of Cumberland;2
-Kingdom of France;Province of Hanover;2
-Herman Willem Daendels;Ralph Abercromby;2
-William Waller;Ralph Hopton, 1st Baron Hopton;2
-Charles the Bold;René II, Duke of Lorraine;2
-Rowland Laugharne;Rice Powell;2
-Henry Appleton;Richard Badiley;2
-Johan van Galen;Richard Badiley;2
-Edward IV of England;Richard III of England;2
-John de Vere, 13th Earl of Oxford;Richard III of England;2
-William Hastings, 1st Baron Hastings;Richard III of England;2
-Guy Carleton, 1st Baron Dorchester;Richard Montgomery;2
-James Livingston (American Revolution);Richard Montgomery;2
-Maurice, Prince of Orange;Spain;2
-Gustavus Adolphus of Sweden;Stanisław Koniecpolski;2
-John II Casimir Vasa;Stanisław Lanckoroński (hetman);2
-Bayezid I;Stefan Lazarević;2
-Pargalı Ibrahim Pasha;Suleiman the Magnificent;2
-Takeda Shingen;Suwa Yorishige;2
-Denmark;Sweden;2
-Konishi Yukinaga;Tachibana Muneshige;2
-Fiodor Denisov;Tadeusz Kościuszko;2
-Oda Nobunaga;Takeda Katsuyori;2
-Charles XI of Sweden;Simon Grundel-Helmfelt;2
-Christian V of Denmark;Simon Grundel-Helmfelt;2
-Sō Yoshitoshi;Shimazu Yoshihiro;2
-Wakisaka Yasuharu;Shimazu Yoshihiro;2
-Napoleon;Sidney Smith (Royal Navy officer);2
-Louis Antoine de Bougainville;Samuel Hood, 1st Viscount Hood;2
-Dutch Republic;Sébastien Le Prestre de Vauban;2
-Prince Rupert of the Rhine;Robert Devereux, 3rd Earl of Essex;2
-Henry Beaufort, 3rd Duke of Somerset;Robert Hungerford, 3rd Baron Hungerford;2
-John Neville, 1st Marquess of Montagu;Robert Hungerford, 3rd Baron Hungerford;2
-Thomas de Ros, 9th Baron de Ros;Robert Hungerford, 3rd Baron Hungerford;2
-Gottfried Heinrich Graf zu Pappenheim;Robert Munro, 18th Baron of Foulis;2
-Gustavus Adolphus of Sweden;Robert Munro, 18th Baron of Foulis;2
-Aymer de Valence, 2nd Earl of Pembroke;Robert the Bruce;2
-Diego de Almagro;Rodrigo Orgóñez;2
-Gonzalo Pizarro;Rodrigo Orgóñez;2
-Hernando Pizarro;Rodrigo Orgóñez;2
-Rice Powell;Rowland Laugharne;2
-Tokugawa Ieyasu;Sakai Tadatsugu;2
-Suwa Yorishige;Takeda Shingen;2
-Tozawa_Yorichika;Takeda Shingen;2
-Yamagata Masakage;Takeda Shingen;2
-Charles I, Duke of Brittany;Thomas Dagworth;2
-Henry Beaufort, 3rd Duke of Somerset;Thomas de Ros, 9th Baron de Ros;2
-John Neville, 1st Marquess of Montagu;Thomas de Ros, 9th Baron de Ros;2
-Robert Hungerford, 3rd Baron Hungerford;Thomas de Ros, 9th Baron de Ros;2
-John Stewart, Earl of Buchan;Thomas Montacute, 4th Earl of Salisbury;2
-Baba Nobuharu;Takeda Shingen;2
-Hōjō Ujikuni;Takeda Shingen;2
-Murakami Yoshikiyo;Takeda Shingen;2
-Maeda Toshiie;Shibata Katsuie;2
-Oda Nobunaga;Shibata Katsuie;2
-Shimazu Yoshihiro;Sō Yoshitoshi;2
-Dutch Republic;Spain;2
-Hattori Hanzō;Tokugawa Ieyasu;2
-Ii Naomasa;Tokugawa Ieyasu;2
-Ishida Mitsunari;Tokugawa Ieyasu;2
-Maeda Toshiie;Tokugawa Ieyasu;2
-Yi Eokgi;Tōdō Takatora;2
-Toyotomi Hideyoshi;Tokugawa Ieyasu;2
-Akechi Mitsuhide;Toyotomi Hideyoshi;2
-Kobayakawa Takakage;Toyotomi Hideyoshi;2
-Oda Nobunaga;Toyotomi Hideyoshi;2
-Sakai Tadatsugu;Tokugawa Ieyasu;2
-Archduke Leopold Wilhelm of Austria;Louis, Grand Condé;2
-William Alexander, Lord Stirling;Nathanael Greene;2
-John Sullivan (general);Nathanael Greene;2
 Willem Joseph van Ghent;Michiel de Ruyter;2
 John Hunyadi;Murad II;2
 Takeda Shingen;Murakami Yoshikiyo;2
@@ -349,164 +471,49 @@ Jezzar Pasha;Napoleon;2
 József Alvinczi;Napoleon;2
 Sidney Smith (Royal Navy officer);Napoleon;2
 Alexander Leslie (British Army officer);Nathanael Greene;2
-Uesugi Kagekatsu;Maeda Toshiie;2
-Francis Vere;Maurice, Prince of Orange;2
-Spain;Maurice, Prince of Orange;2
-Charles V, Duke of Lorraine;Maximilian II Emanuel, Elector of Bavaria;2
-John Churchill, 1st Duke of Marlborough;Maximilian II Emanuel, Elector of Bavaria;2
-Prince Eugene of Savoy;Maximilian II Emanuel, Elector of Bavaria;2
-Frederick the Great;Maximilian Ulysses Browne;2
-Alexander Suvorov;Michael von Melas;2
-Adriaen Banckert;Michiel de Ruyter;2
-Cornelis Tromp;Michiel de Ruyter;2
-George Monck, 1st Duke of Albemarle;Michiel de Ruyter;2
-Gaspard II de Coligny;Louis, Prince of Condé (1530–1569);2
-Francis de Gaston, Chevalier de Levis;Louis-Joseph de Montcalm;2
-George Howe, 3rd Viscount Howe;Louis-Joseph de Montcalm;2
-James Abercrombie (British Army general);Louis-Joseph de Montcalm;2
-James Wolfe;Louis-Joseph de Montcalm;2
-George Monck, 1st Duke of Albemarle;Maarten Tromp;2
-Oda Nobunaga;Maeda Toshiie;2
-Shibata Katsuie;Maeda Toshiie;2
-Tokugawa Ieyasu;Maeda Toshiie;2
-Katō Kiyomasa;Kwon Yul;2
-Konishi Yukinaga;Kwon Yul;2
-Jean Poton de Xaintrailles;La Hire;2
-Joan of Arc;La Hire;2
-John Talbot, 1st Earl of Shrewsbury;La Hire;2
-Charles Edward Stuart;Lord George Murray (general);2
-Claes Uggla;Lorentz Creutz;2
-Johan_B%C3%A4r;Lorentz Creutz;2
-Niels Juel;Lorentz Creutz;2
-Philips van Almonde;Lorentz Creutz;2
-François Joseph Paul de Grasse;Louis Antoine de Bougainville;2
-Samuel Hood, 1st Viscount Hood;Louis Antoine de Bougainville;2
-Philip, Duke of Parma;Louis François, Prince of Conti;2
-Bartolomeo d'Alviano;Louis II de la Trémoille;2
-Gian Giacomo Trivulzio;Louis II de la Trémoille;2
-Frederick the Fair;Louis IV, Holy Roman Emperor;2
-Dutch Republic;Louis XIV of France;2
-France;Kingdom of Great Britain;2
-Province of Hanover;Kingdom of France;2
-Katō Kiyomasa;Konishi Yukinaga;2
-Kuroda Nagamasa;Konishi Yukinaga;2
-Kwon Yul;Konishi Yukinaga;2
-Katō Yoshiaki;Kuki Yoshitaka;2
-Katō Kiyomasa;Kuroda Nagamasa;2
-Konishi Yukinaga;Kuroda Nagamasa;2
-Tachibana Muneshige;Konishi Yukinaga;2
-Ukita Hideie;Konishi Yukinaga;2
-Wakisaka Yasuharu;Konishi Yukinaga;2
-Yang Hao (Ming dynasty);Konishi Yukinaga;2
-Nathanael Greene;John Sullivan (general);2
-Wilhelm von Knyphausen;John Sullivan (general);2
-Antoniotto Botta Adorno;Jean-Baptiste Francois des Marets, marquis de Maillebois;2
-François Sébastien Charles Joseph de Croix, Count of Clerfayt;Jean-Baptiste Jourdan;2
-Prince Josias of Saxe-Coburg-Saalfeld;Jean-Baptiste Jourdan;2
-William I of the Netherlands;Jean-Baptiste Jourdan;2
-Napoleon;Jezzar Pasha;2
-Henry VII of England;John de Vere, 13th Earl of Oxford;2
-Jasper Tudor, Duke of Bedford;John de Vere, 13th Earl of Oxford;2
-Richard III of England;John de Vere, 13th Earl of Oxford;2
-Johan Banér;John George I, Elector of Saxony;2
-Đurađ Branković;John Hunyadi;2
-Murad II;John Hunyadi;2
-Władysław III of Poland;John Hunyadi;2
-Charles X Gustav of Sweden;John II Casimir Vasa;2
-Stanisław Lanckoroński (hetman);John II Casimir Vasa;2
-Henry Beaufort, 3rd Duke of Somerset;John Neville, 1st Marquess of Montagu;2
-Robert Hungerford, 3rd Baron Hungerford;John Neville, 1st Marquess of Montagu;2
-Thomas de Ros, 9th Baron de Ros;John Neville, 1st Marquess of Montagu;2
-Joseph Warren;John Pitcairn;2
-Thomas Montacute, 4th Earl of Salisbury;John Stewart, Earl of Buchan;2
-Joseph Brant;John Butler (pioneer);2
-Henry de Nassau, Lord Overkirk;John Churchill, 1st Duke of Marlborough;2
-Maximilian II Emanuel, Elector of Bavaria;John Churchill, 1st Duke of Marlborough;2
-La Hire;Joan of Arc;2
-William de la Pole, 1st Duke of Suffolk;Joan of Arc;2
-John George I, Elector of Saxony;Johan Banér;2
-Henry Appleton;Johan van Galen;2
-Richard Badiley;Johan van Galen;2
-Claes Uggla;Johan_B%C3%A4r;2
-Lorentz Creutz;Johan_B%C3%A4r;2
-Niels Juel;Johan_B%C3%A4r;2
-Philips van Almonde;Johan_B%C3%A4r;2
-Christian the Younger of Brunswick;Johann Tserclaes, Count of Tilly;2
-Georg Friedrich, Margrave of Baden-Durlach;Johann Tserclaes, Count of Tilly;2
-Gonzalo Fernández de Córdoba (1585–1645);Johann Tserclaes, Count of Tilly;2
-Gottfried Heinrich Graf zu Pappenheim;Johann Tserclaes, Count of Tilly;2
-Kingdom of France;Karl August, Prince of Waldeck and Pyrmont;2
-Prince William, Duke of Cumberland;Karl August, Prince of Waldeck and Pyrmont;2
-Konishi Yukinaga;Katō Kiyomasa;2
-Kuroda Nagamasa;Katō Kiyomasa;2
-Kwon Yul;Katō Kiyomasa;2
-Ukita Hideie;Katō Kiyomasa;2
-Kuki Yoshitaka;Katō Yoshiaki;2
-Jean II, Duke of Alençon;John Talbot, 1st Earl of Shrewsbury;2
-La Hire;John Talbot, 1st Earl of Shrewsbury;2
-John Butler (pioneer);Joseph Brant;2
-John Pitcairn;Joseph Warren;2
-Napoleon;József Alvinczi;2
-Diego de Almagro;Juan Pizarro (conquistador);2
-Won Gyun;Katō Yoshiaki;2
-Yi Eokgi;Katō Yoshiaki;2
-Yi Sun-sin;Katō Yoshiaki;2
-Kobayakawa Takakage;Kikkawa Motoharu;2
-Kingdom of France;Kingdom of England;2
-Holy Roman Empire;Kingdom of France;2
-Karl August, Prince of Waldeck and Pyrmont;Kingdom of France;2
-Kingdom of England;Kingdom of France;2
-United States;Kingdom of Great Britain;2
-Habsburg Monarchy;Kingdom of Prussia;2
-Holy Roman Empire;Kingdom of Prussia;2
-Chōsokabe Motochika;Kobayakawa Takakage;2
-Ishida Mitsunari;Kobayakawa Takakage;2
-Kikkawa Motoharu;Kobayakawa Takakage;2
-Toyotomi Hideyoshi;Kobayakawa Takakage;2
-Charles Bonaventure de Longueval, Count of Bucquoy;Ernst von Mansfeld;2
+Charles Bonaventure de Longueval Count of Bucquoy;Ernst von Mansfeld;2
 Prince Eugene of Savoy;Ferdinand de Marsin;2
 Georg von Frundsberg;Fernando d'Avalos;2
 Tadeusz Kościuszko;Fiodor Denisov;2
 Habsburg Monarchy;France;2
 Holy Roman Empire;France;2
 Kingdom of Great Britain;France;2
-George Howe, 3rd Viscount Howe;Francis de Gaston, Chevalier de Levis;2
-James Abercrombie (British Army general);Francis de Gaston, Chevalier de Levis;2
-Louis-Joseph de Montcalm;Francis de Gaston, Chevalier de Levis;2
-Anthony Perry;Francis Needham, 1st Earl of Kilmorey;2
-Maurice, Prince of Orange;Francis Vere;2
-William Hastings, 1st Baron Hastings;Edward IV of England;2
-William Neville, 1st Earl of Kent;Edward IV of England;2
-Edward III of England;Edward, the Black Prince;2
-Diego de Almagro;Francisco Pizarro;2
-Napoleon;Dagobert Sigmund von Wurmser;2
-Louis XIV of France;Dutch Republic;2
-Portugal;Dutch Republic;2
-Sébastien Le Prestre de Vauban;Dutch Republic;2
-Spain;Dutch Republic;2
-Edward, the Black Prince;Edward III of England;2
-Henry Holland, 3rd Duke of Exeter;Edward IV of England;2
+George Howe 3rd Viscount Howe;Francis de Gaston Chevalier de Levis;2
+James Abercrombie (British Army general);Francis de Gaston Chevalier de Levis;2
+Louis-Joseph de Montcalm;Francis de Gaston Chevalier de Levis;2
+Anthony Perry;Francis Needham 1st Earl of Kilmorey;2
+Maurice Prince of Orange;Francis Vere;2
+William Hastings 1st Baron Hastings;Edward IV of England;2
+William Neville 1st Earl of Kent;Edward IV of England;2
+Edward III of England;Edward the Black Prince;2
+Edward the Black Prince;Edward III of England;2
+Henry Holland 3rd Duke of Exeter;Edward IV of England;2
 Richard III of England;Edward IV of England;2
-Ahmad ibn Ibrahim al-Ghazi;Dawit II;2
-Sweden;Denmark;2
-Francisco Pizarro;Diego de Almagro;2
+Lord George Murray (general);Charles Edward Stuart;2
+Thomas Dagworth;Charles I Duke of Brittany;2
+Napoleon;Dagobert Sigmund von Wurmser;2
+Wilhelm von Knyphausen;Charles Cornwallis 1st Marquess Cornwallis;2
 William Waller;Charles I of England;2
-Thomas Dagworth;Charles I, Duke of Brittany;2
-Charles Cornwallis, 1st Marquess Cornwallis;Charles Mawhood;2
+Charles Cornwallis 1st Marquess Cornwallis;Charles Mawhood;2
 George Washington;Charles Mawhood;2
-René II, Duke of Lorraine;Charles the Bold;2
-Maximilian II Emanuel, Elector of Bavaria;Charles V, Duke of Lorraine;2
+René II Duke of Lorraine;Charles the Bold;2
+Maximilian II Emanuel Elector of Bavaria;Charles V Duke of Lorraine;2
 John II Casimir Vasa;Charles X Gustav of Sweden;2
 Christian V of Denmark;Charles XI of Sweden;2
 Simon Grundel-Helmfelt;Charles XI of Sweden;2
 Adam Heinrich von Steinau;Charles XII of Sweden;2
 Alexander Danilovich Menshikov;Charles XII of Sweden;2
+Ahmad ibn Ibrahim al-Ghazi;Dawit II;2
+Sweden;Denmark;2
+Francisco Pizarro;Diego de Almagro;2
 Juan Pizarro (conquistador);Diego de Almagro;2
 Rodrigo Orgóñez;Diego de Almagro;2
 Piali Pasha;Dragut;2
 John Hunyadi;Đurađ Branković;2
-Lord George Murray (general);Charles Edward Stuart;2
-Wilhelm von Knyphausen;Charles Cornwallis, 1st Marquess Cornwallis;2
+Louis XIV of France;Dutch Republic;2
+Portugal;Dutch Republic;2
+Sébastien Le Prestre de Vauban;Dutch Republic;2
+Spain;Dutch Republic;2
 Buckongahelas;Blue Jacket;2
 Adam Ludwig Lewenhaupt;Boris Sheremetev;2
 Alexander Danilovich Menshikov;Boris Sheremetev;2
@@ -529,15 +536,15 @@ George Washington;Alexander Leslie (British Army officer);2
 Nathanael Greene;Alexander Leslie (British Army officer);2
 Michael von Melas;Alexander Suvorov;2
 Friedrich Freiherr von Hotze;André Masséna;2
-Henry Beaufort, 3rd Duke of Somerset;Andrew Trollope;2
-Henry Percy, 3rd Earl of Northumberland;Andrew Trollope;2
-Francis Needham, 1st Earl of Kilmorey;Anthony Perry;2
-Jean-Baptiste Francois des Marets, marquis de Maillebois;Antoniotto Botta Adorno;2
-Louis, Grand Condé;Archduke Leopold Wilhelm of Austria;2
-James Hamilton, Duke of Châtellerault;Archibald Douglas, 6th Earl of Angus;2
-François Louis de Rousselet, Marquis de Châteaurenault;Arthur Herbert, 1st Earl of Torrington;2
+Henry Beaufort 3rd Duke of Somerset;Andrew Trollope;2
+Henry Percy 3rd Earl of Northumberland;Andrew Trollope;2
+Francis Needham 1st Earl of Kilmorey;Anthony Perry;2
+Jean-Baptiste Francois des Marets marquis de Maillebois;Antoniotto Botta Adorno;2
+Louis Grand Condé;Archduke Leopold Wilhelm of Austria;2
+James Hamilton Duke of Châtellerault;Archibald Douglas 6th Earl of Angus;2
+François Louis de Rousselet Marquis de Châteaurenault;Arthur Herbert 1st Earl of Torrington;2
 Oda Nobunaga;Asakura Yoshikage;2
-Robert the Bruce;Aymer de Valence, 2nd Earl of Pembroke;2
+Robert the Bruce;Aymer de Valence 2nd Earl of Pembroke;2
 Oda Nobunaga;Azai Nagamasa;2
 Takeda Shingen;Baba Nobuharu;2
 Yamagata Masakage;Baba Nobuharu;2
@@ -545,10 +552,10 @@ Gian Giacomo Trivulzio;Bartolomeo d'Alviano;2
 Louis II de la Trémoille;Bartolomeo d'Alviano;2
 Stefan Lazarević;Bayezid I;2
 Otto Vellingk;Carl Gustav Rehnskiöld;2
-Ernst von Mansfeld;Charles Bonaventure de Longueval, Count of Bucquoy;2
-Charles Mawhood;Charles Cornwallis, 1st Marquess Cornwallis;2
-Henry Knox;Charles Cornwallis, 1st Marquess Cornwallis;2
-Guy Carleton, 1st Baron Dorchester;Benedict Arnold;2
+Ernst von Mansfeld;Charles Bonaventure de Longueval Count of Bucquoy;2
+Charles Mawhood;Charles Cornwallis 1st Marquess Cornwallis;2
+Henry Knox;Charles Cornwallis 1st Marquess Cornwallis;2
+Guy Carleton 1st Baron Dorchester;Benedict Arnold;2
 Peter the Great;Boris Sheremetev;2
 Blue Jacket;Buckongahelas;2
 Boris Sheremetev;Carl Gustav Rehnskiöld;2
@@ -557,7 +564,7 @@ Peter the Great;Charles XII of Sweden;2
 Kobayakawa Takakage;Chōsokabe Motochika;2
 Ukita Hideie;Chōsokabe Motochika;2
 Gonzalo Fernández de Córdoba (1585–1645);Christian the Younger of Brunswick;2
-Johann Tserclaes, Count of Tilly;Christian the Younger of Brunswick;2
+Johann Tserclaes Count of Tilly;Christian the Younger of Brunswick;2
 Charles XI of Sweden;Christian V of Denmark;2
 Simon Grundel-Helmfelt;Christian V of Denmark;2
 Johan_B%C3%A4r;Claes Uggla;2
@@ -568,79 +575,79 @@ Jean II d'Estrées;Cornelis Tromp;2
 Michiel de Ruyter;Cornelis Tromp;2
 Prince Rupert of the Rhine;Cornelis Tromp;2
 Frederick the Great;Count Leopold Joseph von Daun;2
-Richard Neville, 5th Earl of Salisbury;Humphrey Stafford, 1st Duke of Buckingham;2
-Richard of York, 3rd Duke of York;Humphrey Stafford, 1st Duke of Buckingham;2
+Richard Neville 5th Earl of Salisbury;Humphrey Stafford 1st Duke of Buckingham;2
+Richard of York 3rd Duke of York;Humphrey Stafford 1st Duke of Buckingham;2
 Tokugawa Ieyasu;Ii Naomasa;2
 Kobayakawa Takakage;Ishida Mitsunari;2
 Tokugawa Ieyasu;Ishida Mitsunari;2
 Ukita Hideie;Ishida Mitsunari;2
 Henry Clinton (American War of Independence);Israel Putnam;2
-William Howe, 5th Viscount Howe;Israel Putnam;2
-Francis de Gaston, Chevalier de Levis;James Abercrombie (British Army general);2
-George Howe, 3rd Viscount Howe;James Abercrombie (British Army general);2
+William Howe 5th Viscount Howe;Israel Putnam;2
+Francis de Gaston Chevalier de Levis;James Abercrombie (British Army general);2
+George Howe 3rd Viscount Howe;James Abercrombie (British Army general);2
 Louis-Joseph de Montcalm;James Abercrombie (British Army general);2
-William Baillie (soldier);James Graham, 1st Marquess of Montrose;2
-Archibald Douglas, 6th Earl of Angus;James Hamilton, Duke of Châtellerault;2
-Guy Carleton, 1st Baron Dorchester;James Livingston (American Revolution);2
-Richard Montgomery;James Livingston (American Revolution);2
-Guido Starhemberg;James Stanhope, 1st Earl Stanhope;2
-Philip V of Spain;James Stanhope, 1st Earl Stanhope;2
-Louis-Joseph de Montcalm;James Wolfe;2
-John Talbot, 1st Earl of Shrewsbury;Jean II, Duke of Alençon;2
-Gerard Lake, 1st Viscount Lake;Jean Joseph Amable Humbert;2
+Nicolas Béhuchet;Hugues Quiéret;2
+John Talbot 1st Earl of Shrewsbury;Jean II Duke of Alençon;2
+Gerard Lake 1st Viscount Lake;Jean Joseph Amable Humbert;2
 La Hire;Jean Poton de Xaintrailles;2
-Prince Rupert of the Rhine;Jean II d'Estrées;2
 Hadım Sinan Pasha;Janbirdi al-Ghazali;2
-Henry VII of England;Jasper Tudor, Duke of Bedford;2
-John de Vere, 13th Earl of Oxford;Jasper Tudor, Duke of Bedford;2
+Henry VII of England;Jasper Tudor Duke of Bedford;2
+John de Vere 13th Earl of Oxford;Jasper Tudor Duke of Bedford;2
 Adriaen Banckert;Jean II d'Estrées;2
 Cornelis Tromp;Jean II d'Estrées;2
-Ralph Abercromby;Herman Willem Daendels;2
-Pedro de Alvarado;Hernán Cortés;2
-Richard Neville, 5th Earl of Salisbury;Henry VI of England;2
-Richard of York, 3rd Duke of York;Henry VI of England;2
-Jasper Tudor, Duke of Bedford;Henry VII of England;2
-John de Vere, 13th Earl of Oxford;Henry VII of England;2
-Charles Cornwallis, 1st Marquess Cornwallis;Henry Knox;2
+William Baillie (soldier);James Graham 1st Marquess of Montrose;2
+Archibald Douglas 6th Earl of Angus;James Hamilton Duke of Châtellerault;2
+Guy Carleton 1st Baron Dorchester;James Livingston (American Revolution);2
+Richard Montgomery;James Livingston (American Revolution);2
+Guido Starhemberg;James Stanhope 1st Earl Stanhope;2
+Philip V of Spain;James Stanhope 1st Earl Stanhope;2
+Louis-Joseph de Montcalm;James Wolfe;2
+Charles Cornwallis 1st Marquess Cornwallis;Henry Knox;2
 George Washington;Henry Knox;2
 Henry Clinton (American War of Independence);Henry Knox;2
-Andrew Trollope;Henry Percy, 3rd Earl of Northumberland;2
-Henry Beaufort, 3rd Duke of Somerset;Henry Percy, 3rd Earl of Northumberland;2
-John Churchill, 1st Duke of Marlborough;Henry de Nassau, Lord Overkirk;2
-Edward IV of England;Henry Holland, 3rd Duke of Exeter;2
-Richard Neville, 16th Earl of Warwick;Henry Holland, 3rd Duke of Exeter;2
+Andrew Trollope;Henry Percy 3rd Earl of Northumberland;2
+Henry Beaufort 3rd Duke of Somerset;Henry Percy 3rd Earl of Northumberland;2
+John Churchill 1st Duke of Marlborough;Henry de Nassau Lord Overkirk;2
+Edward IV of England;Henry Holland 3rd Duke of Exeter;2
+Richard Neville 16th Earl of Warwick;Henry Holland 3rd Duke of Exeter;2
 Peter of Castile;Henry II of Castile;2
 Gaspard de Saulx;Henry III of France;2
 George Washington;Henry Clinton (American War of Independence);2
 Henry Knox;Henry Clinton (American War of Independence);2
 Israel Putnam;Henry Clinton (American War of Independence);2
-Nicolas Béhuchet;Hugues Quiéret;2
+Richard Neville 5th Earl of Salisbury;Henry VI of England;2
+Richard of York 3rd Duke of York;Henry VI of England;2
+Jasper Tudor Duke of Bedford;Henry VII of England;2
+John de Vere 13th Earl of Oxford;Henry VII of England;2
+Ralph Abercromby;Herman Willem Daendels;2
+Pedro de Alvarado;Hernán Cortés;2
 Rodrigo Orgóñez;Hernando Pizarro;2
 Takeda Shingen;Hōjō Ujikuni;2
 France;Holy Roman Empire;2
 Kingdom of France;Holy Roman Empire;2
 Kingdom of Prussia;Holy Roman Empire;2
-Frederick Henry, Prince of Orange;Horace Vere, 1st Baron Vere of Tilbury;2
+Frederick Henry Prince of Orange;Horace Vere 1st Baron Vere of Tilbury;2
+Louis Antoine de Bougainville;François Joseph Paul de Grasse;2
 Wilhelm von Knyphausen;George Washington;2
-Jean Joseph Amable Humbert;Gerard Lake, 1st Viscount Lake;2
+Jean Joseph Amable Humbert;Gerard Lake 1st Viscount Lake;2
 Bartolomeo d'Alviano;Gian Giacomo Trivulzio;2
 Louis II de la Trémoille;Gian Giacomo Trivulzio;2
 Christian the Younger of Brunswick;Gonzalo Fernández de Córdoba (1585–1645);2
-Johann Tserclaes, Count of Tilly;Gonzalo Fernández de Córdoba (1585–1645);2
+Johann Tserclaes Count of Tilly;Gonzalo Fernández de Córdoba (1585–1645);2
 Rodrigo Orgóñez;Gonzalo Pizarro;2
 Gustavus Adolphus of Sweden;Gottfried Heinrich Graf zu Pappenheim;2
-Johann Tserclaes, Count of Tilly;Gottfried Heinrich Graf zu Pappenheim;2
-Robert Munro, 18th Baron of Foulis;Gottfried Heinrich Graf zu Pappenheim;2
-James Stanhope, 1st Earl Stanhope;Guido Starhemberg;2
+Johann Tserclaes Count of Tilly;Gottfried Heinrich Graf zu Pappenheim;2
+Robert Munro 18th Baron of Foulis;Gottfried Heinrich Graf zu Pappenheim;2
+James Stanhope 1st Earl Stanhope;Guido Starhemberg;2
 Pedro Manuel de Ataíde;Guido Starhemberg;2
 Philip V of Spain;Guido Starhemberg;2
 Gottfried Heinrich Graf zu Pappenheim;Gustavus Adolphus of Sweden;2
 Hans Georg von Arnim-Boitzenburg;Gustavus Adolphus of Sweden;2
-Robert Munro, 18th Baron of Foulis;Gustavus Adolphus of Sweden;2
+Robert Munro 18th Baron of Foulis;Gustavus Adolphus of Sweden;2
 Stanisław Koniecpolski;Gustavus Adolphus of Sweden;2
-Benedict Arnold;Guy Carleton, 1st Baron Dorchester;2
-James Livingston (American Revolution);Guy Carleton, 1st Baron Dorchester;2
-Richard Montgomery;Guy Carleton, 1st Baron Dorchester;2
+Benedict Arnold;Guy Carleton 1st Baron Dorchester;2
+James Livingston (American Revolution);Guy Carleton 1st Baron Dorchester;2
+Richard Montgomery;Guy Carleton 1st Baron Dorchester;2
 France;Habsburg Monarchy;2
 Kingdom of Prussia;Habsburg Monarchy;2
 Janbirdi al-Ghazali;Hadım Sinan Pasha;2
@@ -648,22 +655,22 @@ Gustavus Adolphus of Sweden;Hans Georg von Arnim-Boitzenburg;2
 Tokugawa Ieyasu;Hattori Hanzō;2
 Johan van Galen;Henry Appleton;2
 Richard Badiley;Henry Appleton;2
-Andrew Trollope;Henry Beaufort, 3rd Duke of Somerset;2
-Henry Percy, 3rd Earl of Northumberland;Henry Beaufort, 3rd Duke of Somerset;2
-John Neville, 1st Marquess of Montagu;Henry Beaufort, 3rd Duke of Somerset;2
-Robert Hungerford, 3rd Baron Hungerford;Henry Beaufort, 3rd Duke of Somerset;2
-Thomas de Ros, 9th Baron de Ros;Henry Beaufort, 3rd Duke of Somerset;2
-Louis, Prince of Condé (1530–1569);Gaspard II de Coligny;2
+Andrew Trollope;Henry Beaufort 3rd Duke of Somerset;2
+Henry Percy 3rd Earl of Northumberland;Henry Beaufort 3rd Duke of Somerset;2
+John Neville 1st Marquess of Montagu;Henry Beaufort 3rd Duke of Somerset;2
+Robert Hungerford 3rd Baron Hungerford;Henry Beaufort 3rd Duke of Somerset;2
+Thomas de Ros 9th Baron de Ros;Henry Beaufort 3rd Duke of Somerset;2
+Louis Prince of Condé (1530–1569);Gaspard II de Coligny;2
 Ahmad ibn Ibrahim al-Ghazi;Gelawdewos;2
-Johann Tserclaes, Count of Tilly;Georg Friedrich, Margrave of Baden-Durlach;2
+Johann Tserclaes Count of Tilly;Georg Friedrich Margrave of Baden-Durlach;2
 Fernando d'Avalos;Georg von Frundsberg;2
-Francis de Gaston, Chevalier de Levis;George Howe, 3rd Viscount Howe;2
-James Abercrombie (British Army general);George Howe, 3rd Viscount Howe;2
-Louis-Joseph de Montcalm;George Howe, 3rd Viscount Howe;2
-Maarten Tromp;George Monck, 1st Duke of Albemarle;2
-Michiel de Ruyter;George Monck, 1st Duke of Albemarle;2
+Francis de Gaston Chevalier de Levis;George Howe 3rd Viscount Howe;2
+James Abercrombie (British Army general);George Howe 3rd Viscount Howe;2
+Louis-Joseph de Montcalm;George Howe 3rd Viscount Howe;2
+Maarten Tromp;George Monck 1st Duke of Albemarle;2
+Michiel de Ruyter;George Monck 1st Duke of Albemarle;2
 Alexander Leslie (British Army officer);George Washington;2
-Louis Antoine de Bougainville;François Joseph Paul de Grasse;2
+Diego de Almagro;Francisco Pizarro;2
 Charles Mawhood;George Washington;2
 Henry Clinton (American War of Independence);George Washington;2
 Henry Knox;George Washington;2
@@ -671,37 +678,33 @@ André Masséna;Friedrich Freiherr von Hotze;2
 Gaspard II de Coligny;Gaspard de Saulx;2
 Henry III of France;Gaspard de Saulx;2
 Gaspard de Saulx;Gaspard II de Coligny;2
-Arthur Herbert, 1st Earl of Torrington;François Louis de Rousselet, Marquis de Châteaurenault;2
-Jean-Baptiste Jourdan;François Sébastien Charles Joseph de Croix, Count of Clerfayt;2
-Horace Vere, 1st Baron Vere of Tilbury;Frederick Henry, Prince of Orange;2
-Louis IV, Holy Roman Emperor;Frederick the Fair;2
+Arthur Herbert 1st Earl of Torrington;François Louis de Rousselet Marquis de Châteaurenault;2
+Jean-Baptiste Jourdan;François Sébastien Charles Joseph de Croix Count of Clerfayt;2
+Horace Vere 1st Baron Vere of Tilbury;Frederick Henry Prince of Orange;2
+Louis IV Holy Roman Emperor;Frederick the Fair;2
 Count Leopold Joseph von Daun;Frederick the Great;2
 Maximilian Ulysses Browne;Frederick the Great;2
 Prince Charles Alexander of Lorraine;Frederick the Great;2
-Tokugawa Ieyasu;Toyotomi Hideyoshi;2
-Uesugi Kagekatsu;Toyotomi Hideyoshi;2
-Takeda Shingen;Tozawa_Yorichika;2
-Maeda Toshiie;Uesugi Kagekatsu;2
-Toyotomi Hideyoshi;Uesugi Kagekatsu;2
-Chōsokabe Motochika;Ukita Hideie;2
-Ishida Mitsunari;Ukita Hideie;2
-Katō Kiyomasa;Ukita Hideie;2
-Konishi Yukinaga;Wakisaka Yasuharu;2
-Shimazu Yoshihiro;Wakisaka Yasuharu;2
+Oda Nobunaga;Toyotomi Hideyoshi;2
+Sakai Tadatsugu;Tokugawa Ieyasu;2
 Kingdom of Great Britain;United States;2
 Konishi Yukinaga;Ukita Hideie;2
-James Graham, 1st Marquess of Montrose;William Baillie (soldier);2
-Joan of Arc;William de la Pole, 1st Duke of Suffolk;2
-Edward IV of England;William Hastings, 1st Baron Hastings;2
-Richard III of England;William Hastings, 1st Baron Hastings;2
-Nathanael Greene;William Alexander, Lord Stirling;2
-Wilhelm von Knyphausen;William Alexander, Lord Stirling;2
-William Alexander, Lord Stirling;Wilhelm von Knyphausen;2
-William Howe, 5th Viscount Howe;Wilhelm von Knyphausen;2
-Michiel de Ruyter;Willem Joseph van Ghent;2
-Charles Cornwallis, 1st Marquess Cornwallis;Wilhelm von Knyphausen;2
+Konishi Yukinaga;Wakisaka Yasuharu;2
+Shimazu Yoshihiro;Wakisaka Yasuharu;2
+Charles Cornwallis 1st Marquess Cornwallis;Wilhelm von Knyphausen;2
 George Washington;Wilhelm von Knyphausen;2
 John Sullivan (general);Wilhelm von Knyphausen;2
+Nathanael Greene;William Alexander Lord Stirling;2
+Wilhelm von Knyphausen;William Alexander Lord Stirling;2
+William Alexander Lord Stirling;Wilhelm von Knyphausen;2
+William Howe 5th Viscount Howe;Wilhelm von Knyphausen;2
+Michiel de Ruyter;Willem Joseph van Ghent;2
+James Graham 1st Marquess of Montrose;William Baillie (soldier);2
+Joan of Arc;William de la Pole 1st Duke of Suffolk;2
+Edward IV of England;William Hastings 1st Baron Hastings;2
+Richard III of England;William Hastings 1st Baron Hastings;2
+Wilhelm von Knyphausen;William Howe 5th Viscount Howe;2
+Israel Putnam;William Howe 5th Viscount Howe;2
 Baba Nobuharu;Yamagata Masakage;2
 Takeda Shingen;Yamagata Masakage;2
 Konishi Yukinaga;Yang Hao (Ming dynasty);2
@@ -709,14 +712,12 @@ Katō Yoshiaki;Yi Eokgi;2
 Tōdō Takatora;Yi Eokgi;2
 Jean-Baptiste Jourdan;William I of the Netherlands;2
 Prince Josias of Saxe-Coburg-Saalfeld;William I of the Netherlands;2
-Edward IV of England;William Neville, 1st Earl of Kent;2
-Richard Neville, 16th Earl of Warwick;William Neville, 1st Earl of Kent;2
+Edward IV of England;William Neville 1st Earl of Kent;2
+Richard Neville 16th Earl of Warwick;William Neville 1st Earl of Kent;2
 Charles I of England;William Waller;2
-Ralph Hopton, 1st Baron Hopton;William Waller;2
+Ralph Hopton 1st Baron Hopton;William Waller;2
 John Hunyadi;Władysław III of Poland;2
 Katō Yoshiaki;Won Gyun;2
 Yi Sun-sin;Yi Eokgi;2
 Katō Yoshiaki;Yi Sun-sin;2
-Wilhelm von Knyphausen;William Howe, 5th Viscount Howe;2
-Israel Putnam;William Howe, 5th Viscount Howe;2
 Yi Eokgi;Yi Sun-sin;2
