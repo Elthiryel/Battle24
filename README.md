@@ -24,4 +24,5 @@ Documentation\Network analysis - dane dotyczące analiz sieci, dla każdej sieci
 *   plik .png zawierający wizualizację sieci (graf)
 
 Documentation\Documentation.pdf - pełna dokumentacja projektu
+
 Documentation\Presentation.pdf - finalna prezentacja projektu
