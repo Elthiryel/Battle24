@@ -1,4 +1,6 @@
-Struktura repozytorium:
+Struktura repozytorium
+----------------------
+
 BattleCrawler - projekt C# zawierający crawler do pozyskiwania i przetwarzania bitew, wojen i pokojów z angielskiej wikipedii
 
 Data - dane przetworzone manualnie używane podczas procesu przetwarzania danych przez Crawler
