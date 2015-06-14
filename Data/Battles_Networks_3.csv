@@ -15,9 +15,6 @@ François Joseph Paul de Grasse;Samuel Hood 1st Viscount Hood;4
 Konishi Yukinaga;Sō Yoshitoshi;4
 John Talbot 1st Earl of Shrewsbury;Joan of Arc;4
 Joan of Arc;John Talbot 1st Earl of Shrewsbury;4
-Dutch Republic;Kingdom of France;4
-Kingdom of France;Kingdom of Great Britain;4
-Kingdom of Great Britain;Kingdom of France;4
 Ukita Hideie;Kobayakawa Takakage;4
 Sō Yoshitoshi;Konishi Yukinaga;4
 Henri de la Tour d'Auvergne Vicomte de Turenne;Louis Grand Condé;4
@@ -26,7 +23,6 @@ Robert Devereux 3rd Earl of Essex;Charles I of England;4
 Nathanael Greene;Charles Cornwallis 1st Marquess Cornwallis;4
 Ahmad ibn Ibrahim al-Ghazi;Cristóvão da Gama;4
 Benedict Arnold;Daniel Morgan;4
-Kingdom of France;Dutch Republic;4
 Cristóvão da Gama;Ahmad ibn Ibrahim al-Ghazi;4
 Daniel Morgan;Benedict Arnold;4
 Charles XII of Sweden;Boris Sheremetev;4
@@ -78,7 +74,6 @@ Enoch Poor;Friedrich Adolf Riedesel;3
 Horatio Gates;Friedrich Adolf Riedesel;3
 John Burgoyne;Friedrich Adolf Riedesel;3
 Simon Fraser of Balnain;Friedrich Adolf Riedesel;3
-Spain;Francis Vere;3
 Prince Rupert of the Rhine;Charles I of England;3
 Gonzalo Pizarro;Francisco Pizarro;3
 Henry III of France;Gaspard II de Coligny;3
@@ -156,7 +151,6 @@ Horatio Gates;Enoch Poor;3
 John Burgoyne;Enoch Poor;3
 Simon Fraser of Balnain;Enoch Poor;3
 William Howe 5th Viscount Howe;Nathanael Greene;3
-Spain;Kingdom of France;3
 Shimazu Yoshihiro;Konishi Yukinaga;3
 Jean II d'Estrées;Michiel de Ruyter;3
 Toyotomi Hideyoshi;Maeda Toshiie;3
@@ -188,8 +182,6 @@ Prince Eugene of Savoy;John Churchill 1st Duke of Marlborough;3
 Louis XIV of France;Sébastien Le Prestre de Vauban;3
 Toyotomi Hideyoshi;Shibata Katsuie;3
 Konishi Yukinaga;Shimazu Yoshihiro;3
-Francis Vere;Spain;3
-Kingdom of France;Spain;3
 Richard Neville 5th Earl of Salisbury;Richard of York 3rd Duke of York;3
 Richard of York 3rd Duke of York;Richard Neville 5th Earl of Salisbury;3
 Jan Žižka;Sigismund Holy Roman Emperor;3
@@ -244,7 +236,6 @@ William Alexander Lord Stirling;Nathanael Greene;2
 John Sullivan (general);Nathanael Greene;2
 Maximilian II Emanuel Elector of Bavaria;Prince Eugene of Savoy;2
 Toyotomi Hideyoshi;Oda Nobunaga;2
-Dutch Republic;Portugal;2
 Frederick the Great;Prince Charles Alexander of Lorraine;2
 Ferdinand de Marsin;Prince Eugene of Savoy;2
 Henry Holland 3rd Duke of Exeter;Richard Neville 16th Earl of Warwick;2
@@ -254,7 +245,6 @@ Jean-Baptiste Jourdan;Prince Josias of Saxe-Coburg-Saalfeld;2
 William I of the Netherlands;Prince Josias of Saxe-Coburg-Saalfeld;2
 Robert Devereux 3rd Earl of Essex;Prince Rupert of the Rhine;2
 Karl August Prince of Waldeck and Pyrmont;Prince William Duke of Cumberland;2
-Kingdom of France;Province of Hanover;2
 Herman Willem Daendels;Ralph Abercromby;2
 William Waller;Ralph Hopton 1st Baron Hopton;2
 Charles the Bold;René II Duke of Lorraine;2
@@ -317,8 +307,6 @@ Henry VI of England;Richard of York 3rd Duke of York;2
 Humphrey Stafford 1st Duke of Buckingham;Richard of York 3rd Duke of York;2
 Richard Neville 16th Earl of Warwick;Richard of York 3rd Duke of York;2
 Louis Antoine de Bougainville;Samuel Hood 1st Viscount Hood;2
-Dutch Republic;Sébastien Le Prestre de Vauban;2
-Maurice Prince of Orange;Spain;2
 Gustavus Adolphus of Sweden;Stanisław Koniecpolski;2
 John II Casimir Vasa;Stanisław Lanckoroński (hetman);2
 Bayezid I;Stefan Lazarević;2
@@ -334,7 +322,6 @@ Napoleon;Sidney Smith (Royal Navy officer);2
 Maeda Toshiie;Shibata Katsuie;2
 Oda Nobunaga;Shibata Katsuie;2
 Shimazu Yoshihiro;Sō Yoshitoshi;2
-Dutch Republic;Spain;2
 Henry VII of England;John de Vere 13th Earl of Oxford;2
 Jasper Tudor Duke of Bedford;John de Vere 13th Earl of Oxford;2
 Richard III of England;John de Vere 13th Earl of Oxford;2
@@ -371,7 +358,6 @@ Christian the Younger of Brunswick;Johann Tserclaes Count of Tilly;2
 Georg Friedrich Margrave of Baden-Durlach;Johann Tserclaes Count of Tilly;2
 Gonzalo Fernández de Córdoba (1585–1645);Johann Tserclaes Count of Tilly;2
 Gottfried Heinrich Graf zu Pappenheim;Johann Tserclaes Count of Tilly;2
-Kingdom of France;Karl August Prince of Waldeck and Pyrmont;2
 Prince William Duke of Cumberland;Karl August Prince of Waldeck and Pyrmont;2
 Konishi Yukinaga;Katō Kiyomasa;2
 Kuroda Nagamasa;Katō Kiyomasa;2
@@ -389,13 +375,6 @@ Won Gyun;Katō Yoshiaki;2
 Yi Eokgi;Katō Yoshiaki;2
 Yi Sun-sin;Katō Yoshiaki;2
 Kobayakawa Takakage;Kikkawa Motoharu;2
-Kingdom of France;Kingdom of England;2
-Holy Roman Empire;Kingdom of France;2
-Karl August Prince of Waldeck and Pyrmont;Kingdom of France;2
-Kingdom of England;Kingdom of France;2
-United States;Kingdom of Great Britain;2
-Habsburg Monarchy;Kingdom of Prussia;2
-Holy Roman Empire;Kingdom of Prussia;2
 Chōsokabe Motochika;Kobayakawa Takakage;2
 Ishida Mitsunari;Kobayakawa Takakage;2
 Kikkawa Motoharu;Kobayakawa Takakage;2
@@ -423,7 +402,6 @@ Samuel Hood 1st Viscount Hood;Louis Antoine de Bougainville;2
 Philip Duke of Parma;Louis François Prince of Conti;2
 Archduke Leopold Wilhelm of Austria;Louis Grand Condé;2
 Jean II Duke of Alençon;John Talbot 1st Earl of Shrewsbury;2
-Province of Hanover;Kingdom of France;2
 Katō Kiyomasa;Konishi Yukinaga;2
 Kuroda Nagamasa;Konishi Yukinaga;2
 Kwon Yul;Konishi Yukinaga;2
@@ -436,7 +414,6 @@ Wakisaka Yasuharu;Konishi Yukinaga;2
 Yang Hao (Ming dynasty);Konishi Yukinaga;2
 Uesugi Kagekatsu;Maeda Toshiie;2
 Francis Vere;Maurice Prince of Orange;2
-Spain;Maurice Prince of Orange;2
 Charles V Duke of Lorraine;Maximilian II Emanuel Elector of Bavaria;2
 John Churchill 1st Duke of Marlborough;Maximilian II Emanuel Elector of Bavaria;2
 Prince Eugene of Savoy;Maximilian II Emanuel Elector of Bavaria;2
@@ -445,12 +422,10 @@ Alexander Suvorov;Michael von Melas;2
 Adriaen Banckert;Michiel de Ruyter;2
 Cornelis Tromp;Michiel de Ruyter;2
 George Monck 1st Duke of Albemarle;Michiel de Ruyter;2
-France;Kingdom of Great Britain;2
 Bartolomeo d'Alviano;Louis II de la Trémoille;2
 Gian Giacomo Trivulzio;Louis II de la Trémoille;2
 Frederick the Fair;Louis IV Holy Roman Emperor;2
 Gaspard II de Coligny;Louis Prince of Condé (1530–1569);2
-Dutch Republic;Louis XIV of France;2
 Hugues Quiéret;Nicolas Béhuchet;2
 Claes Uggla;Niels Juel;2
 Johan_B%C3%A4r;Niels Juel;2
@@ -475,9 +450,6 @@ Charles Bonaventure de Longueval Count of Bucquoy;Ernst von Mansfeld;2
 Prince Eugene of Savoy;Ferdinand de Marsin;2
 Georg von Frundsberg;Fernando d'Avalos;2
 Tadeusz Kościuszko;Fiodor Denisov;2
-Habsburg Monarchy;France;2
-Holy Roman Empire;France;2
-Kingdom of Great Britain;France;2
 George Howe 3rd Viscount Howe;Francis de Gaston Chevalier de Levis;2
 James Abercrombie (British Army general);Francis de Gaston Chevalier de Levis;2
 Louis-Joseph de Montcalm;Francis de Gaston Chevalier de Levis;2
@@ -510,10 +482,6 @@ Juan Pizarro (conquistador);Diego de Almagro;2
 Rodrigo Orgóñez;Diego de Almagro;2
 Piali Pasha;Dragut;2
 John Hunyadi;Đurađ Branković;2
-Louis XIV of France;Dutch Republic;2
-Portugal;Dutch Republic;2
-Sébastien Le Prestre de Vauban;Dutch Republic;2
-Spain;Dutch Republic;2
 Buckongahelas;Blue Jacket;2
 Adam Ludwig Lewenhaupt;Boris Sheremetev;2
 Alexander Danilovich Menshikov;Boris Sheremetev;2
@@ -623,9 +591,6 @@ Ralph Abercromby;Herman Willem Daendels;2
 Pedro de Alvarado;Hernán Cortés;2
 Rodrigo Orgóñez;Hernando Pizarro;2
 Takeda Shingen;Hōjō Ujikuni;2
-France;Holy Roman Empire;2
-Kingdom of France;Holy Roman Empire;2
-Kingdom of Prussia;Holy Roman Empire;2
 Frederick Henry Prince of Orange;Horace Vere 1st Baron Vere of Tilbury;2
 Louis Antoine de Bougainville;François Joseph Paul de Grasse;2
 Wilhelm von Knyphausen;George Washington;2
@@ -648,8 +613,6 @@ Stanisław Koniecpolski;Gustavus Adolphus of Sweden;2
 Benedict Arnold;Guy Carleton 1st Baron Dorchester;2
 James Livingston (American Revolution);Guy Carleton 1st Baron Dorchester;2
 Richard Montgomery;Guy Carleton 1st Baron Dorchester;2
-France;Habsburg Monarchy;2
-Kingdom of Prussia;Habsburg Monarchy;2
 Janbirdi al-Ghazali;Hadım Sinan Pasha;2
 Gustavus Adolphus of Sweden;Hans Georg von Arnim-Boitzenburg;2
 Tokugawa Ieyasu;Hattori Hanzō;2
@@ -687,7 +650,6 @@ Maximilian Ulysses Browne;Frederick the Great;2
 Prince Charles Alexander of Lorraine;Frederick the Great;2
 Oda Nobunaga;Toyotomi Hideyoshi;2
 Sakai Tadatsugu;Tokugawa Ieyasu;2
-Kingdom of Great Britain;United States;2
 Konishi Yukinaga;Ukita Hideie;2
 Konishi Yukinaga;Wakisaka Yasuharu;2
 Shimazu Yoshihiro;Wakisaka Yasuharu;2
